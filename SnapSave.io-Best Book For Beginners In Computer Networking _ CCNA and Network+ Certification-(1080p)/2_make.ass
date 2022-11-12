@@ -1,0 +1,238 @@
+﻿[Script Info]
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: no
+ScriptType: v4.00+
+Synch Point: 1
+
+[Custom Info]
+OriginalTextStyle: 原文字幕
+TranslationTextStyle: Default
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,21,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 译文字幕,方正黑体_GBK,21,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 原文字幕,方正综艺_GBK,14,&H00FFFFFF,&HF0000000,&H002F2F2F,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.40,0:00:18.66,原文字幕,,0,0,0,,{\r原文字幕}hey what's up guys this is gee here with kevin trainings
+Dialogue: 0,0:00:18.56,0:00:21.70,原文字幕,,0,0,0,,{\r原文字幕}welcome to this quick video in which i'm going to respond to
+Dialogue: 0,0:00:21.52,0:00:23.75,原文字幕,,0,0,0,,{\r原文字幕}a question that i receive here a lot on
+Dialogue: 0,0:00:23.76,0:00:24.58,原文字幕,,0,0,0,,{\r原文字幕}kb trainings
+Dialogue: 0,0:00:24.56,0:00:29.38,原文字幕,,0,0,0,,{\r原文字幕}as you know cable trainers i go from zero to engineer so most of you or some of you
+Dialogue: 0,0:00:29.28,0:00:31.27,原文字幕,,0,0,0,,{\r原文字幕}are beginners in this industry in
+Dialogue: 0,0:00:31.28,0:00:32.50,原文字幕,,0,0,0,,{\r原文字幕}networking in general
+Dialogue: 0,0:00:32.80,0:00:34.87,原文字幕,,0,0,0,,{\r原文字幕}and you're asking yourself what are the
+Dialogue: 0,0:00:34.88,0:00:36.50,原文字幕,,0,0,0,,{\r原文字幕}best books that you can read
+Dialogue: 0,0:00:36.88,0:00:40.18,原文字幕,,0,0,0,,{\r原文字幕}as a beginner in networking what books can you read
+Dialogue: 0,0:00:40.24,0:00:43.38,原文字幕,,0,0,0,,{\r原文字幕}to get you to master all the concept of networking
+Dialogue: 0,0:00:43.68,0:00:48.74,原文字幕,,0,0,0,,{\r原文字幕}as you know here on kb trainings i share with you most of what i know and what i'm still learning in this field
+Dialogue: 0,0:00:48.48,0:00:49.62,原文字幕,,0,0,0,,{\r原文字幕}so i'm a network professional
+Dialogue: 0,0:00:49.76,0:00:51.86,原文字幕,,0,0,0,,{\r原文字幕}but if you've been on this channel for a while
+Dialogue: 0,0:00:51.76,0:00:54.34,原文字幕,,0,0,0,,{\r原文字幕}you might have seen my video in which i talk about books
+Dialogue: 0,0:00:54.16,0:00:57.46,原文字幕,,0,0,0,,{\r原文字幕}i talk about reading what i think in general is that
+Dialogue: 0,0:00:57.76,0:00:59.14,原文字幕,,0,0,0,,{\r原文字幕}you should read of course
+Dialogue: 0,0:00:59.52,0:01:01.30,原文字幕,,0,0,0,,{\r原文字幕}but i'm not a book guy
+Dialogue: 0,0:01:00.96,0:01:05.86,原文字幕,,0,0,0,,{\r原文字幕}you know that book person who has a huge library behind him with all kind of books
+Dialogue: 0,0:01:06.16,0:01:08.07,原文字幕,,0,0,0,,{\r原文字幕}it's kind of disappearing this is 2020
+Dialogue: 0,0:01:08.08,0:01:10.58,原文字幕,,0,0,0,,{\r原文字幕}we have the internet we have a lot of things so i think
+Dialogue: 0,0:01:10.72,0:01:14.34,原文字幕,,0,0,0,,{\r原文字幕}if you really want to read you don't need to invest into a lot of books
+Dialogue: 0,0:01:14.32,0:01:16.87,原文字幕,,0,0,0,,{\r原文字幕}you should invest into something that
+Dialogue: 0,0:01:16.88,0:01:19.86,原文字幕,,0,0,0,,{\r原文字幕}will make you know what you have to research on the internet
+Dialogue: 0,0:01:20.08,0:01:23.70,原文字幕,,0,0,0,,{\r原文字幕}and you can pretty much read anything on google on many websites
+Dialogue: 0,0:01:23.84,0:01:27.14,原文字幕,,0,0,0,,{\r原文字幕}and by the way on kb trainings i just started a blog
+Dialogue: 0,0:01:27.12,0:01:31.30,原文字幕,,0,0,0,,{\r原文字幕}so i'm going to be uh writing articles in this blog here
+Dialogue: 0,0:01:30.96,0:01:32.42,原文字幕,,0,0,0,,{\r原文字幕}if you go on the website and
+Dialogue: 0,0:01:32.32,0:01:35.78,原文字幕,,0,0,0,,{\r原文字幕}you click blog um this is the first article like
+Dialogue: 0,0:01:35.68,0:01:38.66,原文字幕,,0,0,0,,{\r原文字幕}most of the videos like every i mean not every
+Dialogue: 0,0:01:38.40,0:01:41.86,原文字幕,,0,0,0,,{\r原文字幕}but most of the videos on this channel will be an article
+Dialogue: 0,0:01:41.92,0:01:46.10,原文字幕,,0,0,0,,{\r原文字幕}this is the exact article in which i'm responding to this specific question about
+Dialogue: 0,0:01:46.24,0:01:48.98,原文字幕,,0,0,0,,{\r原文字幕}the books that you can read i'm not saying that don't buy books
+Dialogue: 0,0:01:49.28,0:01:52.98,原文字幕,,0,0,0,,{\r原文字幕}but you have the internet that's where you can read a lot
+Dialogue: 0,0:01:52.80,0:01:54.66,原文字幕,,0,0,0,,{\r原文字幕}you can read most of the things on the internet
+Dialogue: 0,0:01:54.88,0:01:57.30,原文字幕,,0,0,0,,{\r原文字幕}but if you have to buy a book or if you want to study
+Dialogue: 0,0:01:57.12,0:01:58.18,原文字幕,,0,0,0,,{\r原文字幕}if you are a beginner
+Dialogue: 0,0:01:58.64,0:02:01.30,原文字幕,,0,0,0,,{\r原文字幕}i'm going to advise you to get certified
+Dialogue: 0,0:02:01.52,0:02:04.10,原文字幕,,0,0,0,,{\r原文字幕}you need to pick a certification a networking certification
+Dialogue: 0,0:02:04.72,0:02:09.06,原文字幕,,0,0,0,,{\r原文字幕}and study for the cert and get the book for that specific certification
+Dialogue: 0,0:02:09.84,0:02:12.02,原文字幕,,0,0,0,,{\r原文字幕}and at the end of the cert you have the knowledge
+Dialogue: 0,0:02:11.92,0:02:14.82,原文字幕,,0,0,0,,{\r原文字幕}and your knowledge will be structured in your head
+Dialogue: 0,0:02:14.64,0:02:19.46,原文字幕,,0,0,0,,{\r原文字幕}because if you are studying without any kind of plan or any kind of blueprint
+Dialogue: 0,0:02:19.92,0:02:21.46,原文字幕,,0,0,0,,{\r原文字幕}you're uh going to be all over the place
+Dialogue: 0,0:02:21.20,0:02:22.74,原文字幕,,0,0,0,,{\r原文字幕}there's a lot to learn in networking
+Dialogue: 0,0:02:22.80,0:02:26.26,原文字幕,,0,0,0,,{\r原文字幕}so if you have a certification it's going to be much easier for you
+Dialogue: 0,0:02:26.32,0:02:28.26,原文字幕,,0,0,0,,{\r原文字幕}so the two certifications that i'm recommending
+Dialogue: 0,0:02:28.48,0:02:30.66,原文字幕,,0,0,0,,{\r原文字幕}first the comptia network plus
+Dialogue: 0,0:02:31.20,0:02:33.38,原文字幕,,0,0,0,,{\r原文字幕}it's a very good one it's vendor neutral
+Dialogue: 0,0:02:33.52,0:02:36.90,原文字幕,,0,0,0,,{\r原文字幕}it's good to get when you are getting your feet in the industry
+Dialogue: 0,0:02:37.12,0:02:39.62,原文字幕,,0,0,0,,{\r原文字幕}i started with it and then i went to the ccna
+Dialogue: 0,0:02:39.84,0:02:41.94,原文字幕,,0,0,0,,{\r原文字幕}and the second one you might have guessed is the ccna
+Dialogue: 0,0:02:42.16,0:02:46.42,原文字幕,,0,0,0,,{\r原文字幕}so if you are studying for the network plus it will teach you a lot of concept of networking
+Dialogue: 0,0:02:46.72,0:02:48.42,原文字幕,,0,0,0,,{\r原文字幕}and it's all going to be structured
+Dialogue: 0,0:02:48.64,0:02:52.58,原文字幕,,0,0,0,,{\r原文字幕}for those two certifications if you want to get the books for network plus
+Dialogue: 0,0:02:52.32,0:02:53.38,原文字幕,,0,0,0,,{\r原文字幕}let's go on amazon
+Dialogue: 0,0:02:53.36,0:02:59.30,原文字幕,,0,0,0,,{\r原文字幕}if you do um network plus on amazon you get some books
+Dialogue: 0,0:02:59.60,0:03:01.94,原文字幕,,0,0,0,,{\r原文字幕}and i can recommend any of these books
+Dialogue: 0,0:03:02.16,0:03:03.94,原文字幕,,0,0,0,,{\r原文字幕}this one for example um
+Dialogue: 0,0:03:04.80,0:03:10.82,原文字幕,,0,0,0,,{\r原文字幕}or this other one but i i'll give you a link um to to get a book for on network plus
+Dialogue: 0,0:03:10.88,0:03:15.14,原文字幕,,0,0,0,,{\r原文字幕}and if you're looking for the ccna you can just um type ccna 200 301
+Dialogue: 0,0:03:16.00,0:03:18.15,原文字幕,,0,0,0,,{\r原文字幕}and this is what you're going to get
+Dialogue: 0,0:03:18.16,0:03:21.14,原文字幕,,0,0,0,,{\r原文字幕}yeah this is the the one that i prefer
+Dialogue: 0,0:03:21.60,0:03:24.42,原文字幕,,0,0,0,,{\r原文字幕}and if you get this one you're going to study for your cert
+Dialogue: 0,0:03:24.32,0:03:27.86,原文字幕,,0,0,0,,{\r原文字幕}and you will get certified after a few months of studies
+Dialogue: 0,0:03:28.08,0:03:32.74,原文字幕,,0,0,0,,{\r原文字幕}and you also need to check out of course the official pages of these certifications
+Dialogue: 0,0:03:33.44,0:03:36.46,原文字幕,,0,0,0,,{\r原文字幕}if you go on compia.com i mean comptia.org
+Dialogue: 0,0:03:37.12,0:03:40.58,原文字幕,,0,0,0,,{\r原文字幕}you can see this is the official page for the network plus
+Dialogue: 0,0:03:40.80,0:03:43.35,原文字幕,,0,0,0,,{\r原文字幕}it gives you the details about the exam
+Dialogue: 0,0:03:43.36,0:03:44.90,原文字幕,,0,0,0,,{\r原文字幕}and if you fill out this form
+Dialogue: 0,0:03:45.36,0:03:48.02,原文字幕,,0,0,0,,{\r原文字幕}and you submit it's going to send you
+Dialogue: 0,0:03:48.16,0:03:49.14,原文字幕,,0,0,0,,{\r原文字幕}the exam objectives
+Dialogue: 0,0:03:49.44,0:03:52.74,原文字幕,,0,0,0,,{\r原文字幕}and some practice questions for you to know exactly what it is
+Dialogue: 0,0:03:52.96,0:03:56.74,原文字幕,,0,0,0,,{\r原文字幕}so personally i prefer the ccna because it's more practical practical
+Dialogue: 0,0:03:57.04,0:04:02.26,原文字幕,,0,0,0,,{\r原文字幕}the network plus is vendor neutral so sometimes it's kind of hard to master some concept
+Dialogue: 0,0:04:02.24,0:04:05.94,原文字幕,,0,0,0,,{\r原文字幕}because you don't have any vendor that you can practice on
+Dialogue: 0,0:04:06.00,0:04:08.82,原文字幕,,0,0,0,,{\r原文字幕}but if you go with the ccna this is the blueprint for the ccna
+Dialogue: 0,0:04:08.88,0:04:17.38,原文字幕,,0,0,0,,{\r原文字幕}if you just type ccna 300 um 201 i mean 200 301 blueprint
+Dialogue: 0,0:04:17.60,0:04:20.74,原文字幕,,0,0,0,,{\r原文字幕}this is what you get uh it's right here
+Dialogue: 0,0:04:20.96,0:04:25.78,原文字幕,,0,0,0,,{\r原文字幕}it's a pdf you have a list of topics or concepts that you have to know
+Dialogue: 0,0:04:25.44,0:04:27.22,原文字幕,,0,0,0,,{\r原文字幕}before going and taking the exam
+Dialogue: 0,0:04:27.52,0:04:28.98,原文字幕,,0,0,0,,{\r原文字幕}this is going to help you
+Dialogue: 0,0:04:28.88,0:04:32.58,原文字幕,,0,0,0,,{\r原文字幕}this is going to uh just structure whatever you have to know
+Dialogue: 0,0:04:32.64,0:04:35.22,原文字幕,,0,0,0,,{\r原文字幕}i also recommend to get some kind of training videos
+Dialogue: 0,0:04:35.60,0:04:38.66,原文字幕,,0,0,0,,{\r原文字幕}i do videos myself on cabbagetrends.com if you are interested
+Dialogue: 0,0:04:38.96,0:04:43.62,原文字幕,,0,0,0,,{\r原文字幕}but any um any trainer or any training company is able to train you
+Dialogue: 0,0:04:43.36,0:04:45.78,原文字幕,,0,0,0,,{\r原文字幕}and walk you through the exam blueprint
+Dialogue: 0,0:04:46.24,0:04:49.06,原文字幕,,0,0,0,,{\r原文字幕}until you master everything and you can go and take the exam
+Dialogue: 0,0:04:49.12,0:04:51.70,原文字幕,,0,0,0,,{\r原文字幕}so that's uh that's what i can tell you
+Dialogue: 0,0:04:51.60,0:04:54.66,原文字幕,,0,0,0,,{\r原文字幕}but again remember you have the biggest book in the world
+Dialogue: 0,0:04:54.56,0:04:55.62,原文字幕,,0,0,0,,{\r原文字幕}you have the internet
+Dialogue: 0,0:04:55.76,0:04:57.86,原文字幕,,0,0,0,,{\r原文字幕}you should know how to search the internet
+Dialogue: 0,0:04:58.16,0:04:59.06,原文字幕,,0,0,0,,{\r原文字幕}you have youtube
+Dialogue: 0,0:04:58.96,0:05:02.50,原文字幕,,0,0,0,,{\r原文字幕}you should go on youtube and watch people that are doing networking stuff
+Dialogue: 0,0:05:02.96,0:05:05.78,原文字幕,,0,0,0,,{\r原文字幕}you yeah you have all those means of study
+Dialogue: 0,0:05:05.60,0:05:09.06,原文字幕,,0,0,0,,{\r原文字幕}so today you can just be alone and be in your bedroom
+Dialogue: 0,0:05:09.20,0:05:11.38,原文字幕,,0,0,0,,{\r原文字幕}but still get a lot of knowledge
+Dialogue: 0,0:05:11.60,0:05:14.98,原文字幕,,0,0,0,,{\r原文字幕}because a lot of people are online just like me uh saying
+Dialogue: 0,0:05:14.88,0:05:18.18,原文字幕,,0,0,0,,{\r原文字幕}i'm showing you what we do and showing you what is really necessary
+Dialogue: 0,0:05:18.56,0:05:20.50,原文字幕,,0,0,0,,{\r原文字幕}in this world right now as a professional
+Dialogue: 0,0:05:21.12,0:05:23.70,原文字幕,,0,0,0,,{\r原文字幕}so yeah that's it that's all i can tell you and
+Dialogue: 0,0:05:23.36,0:05:26.10,原文字幕,,0,0,0,,{\r原文字幕}i'll be doing a lot of ask me anything type of video
+Dialogue: 0,0:05:25.92,0:05:30.58,原文字幕,,0,0,0,,{\r原文字幕}so if you like this don't forget to leave the comment and like the video
+Dialogue: 0,0:05:30.56,0:05:34.18,原文字幕,,0,0,0,,{\r原文字幕}subscribe if you if you are a tech guy and you like more of this
+Dialogue: 0,0:05:34.48,0:05:36.74,原文字幕,,0,0,0,,{\r原文字幕}i will be coming with a lot of videos on the channel
+Dialogue: 0,0:05:36.56,0:05:40.26,原文字幕,,0,0,0,,{\r原文字幕}so don't forget to do that for me and check out the blog
+Dialogue: 0,0:05:40.08,0:05:41.38,原文字幕,,0,0,0,,{\r原文字幕}and if you have any comment
+Dialogue: 0,0:05:41.28,0:05:44.66,原文字幕,,0,0,0,,{\r原文字幕}just put it down below and i'll be able to follow that
+Dialogue: 0,0:05:44.64,0:05:50.30,原文字幕,,0,0,0,,{\r原文字幕}other than that thank you for watching and i'll see you in the next video bye
+Dialogue: 0,0:00:16.40,0:00:18.66,译文字幕,,0,0,0,,{\r译文字幕}嘿，伙计们，我是凯文
+Dialogue: 0,0:00:18.56,0:00:21.70,译文字幕,,0,0,0,,{\r译文字幕}欢迎观看我的短视频，这个视频要回答一些问题
+Dialogue: 0,0:00:21.52,0:00:23.75,译文字幕,,0,0,0,,{\r译文字幕}一些我在KBTrainings收到的问题
+Dialogue: 0,0:00:23.76,0:00:24.58,译文字幕,,0,0,0,,{\r译文字幕}
+Dialogue: 0,0:00:24.56,0:00:29.38,译文字幕,,0,0,0,,{\r译文字幕}KBTrainning是一个从0到成为工程师的系列
+Dialogue: 0,0:00:29.28,0:00:31.27,译文字幕,,0,0,0,,{\r译文字幕}你们中大多数人是网络行业的初学者
+Dialogue: 0,0:00:31.28,0:00:32.50,译文字幕,,0,0,0,,{\r译文字幕}应该是吧
+Dialogue: 0,0:00:32.80,0:00:34.87,译文字幕,,0,0,0,,{\r译文字幕}你们想知道
+Dialogue: 0,0:00:34.88,0:00:36.50,译文字幕,,0,0,0,,{\r译文字幕}你应该读什么书
+Dialogue: 0,0:00:36.88,0:00:40.18,译文字幕,,0,0,0,,{\r译文字幕}作为网络初学者，您可以阅读哪些书籍
+Dialogue: 0,0:00:40.24,0:00:43.38,译文字幕,,0,0,0,,{\r译文字幕}让你掌握网络的所有概念
+Dialogue: 0,0:00:43.68,0:00:48.74,译文字幕,,0,0,0,,{\r译文字幕}正如您在 kb 培训中所知道的那样，我与您分享了我所知道的大部分内容以及我在该领域仍在学习的内容
+Dialogue: 0,0:00:48.48,0:00:49.62,译文字幕,,0,0,0,,{\r译文字幕}所以我是网络专业的
+Dialogue: 0,0:00:49.76,0:00:51.86,译文字幕,,0,0,0,,{\r译文字幕}但是如果你已经在这个频道上呆了一段时间
+Dialogue: 0,0:00:51.76,0:00:54.34,译文字幕,,0,0,0,,{\r译文字幕}你可能看过我谈论书籍的视频
+Dialogue: 0,0:00:54.16,0:00:57.46,译文字幕,,0,0,0,,{\r译文字幕}关于阅读我认为
+Dialogue: 0,0:00:57.76,0:00:59.14,译文字幕,,0,0,0,,{\r译文字幕}你当然应该阅读
+Dialogue: 0,0:00:59.52,0:01:01.30,译文字幕,,0,0,0,,{\r译文字幕}但我不是书友
+Dialogue: 0,0:01:00.96,0:01:05.86,译文字幕,,0,0,0,,{\r译文字幕}你知道那个书人，他身后有一个巨大的图书馆，里面有各种各样的书
+Dialogue: 0,0:01:06.16,0:01:08.07,译文字幕,,0,0,0,,{\r译文字幕}但那已经不常见了， 2020 年了
+Dialogue: 0,0:01:08.08,0:01:10.58,译文字幕,,0,0,0,,{\r译文字幕}我们有互联网我们有很多东西所以我想
+Dialogue: 0,0:01:10.72,0:01:14.34,译文字幕,,0,0,0,,{\r译文字幕}如果你真的想阅读你不需要投资很多书
+Dialogue: 0,0:01:14.32,0:01:16.87,译文字幕,,0,0,0,,{\r译文字幕}你应该学会利用互联网
+Dialogue: 0,0:01:16.88,0:01:19.86,译文字幕,,0,0,0,,{\r译文字幕}这里有所有你需要的东西
+Dialogue: 0,0:01:20.08,0:01:23.70,译文字幕,,0,0,0,,{\r译文字幕}你几乎可以在许多网站上的谷歌上阅读任何内容
+Dialogue: 0,0:01:23.84,0:01:27.14,译文字幕,,0,0,0,,{\r译文字幕}顺便说一下kb培训我刚开始写博客
+Dialogue: 0,0:01:27.12,0:01:31.30,译文字幕,,0,0,0,,{\r译文字幕}所以我会在这个博客上写文章
+Dialogue: 0,0:01:30.96,0:01:32.42,译文字幕,,0,0,0,,{\r译文字幕}如果您访问网站并且
+Dialogue: 0,0:01:32.32,0:01:35.78,译文字幕,,0,0,0,,{\r译文字幕}你点击博客嗯这是第一篇文章
+Dialogue: 0,0:01:35.68,0:01:38.66,译文字幕,,0,0,0,,{\r译文字幕}大多数视频都像每个我的意思不是每个
+Dialogue: 0,0:01:38.40,0:01:41.86,译文字幕,,0,0,0,,{\r译文字幕}但是这个频道上的大部分视频都是一篇文章
+Dialogue: 0,0:01:41.92,0:01:46.10,译文字幕,,0,0,0,,{\r译文字幕}这是我正在回答这个具体问题的确切文章
+Dialogue: 0,0:01:46.24,0:01:48.98,译文字幕,,0,0,0,,{\r译文字幕}你能读的书我不是说不买书
+Dialogue: 0,0:01:49.28,0:01:52.98,译文字幕,,0,0,0,,{\r译文字幕}但是您拥有可以阅读很多内容的互联网
+Dialogue: 0,0:01:52.80,0:01:54.66,译文字幕,,0,0,0,,{\r译文字幕}您可以阅读互联网上的大部分内容
+Dialogue: 0,0:01:54.88,0:01:57.30,译文字幕,,0,0,0,,{\r译文字幕}但是如果你必须买一本书或者你想学习
+Dialogue: 0,0:01:57.12,0:01:58.18,译文字幕,,0,0,0,,{\r译文字幕}如果你是初学者
+Dialogue: 0,0:01:58.64,0:02:01.30,译文字幕,,0,0,0,,{\r译文字幕}我会建议你获得认证
+Dialogue: 0,0:02:01.52,0:02:04.10,译文字幕,,0,0,0,,{\r译文字幕}你需要选择一个认证 一个网络认证
+Dialogue: 0,0:02:04.72,0:02:09.06,译文字幕,,0,0,0,,{\r译文字幕}并学习证书并获得该特定证书的书
+Dialogue: 0,0:02:09.84,0:02:12.02,译文字幕,,0,0,0,,{\r译文字幕}并且在证书结束时你有知识
+Dialogue: 0,0:02:11.92,0:02:14.82,译文字幕,,0,0,0,,{\r译文字幕}你的知识将在你的脑海中形成
+Dialogue: 0,0:02:14.64,0:02:19.46,译文字幕,,0,0,0,,{\r译文字幕}因为如果你在没有任何计划或蓝图的情况下学习
+Dialogue: 0,0:02:19.92,0:02:21.46,译文字幕,,0,0,0,,{\r译文字幕}你会很迷茫
+Dialogue: 0,0:02:21.20,0:02:22.74,译文字幕,,0,0,0,,{\r译文字幕}因为网络有很多东西能学
+Dialogue: 0,0:02:22.80,0:02:26.26,译文字幕,,0,0,0,,{\r译文字幕}因此，如果您有认证，那对您来说会容易得多
+Dialogue: 0,0:02:26.32,0:02:28.26,译文字幕,,0,0,0,,{\r译文字幕}所以我推荐的两个认证
+Dialogue: 0,0:02:28.48,0:02:30.66,译文字幕,,0,0,0,,{\r译文字幕}首先是comptia network plus
+Dialogue: 0,0:02:31.20,0:02:33.38,译文字幕,,0,0,0,,{\r译文字幕}这是一个非常好的供应商中立的
+Dialogue: 0,0:02:33.52,0:02:36.90,译文字幕,,0,0,0,,{\r译文字幕}当您涉足该行业时，这是一件好事
+Dialogue: 0,0:02:37.12,0:02:39.62,译文字幕,,0,0,0,,{\r译文字幕}我从它开始，然后我去了 ccna
+Dialogue: 0,0:02:39.84,0:02:41.94,译文字幕,,0,0,0,,{\r译文字幕}你可能已经猜到的第二个是 ccna
+Dialogue: 0,0:02:42.16,0:02:46.42,译文字幕,,0,0,0,,{\r译文字幕}所以如果你正在为网络学习加上它会教你很多网络的概念
+Dialogue: 0,0:02:46.72,0:02:48.42,译文字幕,,0,0,0,,{\r译文字幕}所有的概念都能建立起来
+Dialogue: 0,0:02:48.64,0:02:52.58,译文字幕,,0,0,0,,{\r译文字幕}如果您想获得用于网络的书籍，请获得这两个认证
+Dialogue: 0,0:02:52.32,0:02:53.38,译文字幕,,0,0,0,,{\r译文字幕}让我们来到亚马逊
+Dialogue: 0,0:02:53.36,0:02:59.30,译文字幕,,0,0,0,,{\r译文字幕}如果你在亚马逊上做 um network plus 你会得到一些书
+Dialogue: 0,0:02:59.60,0:03:01.94,译文字幕,,0,0,0,,{\r译文字幕}我可以推荐任何这些书
+Dialogue: 0,0:03:02.16,0:03:03.94,译文字幕,,0,0,0,,{\r译文字幕}这个例如嗯
+Dialogue: 0,0:03:04.80,0:03:10.82,译文字幕,,0,0,0,,{\r译文字幕}或者这个另一个，但我会给你一个链接，你可以在网络上买一本书加
+Dialogue: 0,0:03:10.88,0:03:15.14,译文字幕,,0,0,0,,{\r译文字幕}如果您正在寻找 ccna，您可以输入 ccna 200 301
+Dialogue: 0,0:03:16.00,0:03:18.15,译文字幕,,0,0,0,,{\r译文字幕}这就是你要得到的
+Dialogue: 0,0:03:18.16,0:03:21.14,译文字幕,,0,0,0,,{\r译文字幕}是的，这是我更喜欢的那个
+Dialogue: 0,0:03:21.60,0:03:24.42,译文字幕,,0,0,0,,{\r译文字幕}如果你得到这个，你将学习你的证书
+Dialogue: 0,0:03:24.32,0:03:27.86,译文字幕,,0,0,0,,{\r译文字幕}经过几个月的学习，您将获得认证
+Dialogue: 0,0:03:28.08,0:03:32.74,译文字幕,,0,0,0,,{\r译文字幕}当然，您还需要查看这些认证的官方页面
+Dialogue: 0,0:03:33.44,0:03:36.46,译文字幕,,0,0,0,,{\r译文字幕}如果您访问 compia.com，我的意思是 comptia.org
+Dialogue: 0,0:03:37.12,0:03:40.58,译文字幕,,0,0,0,,{\r译文字幕}你可以看到这是网络加的官方页面
+Dialogue: 0,0:03:40.80,0:03:43.35,译文字幕,,0,0,0,,{\r译文字幕}它为您提供有关考试的详细信息
+Dialogue: 0,0:03:43.36,0:03:44.90,译文字幕,,0,0,0,,{\r译文字幕}如果你填写这张表格
+Dialogue: 0,0:03:45.36,0:03:48.02,译文字幕,,0,0,0,,{\r译文字幕}你提交它会发送给你
+Dialogue: 0,0:03:48.16,0:03:49.14,译文字幕,,0,0,0,,{\r译文字幕}考试目标
+Dialogue: 0,0:03:49.44,0:03:52.74,译文字幕,,0,0,0,,{\r译文字幕}和一些练习题让你确切地知道它是什么
+Dialogue: 0,0:03:52.96,0:03:56.74,译文字幕,,0,0,0,,{\r译文字幕}我个人更喜欢ccna，因为它更实用
+Dialogue: 0,0:03:57.04,0:04:02.26,译文字幕,,0,0,0,,{\r译文字幕}network+是供应商中立的，所以有时很难掌握一些概念
+Dialogue: 0,0:04:02.24,0:04:05.94,译文字幕,,0,0,0,,{\r译文字幕}因为你没有可以练习的供应商
+Dialogue: 0,0:04:06.00,0:04:08.82,译文字幕,,0,0,0,,{\r译文字幕}但如果你选择 ccna，这就是 ccna 的蓝图
+Dialogue: 0,0:04:08.88,0:04:17.38,译文字幕,,0,0,0,,{\r译文字幕}如果您只输入 ccna 300 um 201 我的意思是 200 301 蓝图
+Dialogue: 0,0:04:17.60,0:04:20.74,译文字幕,,0,0,0,,{\r译文字幕}这就是你得到的，它就在这里
+Dialogue: 0,0:04:20.96,0:04:25.78,译文字幕,,0,0,0,,{\r译文字幕}这是一个 pdf，你有一个你必须知道的主题或概念的列表
+Dialogue: 0,0:04:25.44,0:04:27.22,译文字幕,,0,0,0,,{\r译文字幕}在去参加考试之前
+Dialogue: 0,0:04:27.52,0:04:28.98,译文字幕,,0,0,0,,{\r译文字幕}这会帮助你
+Dialogue: 0,0:04:28.88,0:04:32.58,译文字幕,,0,0,0,,{\r译文字幕}这将只是构建你必须知道的任何东西
+Dialogue: 0,0:04:32.64,0:04:35.22,译文字幕,,0,0,0,,{\r译文字幕}我还建议获取某种培训视频
+Dialogue: 0,0:04:35.60,0:04:38.66,译文字幕,,0,0,0,,{\r译文字幕}如果您有兴趣，我会在 cabbagetrends.com 上自己制作视频
+Dialogue: 0,0:04:38.96,0:04:43.62,译文字幕,,0,0,0,,{\r译文字幕}但是任何嗯任何培训师或任何培训公司都可以培训你
+Dialogue: 0,0:04:43.36,0:04:45.78,译文字幕,,0,0,0,,{\r译文字幕}并引导您完成考试蓝图
+Dialogue: 0,0:04:46.24,0:04:49.06,译文字幕,,0,0,0,,{\r译文字幕}直到你掌握了一切，你可以去参加考试
+Dialogue: 0,0:04:49.12,0:04:51.70,译文字幕,,0,0,0,,{\r译文字幕}所以这就是我可以告诉你的
+Dialogue: 0,0:04:51.60,0:04:54.66,译文字幕,,0,0,0,,{\r译文字幕}但再次记住你有世界上最大的书
+Dialogue: 0,0:04:54.56,0:04:55.62,译文字幕,,0,0,0,,{\r译文字幕}你有互联网
+Dialogue: 0,0:04:55.76,0:04:57.86,译文字幕,,0,0,0,,{\r译文字幕}你应该知道如何搜索互联网
+Dialogue: 0,0:04:58.16,0:04:59.06,译文字幕,,0,0,0,,{\r译文字幕}你有 youtube
+Dialogue: 0,0:04:58.96,0:05:02.50,译文字幕,,0,0,0,,{\r译文字幕}你应该在 youtube 上观看那些正在做网络工作的人
+Dialogue: 0,0:05:02.96,0:05:05.78,译文字幕,,0,0,0,,{\r译文字幕}你你拥有所有这些学习方法
+Dialogue: 0,0:05:05.60,0:05:09.06,译文字幕,,0,0,0,,{\r译文字幕}所以今天你可以一个人呆在卧室里
+Dialogue: 0,0:05:09.20,0:05:11.38,译文字幕,,0,0,0,,{\r译文字幕}但还是能学到很多知识
+Dialogue: 0,0:05:11.60,0:05:14.98,译文字幕,,0,0,0,,{\r译文字幕}因为很多人都在线就像我说的那样
+Dialogue: 0,0:05:14.88,0:05:18.18,译文字幕,,0,0,0,,{\r译文字幕}向您展示我们所做的 向您展示真正需要的东西
+Dialogue: 0,0:05:18.56,0:05:20.50,译文字幕,,0,0,0,,{\r译文字幕}在这个世界上，现在作为一名专业人士
+Dialogue: 0,0:05:21.12,0:05:23.70,译文字幕,,0,0,0,,{\r译文字幕}所这就是我能告诉你的全部
+Dialogue: 0,0:05:23.36,0:05:26.10,译文字幕,,0,0,0,,{\r译文字幕}我会做很多问我任何类型的视频
+Dialogue: 0,0:05:25.92,0:05:30.58,译文字幕,,0,0,0,,{\r译文字幕}所以如果你喜欢这个不要忘记留下评论并喜欢视频
+Dialogue: 0,0:05:30.56,0:05:34.18,译文字幕,,0,0,0,,{\r译文字幕}如果您是技术人员并且喜欢更多内容，请订阅
+Dialogue: 0,0:05:34.48,0:05:36.74,译文字幕,,0,0,0,,{\r译文字幕}我将在频道上发布很多视频
+Dialogue: 0,0:05:36.56,0:05:40.26,译文字幕,,0,0,0,,{\r译文字幕}所以不要忘记为我做这件事并查看博客
+Dialogue: 0,0:05:40.08,0:05:41.38,译文字幕,,0,0,0,,{\r译文字幕}如果你有任何意见
+Dialogue: 0,0:05:41.28,0:05:44.66,译文字幕,,0,0,0,,{\r译文字幕}只要把它放在下面，我就可以查看
+Dialogue: 0,0:05:44.64,0:05:50.30,译文字幕,,0,0,0,,{\r译文字幕}除此之外，谢谢你的收看，我会在下一个视频中见到你，再见

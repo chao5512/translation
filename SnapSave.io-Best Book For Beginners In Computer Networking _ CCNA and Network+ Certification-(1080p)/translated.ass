@@ -1,0 +1,122 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: subtitles
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:16.40,0:00:18.66,Default,,0,0,0,,hey what's up guys this is gee here with kevin trainings
+Dialogue: 0,0:00:18.56,0:00:21.70,Default,,0,0,0,,welcome to this quick video in which i'm going to respond to
+Dialogue: 0,0:00:21.52,0:00:23.75,Default,,0,0,0,,a question that i receive here a lot on
+Dialogue: 0,0:00:23.76,0:00:24.58,Default,,0,0,0,,kb trainings
+Dialogue: 0,0:00:24.56,0:00:29.38,Default,,0,0,0,,as you know cable trainers i go from zero to engineer so most of you or some of you
+Dialogue: 0,0:00:29.28,0:00:31.27,Default,,0,0,0,,are beginners in this industry in
+Dialogue: 0,0:00:31.28,0:00:32.50,Default,,0,0,0,,networking in general
+Dialogue: 0,0:00:32.80,0:00:34.87,Default,,0,0,0,,and you're asking yourself what are the
+Dialogue: 0,0:00:34.88,0:00:36.50,Default,,0,0,0,,best books that you can read
+Dialogue: 0,0:00:36.88,0:00:40.18,Default,,0,0,0,,as a beginner in networking what books can you read
+Dialogue: 0,0:00:40.24,0:00:43.38,Default,,0,0,0,,to get you to master all the concept of networking
+Dialogue: 0,0:00:43.68,0:00:48.74,Default,,0,0,0,,as you know here on kb trainings i share with you most of what i know and what i'm still learning in this field
+Dialogue: 0,0:00:48.48,0:00:49.62,Default,,0,0,0,,so i'm a network professional
+Dialogue: 0,0:00:49.76,0:00:51.86,Default,,0,0,0,,but if you've been on this channel for a while
+Dialogue: 0,0:00:51.76,0:00:54.34,Default,,0,0,0,,you might have seen my video in which i talk about books
+Dialogue: 0,0:00:54.16,0:00:57.46,Default,,0,0,0,,i talk about reading what i think in general is that
+Dialogue: 0,0:00:57.76,0:00:59.14,Default,,0,0,0,,you should read of course
+Dialogue: 0,0:00:59.52,0:01:01.30,Default,,0,0,0,,but i'm not a book guy
+Dialogue: 0,0:01:00.96,0:01:05.86,Default,,0,0,0,,you know that book person who has a huge library behind him with all kind of books
+Dialogue: 0,0:01:06.16,0:01:08.07,Default,,0,0,0,,it's kind of disappearing this is 2020
+Dialogue: 0,0:01:08.08,0:01:10.58,Default,,0,0,0,,we have the internet we have a lot of things so i think
+Dialogue: 0,0:01:10.72,0:01:14.34,Default,,0,0,0,,if you really want to read you don't need to invest into a lot of books
+Dialogue: 0,0:01:14.32,0:01:16.87,Default,,0,0,0,,you should invest into something that
+Dialogue: 0,0:01:16.88,0:01:19.86,Default,,0,0,0,,will make you know what you have to research on the internet
+Dialogue: 0,0:01:20.08,0:01:23.70,Default,,0,0,0,,and you can pretty much read anything on google on many websites
+Dialogue: 0,0:01:23.84,0:01:27.14,Default,,0,0,0,,and by the way on kb trainings i just started a blog
+Dialogue: 0,0:01:27.12,0:01:31.30,Default,,0,0,0,,so i'm going to be uh writing articles in this blog here
+Dialogue: 0,0:01:30.96,0:01:32.42,Default,,0,0,0,,if you go on the website and
+Dialogue: 0,0:01:32.32,0:01:35.78,Default,,0,0,0,,you click blog um this is the first article like
+Dialogue: 0,0:01:35.68,0:01:38.66,Default,,0,0,0,,most of the videos like every i mean not every
+Dialogue: 0,0:01:38.40,0:01:41.86,Default,,0,0,0,,but most of the videos on this channel will be an article
+Dialogue: 0,0:01:41.92,0:01:46.10,Default,,0,0,0,,this is the exact article in which i'm responding to this specific question about
+Dialogue: 0,0:01:46.24,0:01:48.98,Default,,0,0,0,,the books that you can read i'm not saying that don't buy books
+Dialogue: 0,0:01:49.28,0:01:52.98,Default,,0,0,0,,but you have the internet that's where you can read a lot
+Dialogue: 0,0:01:52.80,0:01:54.66,Default,,0,0,0,,you can read most of the things on the internet
+Dialogue: 0,0:01:54.88,0:01:57.30,Default,,0,0,0,,but if you have to buy a book or if you want to study
+Dialogue: 0,0:01:57.12,0:01:58.18,Default,,0,0,0,,if you are a beginner
+Dialogue: 0,0:01:58.64,0:02:01.30,Default,,0,0,0,,i'm going to advise you to get certified
+Dialogue: 0,0:02:01.52,0:02:04.10,Default,,0,0,0,,you need to pick a certification a networking certification
+Dialogue: 0,0:02:04.72,0:02:09.06,Default,,0,0,0,,and study for the cert and get the book for that specific certification
+Dialogue: 0,0:02:09.84,0:02:12.02,Default,,0,0,0,,and at the end of the cert you have the knowledge
+Dialogue: 0,0:02:11.92,0:02:14.82,Default,,0,0,0,,and your knowledge will be structured in your head
+Dialogue: 0,0:02:14.64,0:02:19.46,Default,,0,0,0,,because if you are studying without any kind of plan or any kind of blueprint
+Dialogue: 0,0:02:19.92,0:02:21.46,Default,,0,0,0,,you're uh going to be all over the place
+Dialogue: 0,0:02:21.20,0:02:22.74,Default,,0,0,0,,there's a lot to learn in networking
+Dialogue: 0,0:02:22.80,0:02:26.26,Default,,0,0,0,,so if you have a certification it's going to be much easier for you
+Dialogue: 0,0:02:26.32,0:02:28.26,Default,,0,0,0,,so the two certifications that i'm recommending
+Dialogue: 0,0:02:28.48,0:02:30.66,Default,,0,0,0,,first the comptia network plus
+Dialogue: 0,0:02:31.20,0:02:33.38,Default,,0,0,0,,it's a very good one it's vendor neutral
+Dialogue: 0,0:02:33.52,0:02:36.90,Default,,0,0,0,,it's good to get when you are getting your feet in the industry
+Dialogue: 0,0:02:37.12,0:02:39.62,Default,,0,0,0,,i started with it and then i went to the ccna
+Dialogue: 0,0:02:39.84,0:02:41.94,Default,,0,0,0,,and the second one you might have guessed is the ccna
+Dialogue: 0,0:02:42.16,0:02:46.42,Default,,0,0,0,,so if you are studying for the network plus it will teach you a lot of concept of networking
+Dialogue: 0,0:02:46.72,0:02:48.42,Default,,0,0,0,,and it's all going to be structured
+Dialogue: 0,0:02:48.64,0:02:52.58,Default,,0,0,0,,for those two certifications if you want to get the books for network plus
+Dialogue: 0,0:02:52.32,0:02:53.38,Default,,0,0,0,,let's go on amazon
+Dialogue: 0,0:02:53.36,0:02:59.30,Default,,0,0,0,,if you do um network plus on amazon you get some books
+Dialogue: 0,0:02:59.60,0:03:01.94,Default,,0,0,0,,and i can recommend any of these books
+Dialogue: 0,0:03:02.16,0:03:03.94,Default,,0,0,0,,this one for example um
+Dialogue: 0,0:03:04.80,0:03:10.82,Default,,0,0,0,,or this other one but i i'll give you a link um to to get a book for on network plus
+Dialogue: 0,0:03:10.88,0:03:15.14,Default,,0,0,0,,and if you're looking for the ccna you can just um type ccna 200 301
+Dialogue: 0,0:03:16.00,0:03:18.15,Default,,0,0,0,,and this is what you're going to get
+Dialogue: 0,0:03:18.16,0:03:21.14,Default,,0,0,0,,yeah this is the the one that i prefer
+Dialogue: 0,0:03:21.60,0:03:24.42,Default,,0,0,0,,and if you get this one you're going to study for your cert
+Dialogue: 0,0:03:24.32,0:03:27.86,Default,,0,0,0,,and you will get certified after a few months of studies
+Dialogue: 0,0:03:28.08,0:03:32.74,Default,,0,0,0,,and you also need to check out of course the official pages of these certifications
+Dialogue: 0,0:03:33.44,0:03:36.46,Default,,0,0,0,,if you go on compia.com i mean comptia.org
+Dialogue: 0,0:03:37.12,0:03:40.58,Default,,0,0,0,,you can see this is the official page for the network plus
+Dialogue: 0,0:03:40.80,0:03:43.35,Default,,0,0,0,,it gives you the details about the exam
+Dialogue: 0,0:03:43.36,0:03:44.90,Default,,0,0,0,,and if you fill out this form
+Dialogue: 0,0:03:45.36,0:03:48.02,Default,,0,0,0,,and you submit it's going to send you
+Dialogue: 0,0:03:48.16,0:03:49.14,Default,,0,0,0,,the exam objectives
+Dialogue: 0,0:03:49.44,0:03:52.74,Default,,0,0,0,,and some practice questions for you to know exactly what it is
+Dialogue: 0,0:03:52.96,0:03:56.74,Default,,0,0,0,,so personally i prefer the ccna because it's more practical practical
+Dialogue: 0,0:03:57.04,0:04:02.26,Default,,0,0,0,,the network plus is vendor neutral so sometimes it's kind of hard to master some concept
+Dialogue: 0,0:04:02.24,0:04:05.94,Default,,0,0,0,,because you don't have any vendor that you can practice on
+Dialogue: 0,0:04:06.00,0:04:08.82,Default,,0,0,0,,but if you go with the ccna this is the blueprint for the ccna
+Dialogue: 0,0:04:08.88,0:04:17.38,Default,,0,0,0,,if you just type ccna 300 um 201 i mean 200 301 blueprint
+Dialogue: 0,0:04:17.60,0:04:20.74,Default,,0,0,0,,this is what you get uh it's right here
+Dialogue: 0,0:04:20.96,0:04:25.78,Default,,0,0,0,,it's a pdf you have a list of topics or concepts that you have to know
+Dialogue: 0,0:04:25.44,0:04:27.22,Default,,0,0,0,,before going and taking the exam
+Dialogue: 0,0:04:27.52,0:04:28.98,Default,,0,0,0,,this is going to help you
+Dialogue: 0,0:04:28.88,0:04:32.58,Default,,0,0,0,,this is going to uh just structure whatever you have to know
+Dialogue: 0,0:04:32.64,0:04:35.22,Default,,0,0,0,,i also recommend to get some kind of training videos
+Dialogue: 0,0:04:35.60,0:04:38.66,Default,,0,0,0,,i do videos myself on cabbagetrends.com if you are interested
+Dialogue: 0,0:04:38.96,0:04:43.62,Default,,0,0,0,,but any um any trainer or any training company is able to train you
+Dialogue: 0,0:04:43.36,0:04:45.78,Default,,0,0,0,,and walk you through the exam blueprint
+Dialogue: 0,0:04:46.24,0:04:49.06,Default,,0,0,0,,until you master everything and you can go and take the exam
+Dialogue: 0,0:04:49.12,0:04:51.70,Default,,0,0,0,,so that's uh that's what i can tell you
+Dialogue: 0,0:04:51.60,0:04:54.66,Default,,0,0,0,,but again remember you have the biggest book in the world
+Dialogue: 0,0:04:54.56,0:04:55.62,Default,,0,0,0,,you have the internet
+Dialogue: 0,0:04:55.76,0:04:57.86,Default,,0,0,0,,you should know how to search the internet
+Dialogue: 0,0:04:58.16,0:04:59.06,Default,,0,0,0,,you have youtube
+Dialogue: 0,0:04:58.96,0:05:02.50,Default,,0,0,0,,you should go on youtube and watch people that are doing networking stuff
+Dialogue: 0,0:05:02.96,0:05:05.78,Default,,0,0,0,,you yeah you have all those means of study
+Dialogue: 0,0:05:05.60,0:05:09.06,Default,,0,0,0,,so today you can just be alone and be in your bedroom
+Dialogue: 0,0:05:09.20,0:05:11.38,Default,,0,0,0,,but still get a lot of knowledge
+Dialogue: 0,0:05:11.60,0:05:14.98,Default,,0,0,0,,because a lot of people are online just like me uh saying
+Dialogue: 0,0:05:14.88,0:05:18.18,Default,,0,0,0,,i'm showing you what we do and showing you what is really necessary
+Dialogue: 0,0:05:18.56,0:05:20.50,Default,,0,0,0,,in this world right now as a professional
+Dialogue: 0,0:05:21.12,0:05:23.70,Default,,0,0,0,,so yeah that's it that's all i can tell you and
+Dialogue: 0,0:05:23.36,0:05:26.10,Default,,0,0,0,,i'll be doing a lot of ask me anything type of video
+Dialogue: 0,0:05:25.92,0:05:30.58,Default,,0,0,0,,so if you like this don't forget to leave the comment and like the video
+Dialogue: 0,0:05:30.56,0:05:34.18,Default,,0,0,0,,subscribe if you if you are a tech guy and you like more of this
+Dialogue: 0,0:05:34.48,0:05:36.74,Default,,0,0,0,,i will be coming with a lot of videos on the channel
+Dialogue: 0,0:05:36.56,0:05:40.26,Default,,0,0,0,,so don't forget to do that for me and check out the blog
+Dialogue: 0,0:05:40.08,0:05:41.38,Default,,0,0,0,,and if you have any comment
+Dialogue: 0,0:05:41.28,0:05:44.66,Default,,0,0,0,,just put it down below and i'll be able to follow that
+Dialogue: 0,0:05:44.64,0:05:50.30,Default,,0,0,0,,other than that thank you for watching and i'll see you in the next video bye

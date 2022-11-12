@@ -1,0 +1,3348 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ysj>
+    <head>
+        <version>3</version>
+        <ass-meta>[Script Info]&#xd;
+Collisions: Normal&#xd;
+PlayResX: 384&#xd;
+PlayResY: 288&#xd;
+ScaledBorderAndShadow: no&#xd;
+ScriptType: v4.00+&#xd;
+Synch Point: 1&#xd;
+&#xd;
+[Custom Info]&#xd;
+OriginalTextStyle: 原文字幕&#xd;
+TranslationTextStyle: Default&#xd;
+&#xd;
+[V4+ Styles]&#xd;
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding&#xd;
+Style: Default,方正黑体_GBK,21,&amp;H00FFFFFF,&amp;HF0000000,&amp;H006C3300,&amp;H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1&#xd;
+Style: 译文字幕,方正黑体_GBK,21,&amp;H00FFFFFF,&amp;HF0000000,&amp;H006C3300,&amp;H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1&#xd;
+Style: 原文字幕,方正综艺_GBK,14,&amp;H00FFFFFF,&amp;HF0000000,&amp;H002F2F2F,&amp;H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1&#xd;
+</ass-meta>
+        <meta>
+            <title>人人译视界字幕工程文件，人人译视界-智能协同翻译平台</title>
+            <format>ass</format>
+            <charset>UTF-8</charset>
+            <source-lang>en</source-lang>
+            <target-lang/>
+            <target-dub>target</target-dub>
+            <video>
+                <path>C:\Users\wangchao\Desktop\onhand\SnapSave.io-Best Book For Beginners In Computer Networking _ CCNA and Network+ Certification-(1080p).mp4</path>
+            </video>
+            <lock lock-time="0" t="" lock-content="0" pwd=""/>
+            <task type="1" token="" id=""/>
+            <correction updateTime="0">
+                <id/>
+                <path/>
+            </correction>
+            <marks>
+                <mark inUse="1" color="#4affff" builtin="1" top="">默认标记</mark>
+                <mark color="#339966" builtin="1" top="">硬字幕</mark>
+                <mark color="#ccffff" builtin="1" top="">歌词</mark>
+                <mark color="#ffcccc" builtin="1" top="">遮幅</mark>
+                <mark color="#ffff99" builtin="1" top="">敏感词</mark>
+                <mark color="#ccccff" builtin="1" top="">翻译错误</mark>
+                <mark color="#ff9966" builtin="1" top="翻译错误">错译</mark>
+                <mark color="#ff6666" builtin="1" top="翻译错误">表达不当</mark>
+                <mark color="#ffcccc" builtin="1" top="翻译错误">语法错误</mark>
+                <mark color="#ffcc99" builtin="1" top="">低错</mark>
+                <mark color="#ccff99" builtin="1" top="低错">漏译</mark>
+                <mark color="#cccccc" builtin="1" top="低错">格式错误</mark>
+                <mark color="#99ccff" builtin="1" top="低错">标点错误</mark>
+                <mark color="#66cc99" builtin="1" top="低错">断句不合理</mark>
+                <mark color="#ff9900" builtin="1" top="低错">字符长度不合规</mark>
+                <mark color="#ccff00" builtin="1" top="">听写错误</mark>
+                <mark color="#cc3399" builtin="1" top="听写错误">听错</mark>
+                <mark color="#993366" builtin="1" top="听写错误">漏听</mark>
+                <mark color="#666633" builtin="1" top="">时间轴错误</mark>
+                <mark color="#cccc99" builtin="1" top="时间轴错误">时间轴不准</mark>
+                <mark color="#009966" builtin="1" top="时间轴错误">时间轴重叠</mark>
+                <mark color="#0099cc" builtin="1" top="">小语种</mark>
+                <mark color="#006600" builtin="1" top="小语种">英语</mark>
+                <mark color="#336699" builtin="1" top="小语种">法语</mark>
+                <mark color="#ff0033" builtin="1" top="小语种">西语</mark>
+                <mark color="#663399" builtin="1" top="小语种">俄语</mark>
+                <mark color="#333333" builtin="1" top="小语种">韩语</mark>
+                <mark color="#996666" builtin="1" top="小语种">日语</mark>
+            </marks>
+            <characters/>
+            <dub-dictionaries/>
+            <dubSerialNo/>
+        </meta>
+    </head>
+    <body>
+        <part lastModifyTime="0" updateMethod="0">
+            <t time="" index="1" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:16,400</start-time>
+                <end-time>00:00:18,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}hey what's up guys this is gee here with kevin trainings</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="2" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:18,560</start-time>
+                <end-time>00:00:21,700</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}welcome to this quick video in which i'm going to respond to</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="3" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:21,520</start-time>
+                <end-time>00:00:23,750</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}a question that i receive here a lot on</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="4" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:23,760</start-time>
+                <end-time>00:00:24,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}kb trainings</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="5" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:24,560</start-time>
+                <end-time>00:00:29,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}as you know cable trainers i go from zero to engineer so most of you or some of you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="6" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:29,280</start-time>
+                <end-time>00:00:31,270</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}are beginners in this industry in</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="7" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:31,280</start-time>
+                <end-time>00:00:32,500</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}networking in general</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="8" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:32,800</start-time>
+                <end-time>00:00:34,870</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and you're asking yourself what are the</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="9" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:34,880</start-time>
+                <end-time>00:00:36,500</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}best books that you can read</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="10" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:36,880</start-time>
+                <end-time>00:00:40,180</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}as a beginner in networking what books can you read</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="11" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:40,240</start-time>
+                <end-time>00:00:43,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}to get you to master all the concept of networking</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="12" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:43,680</start-time>
+                <end-time>00:00:48,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}as you know here on kb trainings i share with you most of what i know and what i'm still learning in this field</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="13" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:48,480</start-time>
+                <end-time>00:00:49,620</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so i'm a network professional</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="14" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:49,760</start-time>
+                <end-time>00:00:51,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but if you've been on this channel for a while</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="15" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:51,760</start-time>
+                <end-time>00:00:54,340</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you might have seen my video in which i talk about books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="16" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:54,160</start-time>
+                <end-time>00:00:57,460</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i talk about reading what i think in general is that</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="17" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:57,760</start-time>
+                <end-time>00:00:59,140</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you should read of course</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="18" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:59,520</start-time>
+                <end-time>00:01:01,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but i'm not a book guy</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="19" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:00,960</start-time>
+                <end-time>00:01:05,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you know that book person who has a huge library behind him with all kind of books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="20" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:06,160</start-time>
+                <end-time>00:01:08,070</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}it's kind of disappearing this is 2020</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="21" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:08,080</start-time>
+                <end-time>00:01:10,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}we have the internet we have a lot of things so i think</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="22" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:10,720</start-time>
+                <end-time>00:01:14,340</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you really want to read you don't need to invest into a lot of books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="23" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:14,320</start-time>
+                <end-time>00:01:16,870</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you should invest into something that</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="24" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:16,880</start-time>
+                <end-time>00:01:19,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}will make you know what you have to research on the internet</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="25" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:20,080</start-time>
+                <end-time>00:01:23,700</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and you can pretty much read anything on google on many websites</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="26" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:23,840</start-time>
+                <end-time>00:01:27,140</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and by the way on kb trainings i just started a blog</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="27" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:27,120</start-time>
+                <end-time>00:01:31,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so i'm going to be uh writing articles in this blog here</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="28" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:30,960</start-time>
+                <end-time>00:01:32,420</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you go on the website and</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="29" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:32,320</start-time>
+                <end-time>00:01:35,780</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you click blog um this is the first article like</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="30" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:35,680</start-time>
+                <end-time>00:01:38,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}most of the videos like every i mean not every</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="31" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:38,400</start-time>
+                <end-time>00:01:41,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but most of the videos on this channel will be an article</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="32" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:41,920</start-time>
+                <end-time>00:01:46,100</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}this is the exact article in which i'm responding to this specific question about</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="33" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:46,240</start-time>
+                <end-time>00:01:48,980</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}the books that you can read i'm not saying that don't buy books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="34" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:49,280</start-time>
+                <end-time>00:01:52,980</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but you have the internet that's where you can read a lot</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="35" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:52,800</start-time>
+                <end-time>00:01:54,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you can read most of the things on the internet</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="36" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:54,880</start-time>
+                <end-time>00:01:57,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but if you have to buy a book or if you want to study</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="37" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:57,120</start-time>
+                <end-time>00:01:58,180</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you are a beginner</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="38" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:58,640</start-time>
+                <end-time>00:02:01,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i'm going to advise you to get certified</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="39" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:01,520</start-time>
+                <end-time>00:02:04,100</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you need to pick a certification a networking certification</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="40" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:04,720</start-time>
+                <end-time>00:02:09,060</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and study for the cert and get the book for that specific certification</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="41" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:09,840</start-time>
+                <end-time>00:02:12,020</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and at the end of the cert you have the knowledge</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="42" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:11,920</start-time>
+                <end-time>00:02:14,820</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and your knowledge will be structured in your head</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="43" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:14,640</start-time>
+                <end-time>00:02:19,460</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}because if you are studying without any kind of plan or any kind of blueprint</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="44" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:19,920</start-time>
+                <end-time>00:02:21,460</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you're uh going to be all over the place</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="45" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:21,200</start-time>
+                <end-time>00:02:22,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}there's a lot to learn in networking</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="46" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:22,800</start-time>
+                <end-time>00:02:26,260</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so if you have a certification it's going to be much easier for you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="47" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:26,320</start-time>
+                <end-time>00:02:28,260</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so the two certifications that i'm recommending</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="48" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:28,480</start-time>
+                <end-time>00:02:30,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}first the comptia network plus</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="49" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:31,200</start-time>
+                <end-time>00:02:33,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}it's a very good one it's vendor neutral</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="50" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:33,520</start-time>
+                <end-time>00:02:36,900</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}it's good to get when you are getting your feet in the industry</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="51" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:37,120</start-time>
+                <end-time>00:02:39,620</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i started with it and then i went to the ccna</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="52" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:39,840</start-time>
+                <end-time>00:02:41,940</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and the second one you might have guessed is the ccna</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="53" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:42,160</start-time>
+                <end-time>00:02:46,420</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so if you are studying for the network plus it will teach you a lot of concept of networking</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="54" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:46,720</start-time>
+                <end-time>00:02:48,420</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and it's all going to be structured</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="55" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:48,640</start-time>
+                <end-time>00:02:52,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}for those two certifications if you want to get the books for network plus</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="56" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:52,320</start-time>
+                <end-time>00:02:53,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}let's go on amazon</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="57" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:53,360</start-time>
+                <end-time>00:02:59,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you do um network plus on amazon you get some books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="58" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:59,600</start-time>
+                <end-time>00:03:01,940</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and i can recommend any of these books</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="59" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:02,160</start-time>
+                <end-time>00:03:03,940</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}this one for example um</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="60" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:04,800</start-time>
+                <end-time>00:03:10,820</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}or this other one but i i'll give you a link um to to get a book for on network plus</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="61" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:10,880</start-time>
+                <end-time>00:03:15,140</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and if you're looking for the ccna you can just um type ccna 200 301</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="62" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:16,000</start-time>
+                <end-time>00:03:18,150</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and this is what you're going to get</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="63" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:18,160</start-time>
+                <end-time>00:03:21,140</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}yeah this is the the one that i prefer</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="64" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:21,600</start-time>
+                <end-time>00:03:24,420</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and if you get this one you're going to study for your cert</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="65" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:24,320</start-time>
+                <end-time>00:03:27,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and you will get certified after a few months of studies</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="66" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:28,080</start-time>
+                <end-time>00:03:32,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and you also need to check out of course the official pages of these certifications</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="67" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:33,440</start-time>
+                <end-time>00:03:36,460</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you go on compia.com i mean comptia.org</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="68" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:37,120</start-time>
+                <end-time>00:03:40,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you can see this is the official page for the network plus</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="69" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:40,800</start-time>
+                <end-time>00:03:43,350</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}it gives you the details about the exam</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="70" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:43,360</start-time>
+                <end-time>00:03:44,900</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and if you fill out this form</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="71" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:45,360</start-time>
+                <end-time>00:03:48,020</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and you submit it's going to send you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="72" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:48,160</start-time>
+                <end-time>00:03:49,140</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}the exam objectives</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="73" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:49,440</start-time>
+                <end-time>00:03:52,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and some practice questions for you to know exactly what it is</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="74" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:52,960</start-time>
+                <end-time>00:03:56,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so personally i prefer the ccna because it's more practical practical</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="75" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:57,040</start-time>
+                <end-time>00:04:02,260</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}the network plus is vendor neutral so sometimes it's kind of hard to master some concept</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="76" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:02,240</start-time>
+                <end-time>00:04:05,940</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}because you don't have any vendor that you can practice on</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="77" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:06,000</start-time>
+                <end-time>00:04:08,820</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but if you go with the ccna this is the blueprint for the ccna</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="78" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:08,880</start-time>
+                <end-time>00:04:17,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}if you just type ccna 300 um 201 i mean 200 301 blueprint</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="79" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:17,600</start-time>
+                <end-time>00:04:20,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}this is what you get uh it's right here</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="80" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:20,960</start-time>
+                <end-time>00:04:25,780</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}it's a pdf you have a list of topics or concepts that you have to know</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="81" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:25,440</start-time>
+                <end-time>00:04:27,220</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}before going and taking the exam</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="82" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:27,520</start-time>
+                <end-time>00:04:28,980</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}this is going to help you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="83" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:28,880</start-time>
+                <end-time>00:04:32,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}this is going to uh just structure whatever you have to know</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="84" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:32,640</start-time>
+                <end-time>00:04:35,220</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i also recommend to get some kind of training videos</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="85" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:35,600</start-time>
+                <end-time>00:04:38,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i do videos myself on cabbagetrends.com if you are interested</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="86" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:38,960</start-time>
+                <end-time>00:04:43,620</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but any um any trainer or any training company is able to train you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="87" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:43,360</start-time>
+                <end-time>00:04:45,780</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and walk you through the exam blueprint</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="88" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:46,240</start-time>
+                <end-time>00:04:49,060</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}until you master everything and you can go and take the exam</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="89" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:49,120</start-time>
+                <end-time>00:04:51,700</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so that's uh that's what i can tell you</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="90" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:51,600</start-time>
+                <end-time>00:04:54,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but again remember you have the biggest book in the world</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="91" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:54,560</start-time>
+                <end-time>00:04:55,620</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you have the internet</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="92" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:55,760</start-time>
+                <end-time>00:04:57,860</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you should know how to search the internet</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="93" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:58,160</start-time>
+                <end-time>00:04:59,060</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you have youtube</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="94" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:58,960</start-time>
+                <end-time>00:05:02,500</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you should go on youtube and watch people that are doing networking stuff</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="95" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:02,960</start-time>
+                <end-time>00:05:05,780</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}you yeah you have all those means of study</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="96" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:05,600</start-time>
+                <end-time>00:05:09,060</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so today you can just be alone and be in your bedroom</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="97" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:09,200</start-time>
+                <end-time>00:05:11,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}but still get a lot of knowledge</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="98" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:11,600</start-time>
+                <end-time>00:05:14,980</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}because a lot of people are online just like me uh saying</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="99" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:14,880</start-time>
+                <end-time>00:05:18,180</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i'm showing you what we do and showing you what is really necessary</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="100" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:18,560</start-time>
+                <end-time>00:05:20,500</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}in this world right now as a professional</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="101" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:21,120</start-time>
+                <end-time>00:05:23,700</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so yeah that's it that's all i can tell you and</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="102" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:23,360</start-time>
+                <end-time>00:05:26,100</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i'll be doing a lot of ask me anything type of video</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="103" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:25,920</start-time>
+                <end-time>00:05:30,580</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so if you like this don't forget to leave the comment and like the video</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="104" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:30,560</start-time>
+                <end-time>00:05:34,180</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}subscribe if you if you are a tech guy and you like more of this</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="105" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:34,480</start-time>
+                <end-time>00:05:36,740</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}i will be coming with a lot of videos on the channel</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="106" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:36,560</start-time>
+                <end-time>00:05:40,260</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}so don't forget to do that for me and check out the blog</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="107" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:40,080</start-time>
+                <end-time>00:05:41,380</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}and if you have any comment</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="108" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:41,280</start-time>
+                <end-time>00:05:44,660</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}just put it down below and i'll be able to follow that</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="109" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:44,640</start-time>
+                <end-time>00:05:50,300</end-time>
+                <translation>{\r原文字幕}</translation>
+                <original>{\r原文字幕}other than that thank you for watching and i'll see you in the next video bye</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>原文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="110" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:16,400</start-time>
+                <end-time>00:00:18,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}嘿，伙计们，我是凯文</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="111" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:18,560</start-time>
+                <end-time>00:00:21,700</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}欢迎观看我的短视频，这个视频要回答一些问题</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="112" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:21,520</start-time>
+                <end-time>00:00:23,750</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}一些我在KBTrainings收到的问题</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="113" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:23,760</start-time>
+                <end-time>00:00:24,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="114" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:24,560</start-time>
+                <end-time>00:00:29,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}KBTrainning是一个从0到成为工程师的系列</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="115" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:29,280</start-time>
+                <end-time>00:00:31,270</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你们中大多数人是网络行业的初学者</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="116" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:31,280</start-time>
+                <end-time>00:00:32,500</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}应该是吧</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="117" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:32,800</start-time>
+                <end-time>00:00:34,870</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你们想知道</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="118" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:34,880</start-time>
+                <end-time>00:00:36,500</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你应该读什么书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="119" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:36,880</start-time>
+                <end-time>00:00:40,180</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}作为网络初学者，您可以阅读哪些书籍</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="120" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:40,240</start-time>
+                <end-time>00:00:43,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}让你掌握网络的所有概念</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="121" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:43,680</start-time>
+                <end-time>00:00:48,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}正如您在 kb 培训中所知道的那样，我与您分享了我所知道的大部分内容以及我在该领域仍在学习的内容</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="122" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:48,480</start-time>
+                <end-time>00:00:49,620</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以我是网络专业的</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="123" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:49,760</start-time>
+                <end-time>00:00:51,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但是如果你已经在这个频道上呆了一段时间</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="124" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:51,760</start-time>
+                <end-time>00:00:54,340</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你可能看过我谈论书籍的视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="125" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:54,160</start-time>
+                <end-time>00:00:57,460</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}关于阅读我认为</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="126" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:57,760</start-time>
+                <end-time>00:00:59,140</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你当然应该阅读</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="127" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:00:59,520</start-time>
+                <end-time>00:01:01,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但我不是书友</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="128" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:00,960</start-time>
+                <end-time>00:01:05,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你知道那个书人，他身后有一个巨大的图书馆，里面有各种各样的书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="129" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:06,160</start-time>
+                <end-time>00:01:08,070</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但那已经不常见了， 2020 年了</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="130" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:08,080</start-time>
+                <end-time>00:01:10,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我们有互联网我们有很多东西所以我想</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="131" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:10,720</start-time>
+                <end-time>00:01:14,340</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你真的想阅读你不需要投资很多书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="132" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:14,320</start-time>
+                <end-time>00:01:16,870</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你应该学会利用互联网</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="133" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:16,880</start-time>
+                <end-time>00:01:19,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这里有所有你需要的东西</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="134" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:20,080</start-time>
+                <end-time>00:01:23,700</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你几乎可以在许多网站上的谷歌上阅读任何内容</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="135" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:23,840</start-time>
+                <end-time>00:01:27,140</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}顺便说一下kb培训我刚开始写博客</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="136" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:27,120</start-time>
+                <end-time>00:01:31,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以我会在这个博客上写文章</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="137" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:30,960</start-time>
+                <end-time>00:01:32,420</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您访问网站并且</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="138" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:32,320</start-time>
+                <end-time>00:01:35,780</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你点击博客嗯这是第一篇文章</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="139" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:35,680</start-time>
+                <end-time>00:01:38,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}大多数视频都像每个我的意思不是每个</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="140" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:38,400</start-time>
+                <end-time>00:01:41,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但是这个频道上的大部分视频都是一篇文章</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="141" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:41,920</start-time>
+                <end-time>00:01:46,100</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这是我正在回答这个具体问题的确切文章</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="142" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:46,240</start-time>
+                <end-time>00:01:48,980</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你能读的书我不是说不买书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="143" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:49,280</start-time>
+                <end-time>00:01:52,980</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但是您拥有可以阅读很多内容的互联网</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="144" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:52,800</start-time>
+                <end-time>00:01:54,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}您可以阅读互联网上的大部分内容</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="145" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:54,880</start-time>
+                <end-time>00:01:57,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但是如果你必须买一本书或者你想学习</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="146" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:57,120</start-time>
+                <end-time>00:01:58,180</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你是初学者</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="147" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:01:58,640</start-time>
+                <end-time>00:02:01,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我会建议你获得认证</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="148" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:01,520</start-time>
+                <end-time>00:02:04,100</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你需要选择一个认证 一个网络认证</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="149" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:04,720</start-time>
+                <end-time>00:02:09,060</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}并学习证书并获得该特定证书的书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="150" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:09,840</start-time>
+                <end-time>00:02:12,020</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}并且在证书结束时你有知识</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="151" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:11,920</start-time>
+                <end-time>00:02:14,820</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你的知识将在你的脑海中形成</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="152" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:14,640</start-time>
+                <end-time>00:02:19,460</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}因为如果你在没有任何计划或蓝图的情况下学习</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="153" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:19,920</start-time>
+                <end-time>00:02:21,460</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你会很迷茫</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="154" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:21,200</start-time>
+                <end-time>00:02:22,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}因为网络有很多东西能学</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="155" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:22,800</start-time>
+                <end-time>00:02:26,260</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}因此，如果您有认证，那对您来说会容易得多</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="156" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:26,320</start-time>
+                <end-time>00:02:28,260</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以我推荐的两个认证</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="157" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:28,480</start-time>
+                <end-time>00:02:30,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}首先是comptia network plus</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="158" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:31,200</start-time>
+                <end-time>00:02:33,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这是一个非常好的供应商中立的</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="159" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:33,520</start-time>
+                <end-time>00:02:36,900</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}当您涉足该行业时，这是一件好事</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="160" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:37,120</start-time>
+                <end-time>00:02:39,620</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我从它开始，然后我去了 ccna</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="161" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:39,840</start-time>
+                <end-time>00:02:41,940</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你可能已经猜到的第二个是 ccna</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="162" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:42,160</start-time>
+                <end-time>00:02:46,420</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以如果你正在为网络学习加上它会教你很多网络的概念</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="163" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:46,720</start-time>
+                <end-time>00:02:48,420</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所有的概念都能建立起来</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="164" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:48,640</start-time>
+                <end-time>00:02:52,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您想获得用于网络的书籍，请获得这两个认证</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="165" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:52,320</start-time>
+                <end-time>00:02:53,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}让我们来到亚马逊</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="166" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:53,360</start-time>
+                <end-time>00:02:59,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你在亚马逊上做 um network plus 你会得到一些书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="167" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:02:59,600</start-time>
+                <end-time>00:03:01,940</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我可以推荐任何这些书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="168" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:02,160</start-time>
+                <end-time>00:03:03,940</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这个例如嗯</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="169" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:04,800</start-time>
+                <end-time>00:03:10,820</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}或者这个另一个，但我会给你一个链接，你可以在网络上买一本书加</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="170" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:10,880</start-time>
+                <end-time>00:03:15,140</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您正在寻找 ccna，您可以输入 ccna 200 301</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="171" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:16,000</start-time>
+                <end-time>00:03:18,150</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这就是你要得到的</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="172" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:18,160</start-time>
+                <end-time>00:03:21,140</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}是的，这是我更喜欢的那个</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="173" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:21,600</start-time>
+                <end-time>00:03:24,420</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你得到这个，你将学习你的证书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="174" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:24,320</start-time>
+                <end-time>00:03:27,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}经过几个月的学习，您将获得认证</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="175" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:28,080</start-time>
+                <end-time>00:03:32,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}当然，您还需要查看这些认证的官方页面</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="176" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:33,440</start-time>
+                <end-time>00:03:36,460</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您访问 compia.com，我的意思是 comptia.org</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="177" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:37,120</start-time>
+                <end-time>00:03:40,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你可以看到这是网络加的官方页面</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="178" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:40,800</start-time>
+                <end-time>00:03:43,350</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}它为您提供有关考试的详细信息</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="179" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:43,360</start-time>
+                <end-time>00:03:44,900</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你填写这张表格</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="180" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:45,360</start-time>
+                <end-time>00:03:48,020</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你提交它会发送给你</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="181" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:48,160</start-time>
+                <end-time>00:03:49,140</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}考试目标</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="182" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:49,440</start-time>
+                <end-time>00:03:52,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}和一些练习题让你确切地知道它是什么</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="183" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:52,960</start-time>
+                <end-time>00:03:56,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我个人更喜欢ccna，因为它更实用</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="184" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:03:57,040</start-time>
+                <end-time>00:04:02,260</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}network+是供应商中立的，所以有时很难掌握一些概念</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="185" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:02,240</start-time>
+                <end-time>00:04:05,940</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}因为你没有可以练习的供应商</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="186" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:06,000</start-time>
+                <end-time>00:04:08,820</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但如果你选择 ccna，这就是 ccna 的蓝图</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="187" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:08,880</start-time>
+                <end-time>00:04:17,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您只输入 ccna 300 um 201 我的意思是 200 301 蓝图</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="188" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:17,600</start-time>
+                <end-time>00:04:20,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这就是你得到的，它就在这里</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="189" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:20,960</start-time>
+                <end-time>00:04:25,780</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这是一个 pdf，你有一个你必须知道的主题或概念的列表</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="190" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:25,440</start-time>
+                <end-time>00:04:27,220</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}在去参加考试之前</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="191" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:27,520</start-time>
+                <end-time>00:04:28,980</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这会帮助你</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="192" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:28,880</start-time>
+                <end-time>00:04:32,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}这将只是构建你必须知道的任何东西</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="193" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:32,640</start-time>
+                <end-time>00:04:35,220</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我还建议获取某种培训视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="194" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:35,600</start-time>
+                <end-time>00:04:38,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您有兴趣，我会在 cabbagetrends.com 上自己制作视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="195" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:38,960</start-time>
+                <end-time>00:04:43,620</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但是任何嗯任何培训师或任何培训公司都可以培训你</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="196" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:43,360</start-time>
+                <end-time>00:04:45,780</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}并引导您完成考试蓝图</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="197" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:46,240</start-time>
+                <end-time>00:04:49,060</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}直到你掌握了一切，你可以去参加考试</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="198" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:49,120</start-time>
+                <end-time>00:04:51,700</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以这就是我可以告诉你的</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="199" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:51,600</start-time>
+                <end-time>00:04:54,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但再次记住你有世界上最大的书</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="200" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:54,560</start-time>
+                <end-time>00:04:55,620</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你有互联网</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="201" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:55,760</start-time>
+                <end-time>00:04:57,860</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你应该知道如何搜索互联网</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="202" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:58,160</start-time>
+                <end-time>00:04:59,060</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你有 youtube</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="203" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:04:58,960</start-time>
+                <end-time>00:05:02,500</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你应该在 youtube 上观看那些正在做网络工作的人</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="204" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:02,960</start-time>
+                <end-time>00:05:05,780</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}你你拥有所有这些学习方法</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="205" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:05,600</start-time>
+                <end-time>00:05:09,060</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以今天你可以一个人呆在卧室里</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="206" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:09,200</start-time>
+                <end-time>00:05:11,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}但还是能学到很多知识</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="207" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:11,600</start-time>
+                <end-time>00:05:14,980</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}因为很多人都在线就像我说的那样</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="208" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:14,880</start-time>
+                <end-time>00:05:18,180</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}向您展示我们所做的 向您展示真正需要的东西</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="209" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:18,560</start-time>
+                <end-time>00:05:20,500</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}在这个世界上，现在作为一名专业人士</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="210" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:21,120</start-time>
+                <end-time>00:05:23,700</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所这就是我能告诉你的全部</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="211" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:23,360</start-time>
+                <end-time>00:05:26,100</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我会做很多问我任何类型的视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="212" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:25,920</start-time>
+                <end-time>00:05:30,580</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以如果你喜欢这个不要忘记留下评论并喜欢视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="213" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:30,560</start-time>
+                <end-time>00:05:34,180</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果您是技术人员并且喜欢更多内容，请订阅</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="214" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:34,480</start-time>
+                <end-time>00:05:36,740</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}我将在频道上发布很多视频</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="215" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:36,560</start-time>
+                <end-time>00:05:40,260</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}所以不要忘记为我做这件事并查看博客</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="216" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:40,080</start-time>
+                <end-time>00:05:41,380</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}如果你有任何意见</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="217" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:41,280</start-time>
+                <end-time>00:05:44,660</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}只要把它放在下面，我就可以查看</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+            <t time="" index="218" torder="1" vertical="0" hasRuby="0" id="">
+                <start-time>00:05:44,640</start-time>
+                <end-time>00:05:50,300</end-time>
+                <translation>{\r译文字幕}</translation>
+                <original>{\r译文字幕}除此之外，谢谢你的收看，我会在下一个视频中见到你，再见</original>
+                <ass-style>
+                    <layer>0</layer>
+                    <style>译文字幕</style>
+                    <name/>
+                    <margin-l>0</margin-l>
+                    <margin-r>0</margin-r>
+                    <margin-v>0</margin-v>
+                    <effect/>
+                </ass-style>
+            </t>
+        </part>
+    </body>
+</ysj>

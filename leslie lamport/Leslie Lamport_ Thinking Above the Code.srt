@@ -1,0 +1,3407 @@
+1
+00:00:01,250 --> 00:00:02,900
+ladies and gentlemen
+
+2
+00:00:02,760 --> 00:00:05,300
+please welcome judith bishop
+
+3
+00:00:13,490 --> 00:00:15,350
+good afternoon everybody
+
+4
+00:00:15,800 --> 00:00:20,270
+welcome back to the plenary session of the Microsoft faculty summit
+
+5
+00:00:20,210 --> 00:00:23,540
+it's my great pleasure to introduce to you today
+
+6
+00:00:23,340 --> 00:00:29,840
+Leslie Lamport who's a principal researcher at our Microsoft Research Silicon Valley Lab
+
+7
+00:00:30,710 --> 00:00:36,020
+so students and faculty who have taught operating systems courses
+
+8
+00:00:36,090 --> 00:00:39,470
+as well as anybody who's really used a computer
+
+9
+00:00:39,500 --> 00:00:42,860
+will have benefited from Leslie's work
+
+10
+00:00:42,600 --> 00:00:47,420
+on logical clocks 、safety and liveness 、sequential consistency
+
+11
+00:00:47,340 --> 00:00:50,930
+and many other parts of operating systems
+
+12
+00:00:50,850 --> 00:00:57,920
+which laid the basis for the safe operation of the computers that we have today
+
+13
+00:00:57,630 --> 00:01:05,000
+as they moved from the single desktop to the large number of interconnected devices we have
+
+14
+00:01:06,110 --> 00:01:13,580
+Leslie before he joined Microsoft was a member of certain various prestigious institutions
+
+15
+00:01:13,980 --> 00:01:22,790
+he was at MIT 、at Brandis University and at companies such as Dec 、Compaq and SR I
+
+16
+00:01:23,960 --> 00:01:30,290
+in his career he has also received several honorary doctorates
+
+17
+00:01:30,390 --> 00:01:38,570
+and he has tried very hard to help scientists see their works’s beautiful
+
+18
+00:01:38,820 --> 00:01:42,020
+and for that purpose he also developed something
+
+19
+00:01:41,940 --> 00:01:44,810
+that I think you all know very well which is let ik
+
+20
+00:01:45,350 --> 00:01:50,090
+he's now going to go on and try and persuade engineers
+
+21
+00:01:50,340 --> 00:01:53,570
+that there's something else that is beautiful in life
+
+22
+00:01:53,100 --> 00:01:54,980
+which is mathematics and
+
+23
+00:01:54,890 --> 00:01:57,920
+that's what he's going to talk to us about today
+
+24
+00:01:58,400 --> 00:02:01,760
+so ladies and gentlemen please put your hands together
+
+25
+00:02:01,500 --> 00:02:04,000
+for this year's am Turing Award winner
+
+26
+00:02:04,010 --> 00:02:05,510
+Leslie Lamport
+
+27
+00:02:10,940 --> 00:02:12,530
+Thank You Judith
+
+28
+00:02:14,720 --> 00:02:16,850
+thinking above the code
+
+29
+00:02:17,030 --> 00:02:18,800
+why do we think
+
+30
+00:02:19,460 --> 00:02:22,070
+well it helps us do most things
+
+31
+00:02:22,430 --> 00:02:28,790
+like hunting a saber-toothed tiger or building a house or writing a program
+
+32
+00:02:29,660 --> 00:02:32,180
+so when should we think
+
+33
+00:02:32,810 --> 00:02:39,680
+well hunting a saber-toothed tiger we should think before leaving the cave
+
+34
+00:02:39,470 --> 00:02:43,070
+when the tiger is charging at you
+
+35
+00:02:42,780 --> 00:02:43,880
+it's a little late
+
+36
+00:02:44,180 --> 00:02:48,500
+building a house before beginning construction
+
+37
+00:02:48,560 --> 00:02:51,230
+you don't want to think about what you're doing
+
+38
+00:02:50,760 --> 00:02:54,980
+when the Carpenters are putting the roof on
+
+39
+00:02:55,400 --> 00:02:58,220
+allready start thinking about what you're doing
+
+40
+00:02:58,310 --> 00:03:04,850
+writing a program we should be thinking before we start writing any code
+
+41
+00:03:06,110 --> 00:03:07,670
+how to think
+
+42
+00:03:09,710 --> 00:03:13,520
+when I favorite quotes is from the cartoonist Guindon
+
+43
+00:03:13,670 --> 00:03:19,640
+who says writing is nature's way of letting you know how sloppy your thinking is
+
+44
+00:03:20,120 --> 00:03:24,710
+to think to really think you have to write
+
+45
+00:03:24,420 --> 00:03:27,170
+if you're thinking without writing
+
+46
+00:03:27,620 --> 00:03:30,170
+chances are you're fooling yourself
+
+47
+00:03:29,900 --> 00:03:33,710
+we're only pretending to think
+
+48
+00:03:34,610 --> 00:03:36,260
+what to write？
+
+49
+00:03:36,860 --> 00:03:39,710
+well hunting a saber-toothed tiger
+
+50
+00:03:41,190 --> 00:03:44,960
+writing wasn't invented then which meant it was a very dangerous activity
+
+51
+00:03:46,850 --> 00:03:48,410
+building a house
+
+52
+00:03:49,190 --> 00:03:54,980
+well what'd you write before you build to start building a house are called blueprints
+
+53
+00:03:55,230 --> 00:03:56,840
+and it's called drawing blueprints
+
+54
+00:03:58,160 --> 00:03:59,720
+writing a program
+
+55
+00:04:00,110 --> 00:04:04,340
+well you should also write a blueprint of your program
+
+56
+00:04:04,400 --> 00:04:08,030
+but blueprints of programs are what we call specifications
+
+57
+00:04:10,070 --> 00:04:10,570
+specifications
+
+58
+00:04:11,810 --> 00:04:15,680
+well when I say the word people tend to panic
+
+59
+00:04:15,750 --> 00:04:21,550
+this formal stuff that's impossible to read and understand
+
+60
+00:04:21,590 --> 00:04:25,270
+and you have to learn these funny symbols and all that sort of stuff
+
+61
+00:04:25,810 --> 00:04:30,670
+yeah this is a blueprint you know all these complicated stuff going on
+
+62
+00:04:30,610 --> 00:04:32,860
+but this is also a blueprint
+
+63
+00:04:32,930 --> 00:04:38,500
+in fact there's an entire spectrum of blueprints
+
+64
+00:04:39,430 --> 00:04:45,000
+ranging from very detailed complicated blueprints
+
+65
+00:04:45,520 --> 00:04:50,290
+which you need if you're building something that's very big and complicated
+
+66
+00:04:50,830 --> 00:04:52,630
+at the other end
+
+67
+00:04:52,670 --> 00:04:58,090
+they're just rough sketch of what you're building is just something you know really simple
+
+68
+00:04:57,980 --> 00:04:59,680
+that you're gonna do in the weekend
+
+69
+00:04:59,950 --> 00:05:05,470
+and there are these ordinary blueprints for
+
+70
+00:05:05,210 --> 00:05:08,920
+you know things like a house or the stuff
+
+71
+00:05:08,690 --> 00:05:13,900
+that kinds of blueprints that most of us might have seen
+
+72
+00:05:14,410 --> 00:05:17,950
+and similarly there's a spectrum of specifications
+
+73
+00:05:18,970 --> 00:05:21,340
+there are formal specifications
+
+74
+00:05:21,770 --> 00:05:26,950
+and on the other end of the your formal specifications
+
+75
+00:05:27,200 --> 00:05:29,680
+written in a in a precise formal language
+
+76
+00:05:29,600 --> 00:05:33,310
+and on the other end there are just short prose specifications
+
+77
+00:05:33,770 --> 00:05:38,890
+and in the middle are what I like to call mathematical prose
+
+78
+00:05:39,640 --> 00:05:46,330
+most code is really simple few sentences of prose will do
+
+79
+00:05:49,030 --> 00:05:53,800
+some code is subtle will requires more thought
+
+80
+00:05:53,660 --> 00:06:04,300
+and for that you have to write it ’s prose but it's it try to be you need to be pretty precise
+
+81
+00:06:04,280 --> 00:06:10,810
+and some code is either very complex or very subtle or critical
+
+82
+00:06:11,210 --> 00:06:15,490
+and that's especially the case if what you're doing
+
+83
+00:06:15,020 --> 00:06:19,030
+is writing concurrent or distributed system
+
+84
+00:06:18,950 --> 00:06:23,350
+it is going to be complex and subtle and quite likely critical
+
+85
+00:06:23,540 --> 00:06:27,880
+and for that you should have tools
+
+86
+00:06:27,830 --> 00:06:29,500
+you should be using tools
+
+87
+00:06:29,240 --> 00:06:32,170
+to check it to check your blueprints
+
+88
+00:06:32,530 --> 00:06:37,590
+and if you're going to use tools it means you need a formal language
+
+89
+00:06:37,510 --> 00:06:40,290
+because tools don't understand prose
+
+90
+00:06:40,620 --> 00:06:42,780
+so how to write a spec
+
+91
+00:06:43,110 --> 00:06:45,660
+well writing requires thinking
+
+92
+00:06:46,230 --> 00:06:49,440
+so how to think about programs
+
+93
+00:06:51,000 --> 00:06:57,420
+we should think about programs like computer scientists namely like scientists
+
+94
+00:06:58,680 --> 00:07:04,500
+scientific thinking is a very successful way of thinking we know all that it's brought us
+
+95
+00:07:04,620 --> 00:07:09,750
+what science does is make mathematical models of reality
+
+96
+00:07:10,830 --> 00:07:15,780
+for example the first very successful science was astronomy
+
+97
+00:07:17,160 --> 00:07:22,830
+the reality planets have mountains oceans tides and weather
+
+98
+00:07:22,510 --> 00:07:24,840
+and all sorts of complicating things
+
+99
+00:07:24,960 --> 00:07:32,880
+but the simple model that's gotten astronomy pretty far
+
+100
+00:07:32,680 --> 00:07:39,120
+is to think of a planet model the planet as a point mass having position and momentum
+
+101
+00:07:40,290 --> 00:07:45,480
+computer science the reality consists of digital systems
+
+102
+00:07:45,630 --> 00:07:51,660
+things like a processor chip 、a game console or a computer executing a program
+
+103
+00:07:53,370 --> 00:07:57,480
+this is what I'll be talking about computer is executing programs
+
+104
+00:07:57,750 --> 00:08:03,180
+but what I have to say applies to all those other things just as well
+
+105
+00:08:03,780 --> 00:08:08,670
+so models there are lots of models that you've probably come across
+
+106
+00:08:08,230 --> 00:08:13,290
+Turing machines partially ordered set of events you probably haven't run across that
+
+107
+00:08:13,300 --> 00:08:23,370
+and lots of models but - to my mind stand out as being the most useful basic models
+
+108
+00:08:24,150 --> 00:08:28,050
+functions and sequences of states
+
+109
+00:08:28,860 --> 00:08:36,480
+so functions we model a function of a we can model a program as a function
+
+110
+00:08:36,670 --> 00:08:40,920
+that map's an input or to an output
+
+111
+00:08:40,840 --> 00:08:45,510
+or multiple inputs - or possible inputs to possible outputs
+
+112
+00:08:46,010 --> 00:08:48,460
+in math the function is very simple
+
+113
+00:08:48,500 --> 00:08:50,920
+it's an order as a set of ordered pairs
+
+114
+00:08:50,450 --> 00:08:55,480
+so for example the square function on natural numbers
+
+115
+00:08:55,420 --> 00:09:01,480
+it's this set of ordered pairs this pair 0-> 0 、1-> 1 、2-> 4 etc
+
+116
+00:09:01,580 --> 00:09:09,940
+and the element 2-> 4 is an element of this set of the fact that the outlet that
+
+117
+00:09:09,470 --> 00:09:15,850
+the pair 2-> 4 is an element of this square function is usually expressed
+
+118
+00:09:16,010 --> 00:09:18,910
+by saying square of 2 equals 4
+
+119
+00:09:19,690 --> 00:09:27,400
+now the domain of of square the domain of a function are all the first elements of those pairs
+
+120
+00:09:27,290 --> 00:09:33,850
+so for the square function the domain is the set number 0 1 2 & 3 etc
+
+121
+00:09:33,940 --> 00:09:38,770
+also known as the natural numbers that I like to write as n
+
+122
+00:09:39,700 --> 00:09:45,640
+to specify to define a function what you do is you specify its domain
+
+123
+00:09:45,560 --> 00:09:50,770
+so to specify square we say the domain of square is equal to the set of Naturals
+
+124
+00:09:50,810 --> 00:09:55,060
+and for each element X in its domain
+
+125
+00:09:55,120 --> 00:10:00,700
+we specify what Square maps X to
+
+126
+00:10:00,530 --> 00:10:03,670
+and it maps the value X to x squared
+
+127
+00:10:03,590 --> 00:10:06,790
+so that defines the square function
+
+128
+00:10:07,420 --> 00:10:13,330
+now functions in math are not the same as functions in programming languages
+
+129
+00:10:13,450 --> 00:10:15,370
+math is much simpler
+
+130
+00:10:15,260 --> 00:10:16,990
+I'm not a programming language expert
+
+131
+00:10:17,240 --> 00:10:22,030
+so I don't know what those things that programming languages
+
+132
+00:10:22,040 --> 00:10:23,290
+which is called functions are
+
+133
+00:10:23,110 --> 00:10:27,790
+but I know what math is that methods are a lot simpler
+
+134
+00:10:28,180 --> 00:10:32,560
+now the functions model will take you very far it's very useful
+
+135
+00:10:32,660 --> 00:10:34,240
+but there has limitations
+
+136
+00:10:35,140 --> 00:10:42,910
+its limitation main limitation is that it specifies what a program does but not how it does it
+
+137
+00:10:43,060 --> 00:10:48,460
+so for example quick sort and bubble sort compute the same function
+
+138
+00:10:49,480 --> 00:10:52,450
+but they're very different programs
+
+139
+00:10:53,560 --> 00:10:57,910
+also some programs don't just map inputs to outputs
+
+140
+00:10:58,990 --> 00:11:02,850
+some programs run forever well you know they may stop
+
+141
+00:11:02,710 --> 00:11:07,710
+before the the Sun explodes but it's useful to think of them it's running forever
+
+142
+00:11:07,860 --> 00:11:13,050
+for example operating systems you can't specify an operating system as a function
+
+143
+00:11:13,090 --> 00:11:15,450
+because it doesn't map inputs to outputs
+
+144
+00:11:15,900 --> 00:11:22,020
+so for that for those specifications use what I like to call
+
+145
+00:11:21,670 --> 00:11:23,730
+the standard behavioral model
+
+146
+00:11:23,560 --> 00:11:28,710
+in which a program execution is represented by a behavior
+
+147
+00:11:29,020 --> 00:11:33,900
+a behavior is a sequence of states
+
+148
+00:11:33,700 --> 00:11:38,910
+and a state is an assignment of values to variables
+
+149
+00:11:39,180 --> 00:11:44,400
+and a program is modeled by a set of behaviors
+
+150
+00:11:44,280 --> 00:11:49,220
+which behaviors that represent all possible executions of the program
+
+151
+00:11:49,800 --> 00:11:53,310
+so for example let's look at Euclid's algorithm
+
+152
+00:11:53,170 --> 00:11:56,730
+an algorithm is just an abstract program
+
+153
+00:11:57,540 --> 00:12:00,420
+as you all undoubtedly know
+
+154
+00:12:00,130 --> 00:12:05,940
+it computes the greatest common divisor of two natural of two integers m and n
+
+155
+00:12:05,560 --> 00:12:08,760
+by initializing x to m and y to m
+
+156
+00:12:08,530 --> 00:12:13,140
+and then it keeps subtracting the smaller from the larger
+
+157
+00:12:12,790 --> 00:12:17,700
+and when x and y are equal then it stops
+
+158
+00:12:17,710 --> 00:12:21,930
+because that x and y equals the GCD of M and n
+
+159
+00:12:22,110 --> 00:12:28,380
+so for M = 12 and N = 18 there's just one possible behavior
+
+160
+00:12:28,330 --> 00:12:34,500
+it starts with a state in which that assigns 12 to X and 18 to Y
+
+161
+00:12:34,180 --> 00:12:38,070
+and then subtract the next state is obtained by
+
+162
+00:12:37,780 --> 00:12:41,190
+subtracting the smaller one from the larger X from Y
+
+163
+00:12:40,900 --> 00:12:47,340
+so you get reach a state where x equals 12 and y equals 18 minus 12 or 6
+
+164
+00:12:47,200 --> 00:12:53,970
+and in the next state you subtract the smaller which is y from the larger and you wind up in the state
+
+165
+00:12:53,740 --> 00:12:56,340
+in which x equals 6 and y equals 6
+
+166
+00:12:56,080 --> 00:12:58,800
+and since x and y are equal you stop
+
+167
+00:12:58,590 --> 00:13:01,020
+so it's very simple algorithm
+
+168
+00:13:00,880 --> 00:13:03,450
+it has just one possible behavior
+
+169
+00:13:04,350 --> 00:13:07,560
+so how do we describe a set of behaviors
+
+170
+00:13:08,520 --> 00:13:10,800
+well first of all there's a theorem
+
+171
+00:13:11,100 --> 00:13:14,490
+that says any set B of behaviors
+
+172
+00:13:14,560 --> 00:13:20,190
+is the conjunct the intersection of two sets
+
+173
+00:13:19,960 --> 00:13:23,910
+a set of behaviors satisfying a safety property
+
+174
+00:13:23,950 --> 00:13:28,320
+and a set of behaviors satisfying a liveness property
+
+175
+00:13:28,620 --> 00:13:30,900
+so what our safety and liveness
+
+176
+00:13:30,840 --> 00:13:34,140
+well I'm not going to bother going into you know
+
+177
+00:13:33,670 --> 00:13:38,190
+the formal definitions but a safety property is false if and only if
+
+178
+00:13:37,900 --> 00:13:41,850
+it can be violated at some point during the behavior
+
+179
+00:13:42,060 --> 00:13:45,360
+so partial correctness is an example
+
+180
+00:13:45,190 --> 00:13:50,490
+partial correctness is violated if the program stops with the wrong answer
+
+181
+00:13:50,260 --> 00:13:53,640
+so that's some point in the behavior
+
+182
+00:13:53,620 --> 00:13:57,570
+you can tell that it that it the property was violated
+
+183
+00:13:57,610 --> 00:14:01,700
+the point at which the program stopped with the incorrect answer
+
+184
+00:14:02,520 --> 00:14:05,100
+the liveness property is one
+
+185
+00:14:04,810 --> 00:14:08,910
+in which you need to see the complete behavior in order to know if it's false
+
+186
+00:14:08,680 --> 00:14:13,530
+or if it's not satisfied by the by the program
+
+187
+00:14:13,480 --> 00:14:15,600
+classic example is termination
+
+188
+00:14:15,820 --> 00:14:18,570
+you can't tell that the program hasn't terminated
+
+189
+00:14:18,910 --> 00:14:21,990
+by looking at any finite piece of the program
+
+190
+00:14:21,910 --> 00:14:25,560
+you have to look at the entire behavior to know that it never terminates
+
+191
+00:14:25,830 --> 00:14:31,590
+so we satisfy specify a set of behaviors with by specifying a
+
+192
+00:14:31,300 --> 00:14:33,090
+safety property and aliveness property
+
+193
+00:14:33,780 --> 00:14:39,000
+now in practice specifying safety just turns out to be more important
+
+194
+00:14:39,330 --> 00:14:45,720
+because that's where errors are most likely to occur and tend to be more subtle
+
+195
+00:14:45,640 --> 00:14:48,840
+I mean liveness is important just not as important to safety
+
+196
+00:14:48,760 --> 00:14:52,490
+and so to save time I'm going to ignore aliveness today
+
+197
+00:14:52,990 --> 00:14:54,690
+and just talk about safety
+
+198
+00:14:54,870 --> 00:14:58,380
+so how to specify a safety property
+
+199
+00:14:58,330 --> 00:15:00,960
+we specify it with two things
+
+200
+00:15:01,050 --> 00:15:03,900
+the set of possible initial States
+
+201
+00:15:03,880 --> 00:15:06,540
+and the next state relation
+
+202
+00:15:06,700 --> 00:15:10,830
+which describes all possible successor states
+
+203
+00:15:10,720 --> 00:15:15,990
+of any state so what language should we use to write these things
+
+204
+00:15:16,320 --> 00:15:18,840
+well let's act like scientists
+
+205
+00:15:18,880 --> 00:15:22,410
+what language do mathema two scientists use
+
+206
+00:15:22,090 --> 00:15:24,240
+and the language is mathematics
+
+207
+00:15:24,430 --> 00:15:26,370
+that's the language of science
+
+208
+00:15:26,260 --> 00:15:29,940
+so the set of initial states they're described by a formula
+
+209
+00:15:29,970 --> 00:15:36,630
+so in Euclid's algorithm the set of initial States we initialize the initial state is one
+
+210
+00:15:36,280 --> 00:15:38,820
+in which X = M and Y = N
+
+211
+00:15:38,500 --> 00:15:42,930
+so that is specified that initial state is specified by this formula
+
+212
+00:15:43,290 --> 00:15:50,730
+and the only part this has only one it's only one possible initial state that satisfies that formula
+
+213
+00:15:51,810 --> 00:15:55,740
+the next state relation is also described by a formula
+
+214
+00:15:55,810 --> 00:15:58,320
+and to describe it
+
+215
+00:15:58,060 --> 00:16:05,640
+I'll use unprimed variables to talk about the current state or the first state of the pair
+
+216
+00:16:05,380 --> 00:16:08,970
+and prime variables we're talking about the next state
+
+217
+00:16:08,940 --> 00:16:12,990
+so let's look at the next state relation for Euclid's algorithm
+
+218
+00:16:12,820 --> 00:16:14,520
+there are two possibilities
+
+219
+00:16:14,560 --> 00:16:18,240
+either X is greater than Y or Y is greater than X
+
+220
+00:16:18,040 --> 00:16:21,150
+so that formula is going to be the
+
+221
+00:16:20,860 --> 00:16:23,010
+disjunction of two of two formulas
+
+222
+00:16:24,270 --> 00:16:30,270
+if X is greater than Y then the new value of x prime
+
+223
+00:16:30,570 --> 00:16:35,250
+is equal to what you get by subtracting Y from it
+
+224
+00:16:34,960 --> 00:16:39,150
+so it's new value of x prime is equal to the old value of
+
+225
+00:16:38,680 --> 00:16:40,740
+X minus the old value of y
+
+226
+00:16:40,570 --> 00:16:45,210
+and the new value of X of Y is equal to the old value
+
+227
+00:16:45,420 --> 00:16:52,830
+so that first formula is specified by all pairs of states satisfying X
+
+228
+00:16:52,660 --> 00:16:55,140
+greater than Y and in the initial state
+
+229
+00:16:55,150 --> 00:16:57,840
+in first state X prime equals x minus y
+
+230
+00:16:57,850 --> 00:17:02,450
+and y prime equals y were okay
+
+231
+00:17:02,950 --> 00:17:05,550
+you understand what what I said
+
+232
+00:17:05,550 --> 00:17:08,700
+and that describes one one possibility
+
+233
+00:17:08,710 --> 00:17:12,000
+or the disjunction of these formulas to the other case
+
+234
+00:17:11,800 --> 00:17:16,290
+it's or what Y is greater than X in the first state
+
+235
+00:17:16,090 --> 00:17:20,490
+and the value of y the new state and the value of y in the old state minus
+
+236
+00:17:20,560 --> 00:17:22,500
+the value of x in the old state etc
+
+237
+00:17:22,380 --> 00:17:28,110
+so this simple formula describes the next state ratio relation of Euclid's algorithm
+
+238
+00:17:28,140 --> 00:17:31,680
+so let's see how it works
+
+239
+00:17:31,590 --> 00:17:35,340
+how you get behaviors out of those two formulas
+
+240
+00:17:36,000 --> 00:17:41,540
+well for example for an example I'll take em equal to 12 and N equals 18
+
+241
+00:17:41,720 --> 00:17:46,210
+so to get the initial state we look at the initial predicate s-- predicate
+
+242
+00:17:46,710 --> 00:17:52,700
+and we substitute 12 for m and 18 for n
+
+243
+00:17:52,350 --> 00:17:55,760
+for what for n rather and you see you under
+
+244
+00:17:55,440 --> 00:18:00,290
+that substitution there's only one pair of values x and y that satisfy this
+
+245
+00:17:59,850 --> 00:18:02,420
+relation x equals 12 and y equals 18
+
+246
+00:18:03,770 --> 00:18:07,340
+so to get the next state the second state
+
+247
+00:18:07,050 --> 00:18:09,560
+we apply the next state look formula
+
+248
+00:18:10,370 --> 00:18:14,030
+substituting 12 for x and 18 for y
+
+249
+00:18:13,710 --> 00:18:21,980
+and we do that notice that 12 greater than 18 is false and 18 greater than 12 is true
+
+250
+00:18:21,860 --> 00:18:27,740
+we'll false and anything is false so that first half of the formula is false
+
+251
+00:18:27,980 --> 00:18:32,120
+true in anything is people to the rest of the formula
+
+252
+00:18:32,150 --> 00:18:39,260
+so this formula is satisfied by the old value of x being 12
+
+253
+00:18:39,180 --> 00:18:44,060
+and the new value of x being 18 minus 12 or 6
+
+254
+00:18:44,630 --> 00:18:52,850
+so this is the only possible next state that satisfies this next relation
+
+255
+00:18:52,940 --> 00:18:57,830
+when for the initial state x equals 12 and y equals 18
+
+256
+00:18:58,790 --> 00:19:03,470
+okay to find the next state we do the same thing we
+
+257
+00:19:03,660 --> 00:19:07,090
+substitute 12 for X and wife and 6 for y
+
+258
+00:19:07,100 --> 00:19:14,540
+we simplify we see that 6 greater than 12 is false and 12 greater than 6 is true
+
+259
+00:19:14,370 --> 00:19:21,140
+so the formula simplifies to x prime equals 12 minus 6 and y prime equals 6
+
+260
+00:19:22,370 --> 00:19:26,930
+so it tells us that the only possible successor state
+
+261
+00:19:26,730 --> 00:19:34,100
+the only possible third state is x equals 6 and y equals 6 and to find the next state
+
+262
+00:19:33,840 --> 00:19:40,190
+well do the same thing we substitute 6 for X and 6 for y and we see
+
+263
+00:19:39,930 --> 00:19:42,950
+that the entire formula is false
+
+264
+00:19:42,780 --> 00:19:48,710
+and there are no values of x prime and y prime which can make the formula false true
+
+265
+00:19:49,530 --> 00:19:51,140
+so there is no next state
+
+266
+00:19:50,850 --> 00:19:54,560
+so there's no next state means the program is stopped
+
+267
+00:19:54,860 --> 00:19:57,230
+so that's Euclid's algorithm
+
+268
+00:19:57,770 --> 00:20:03,380
+and when we see special about Euclid's algorithm is for any values of x and y
+
+269
+00:20:03,030 --> 00:20:06,500
+there are unique values of x prime and y prime
+
+270
+00:20:06,240 --> 00:20:08,090
+that make next true
+
+271
+00:20:07,950 --> 00:20:10,820
+there's either one value or no values
+
+272
+00:20:11,390 --> 00:20:14,090
+so Euclid's algorithm is deterministic
+
+273
+00:20:14,540 --> 00:20:16,820
+to model their non determinism
+
+274
+00:20:17,300 --> 00:20:20,060
+we just have a next state relation
+
+275
+00:20:20,190 --> 00:20:23,540
+that allows multiple next States for a current state
+
+276
+00:20:23,250 --> 00:20:26,390
+there's nothing magic you know terribly difficult
+
+277
+00:20:26,100 --> 00:20:29,510
+you know hard about can about non determinism
+
+278
+00:20:30,500 --> 00:20:33,440
+multiple assignments of values to prime variables
+
+279
+00:20:33,570 --> 00:20:38,300
+that make next true for a single assignment of values to unprimed variables
+
+280
+00:20:38,310 --> 00:20:41,090
+that's what non determinism is all about
+
+281
+00:20:41,270 --> 00:20:43,670
+okay what about formal specs
+
+282
+00:20:44,060 --> 00:20:48,380
+we need formal specifications only to apply tools
+
+283
+00:20:48,450 --> 00:20:53,330
+we mathematicians you know before there were any tools you know wrote math
+
+284
+00:20:53,190 --> 00:20:55,550
+you know very you know an informal notation
+
+285
+00:20:55,620 --> 00:21:00,440
+they want to use Mathematica though they have to you know write in the language Mathematica
+
+286
+00:21:00,630 --> 00:21:04,640
+so if we want to apply of tools we need a formal language
+
+287
+00:21:04,290 --> 00:21:07,640
+and the language that I'm going to describe were
+
+288
+00:21:07,500 --> 00:21:09,740
+I use is called TLA plus
+
+289
+00:21:09,920 --> 00:21:18,890
+so this this pair of formulas are written just like this in TLA plus
+
+290
+00:21:20,120 --> 00:21:25,520
+we need to form a language we need to write declarations
+
+291
+00:21:25,800 --> 00:21:29,720
+we declare m and n to be constants and x and y to be variables
+
+292
+00:21:30,200 --> 00:21:35,330
+and then add a little boilerplate we said it extends the integers
+
+293
+00:21:35,430 --> 00:21:41,240
+the integer or a standard module that defines things like plus and minus and greater than
+
+294
+00:21:40,830 --> 00:21:44,870
+and we put them inside of a module which I've called module Euclid
+
+295
+00:21:44,760 --> 00:21:48,620
+and that's a TL A+ specification of Euclid's algorithm
+
+296
+00:21:48,390 --> 00:21:50,990
+and this is what it looks like in SK
+
+297
+00:21:53,390 --> 00:21:57,140
+now you can model check TLA plus specs
+
+298
+00:21:57,200 --> 00:22:08,250
+know model checking conceptually checks all possible confusions of the program on a very small model
+
+299
+00:22:10,830 --> 00:22:16,920
+it's extremely effective and quite easy to do
+
+300
+00:22:16,890 --> 00:22:21,210
+you know you basically tell the model checker what the model is
+
+301
+00:22:20,860 --> 00:22:24,540
+models are usually you know instantiating values of constants
+
+302
+00:22:24,520 --> 00:22:27,630
+so for Euclid's algorithm we'd have to tell it what m and n equals
+
+303
+00:22:27,490 --> 00:22:29,820
+and then the model checker will go through
+
+304
+00:22:29,650 --> 00:22:32,430
+and in you know a few nanoseconds
+
+305
+00:22:32,650 --> 00:22:37,590
+for something that simple will we'll check whoa b1 possible
+
+306
+00:22:37,600 --> 00:22:42,450
+their behavior and you can write formal correctness proofs
+
+307
+00:22:42,580 --> 00:22:44,760
+and check them mechanically in TLA
+
+308
+00:22:44,800 --> 00:22:48,600
+you know write the proofs in TLA plus
+
+309
+00:22:48,370 --> 00:22:51,690
+and we have a theorem prover that can check the proofs
+
+310
+00:22:51,430 --> 00:22:56,610
+and that's hard work and well all this is math stuff
+
+311
+00:22:56,470 --> 00:23:00,120
+we know he's you know it's really very well nice and pretty stuff
+
+312
+00:23:00,010 --> 00:23:02,790
+but we know that math works only for toy examples
+
+313
+00:23:02,920 --> 00:23:06,900
+to model real system you need a real language
+
+314
+00:23:07,060 --> 00:23:10,590
+with types procedures objects and all of that
+
+315
+00:23:10,470 --> 00:23:19,530
+ma'am wrong let me quote something written by Chris Newcomb as an Amazon engineer
+
+316
+00:23:20,160 --> 00:23:26,550
+said we have used TL A+ on 10 large complex real-world systems
+
+317
+00:23:26,920 --> 00:23:31,680
+in every case TL A+ has added significant value
+
+318
+00:23:31,620 --> 00:23:37,560
+either preventing subtle serious bugs from reaching production
+
+319
+00:23:38,580 --> 00:23:43,080
+or giving us enough understanding and confidence
+
+320
+00:23:42,880 --> 00:23:48,810
+to make aggressive performance optimizations without sacrificing correctness
+
+321
+00:23:48,870 --> 00:23:52,950
+one of the other things people will tell you about formal methods is
+
+322
+00:23:52,630 --> 00:23:55,650
+oh if you use a formal method you're really going to kill your performance
+
+323
+00:23:55,750 --> 00:23:57,960
+well in fact it's just the opposite
+
+324
+00:23:58,320 --> 00:24:02,850
+and the other thing they'll tell you is Oh management will never let us do it
+
+325
+00:24:02,650 --> 00:24:08,820
+well management at Amazon and now encouraging teams to write TL a-plus specs
+
+326
+00:24:09,210 --> 00:24:16,330
+and in annual planning managers are allocating engineering time to use TLA Plus
+
+327
+00:24:17,110 --> 00:24:21,310
+this was written in 2013 I think there are a few more systems
+
+328
+00:24:21,230 --> 00:24:23,410
+that they've been specifying since then
+
+329
+00:24:23,710 --> 00:24:26,890
+the xbox360 memory system
+
+330
+00:24:26,890 --> 00:24:36,820
+a Chuck Thacker had an intern right at TLA plus spec of the Xbox memory system
+
+331
+00:24:36,740 --> 00:24:41,980
+and just writing the spec didn't even get to point of model checking it
+
+332
+00:24:41,870 --> 00:24:49,090
+he caught a bug that the designers of the memory system at IBM
+
+333
+00:24:49,130 --> 00:24:53,170
+after scratching their heads looking at it said yeah that was a bug
+
+334
+00:24:52,970 --> 00:24:57,010
+and that would not have been caught by their testing procedures
+
+335
+00:24:57,080 --> 00:25:03,910
+and that bug would have caused every Xbox in the world to crash after four hours of use
+
+336
+00:25:05,260 --> 00:25:08,380
+you can learn about TLA plus on the web
+
+337
+00:25:08,620 --> 00:25:12,220
+today I'm not going to be talking about TLA plus
+
+338
+00:25:11,990 --> 00:25:14,500
+I'm going to be talking about informal specifications
+
+339
+00:25:14,870 --> 00:25:16,960
+and I'll start with an example
+
+340
+00:25:18,520 --> 00:25:22,630
+TLA Tech which is the pretty printer for TL A+
+
+341
+00:25:23,710 --> 00:25:27,850
+here is what somebody user TL A+ user might write
+
+342
+00:25:28,870 --> 00:25:31,480
+some silly formula like this
+
+343
+00:25:31,250 --> 00:25:33,580
+and if you just did the naive output
+
+344
+00:25:33,620 --> 00:25:42,670
+just took things from teletype font and put them into translated the ascii into the symbols
+
+345
+00:25:42,620 --> 00:25:45,670
+left / right / into the conjunction symbol
+
+346
+00:25:45,620 --> 00:25:50,140
+and you get something like that formula and the right
+
+347
+00:25:50,350 --> 00:25:56,380
+but alignment is actually has significance in TL a-plus
+
+348
+00:25:56,500 --> 00:26:03,760
+and the user undoubtedly wanted he certainly wanted the left conjunction symbols aligned
+
+349
+00:26:03,620 --> 00:26:06,640
+because the formula might mean something different otherwise
+
+350
+00:26:06,680 --> 00:26:09,730
+and he also probably wanted those equal signs aligned
+
+351
+00:26:10,810 --> 00:26:15,970
+so this is the right output that the pretty partition produce for this example
+
+352
+00:26:16,390 --> 00:26:19,120
+on the other hand if you look at this input
+
+353
+00:26:19,480 --> 00:26:22,720
+this is what the naive output would be like
+
+354
+00:26:22,550 --> 00:26:27,160
+and the user probably didn't want those two symbols aligned
+
+355
+00:26:27,200 --> 00:26:29,170
+that was probably just an accidental
+
+356
+00:26:30,050 --> 00:26:35,200
+so in this case the naive output is the correct output that's what you want
+
+357
+00:26:35,530 --> 00:26:40,540
+well there's no precise definition of correct alignment
+
+358
+00:26:40,760 --> 00:26:43,240
+correctness means what the user wants
+
+359
+00:26:43,100 --> 00:26:46,570
+and there's no way of formally specifying what the user wants
+
+360
+00:26:48,070 --> 00:26:53,010
+so obviously if we can specify correctness specification
+
+361
+00:26:53,510 --> 00:26:56,230
+what good can specification we need to specify correctness
+
+362
+00:26:56,270 --> 00:26:57,940
+what could how can we use specification
+
+363
+00:26:58,300 --> 00:27:00,160
+well we can
+
+364
+00:27:00,880 --> 00:27:07,390
+not knowing what a program should do doesn't mean you don't have to think you just do this code
+
+365
+00:27:07,190 --> 00:27:09,880
+it means you have to think a lot harder
+
+366
+00:27:11,380 --> 00:27:16,000
+which means that that's what a spec is even more important
+
+367
+00:27:16,100 --> 00:27:19,450
+when you don't know what the program is supposed to do
+
+368
+00:27:19,130 --> 00:27:22,780
+and it seems impossible to even say what it should do
+
+369
+00:27:22,520 --> 00:27:26,200
+because it has to do something and you have to decide what it should do
+
+370
+00:27:25,880 --> 00:27:28,840
+so that requires a lot of thinking which requires writing
+
+371
+00:27:29,290 --> 00:27:31,750
+so what did I do
+
+372
+00:27:32,410 --> 00:27:38,050
+well my spec consisted of six rules plus definitions
+
+373
+00:27:38,360 --> 00:27:43,900
+and these are in informal met you know quote mathematical prose
+
+374
+00:27:43,640 --> 00:27:45,910
+and formal if they're written in comments
+
+375
+00:27:45,890 --> 00:27:48,490
+oh here's an example of one of the rules
+
+376
+00:27:48,200 --> 00:27:53,710
+it says a left comment token is left comment aligned with its covering token
+
+377
+00:27:53,600 --> 00:27:56,620
+well I don't even know what that means anymore
+
+378
+00:27:56,270 --> 00:27:58,090
+I'd have to read the spec
+
+379
+00:27:57,860 --> 00:28:01,570
+but left comment aligned and covering token are terms
+
+380
+00:28:01,460 --> 00:28:07,090
+that were defined in the in this specification I wrote
+
+381
+00:28:06,800 --> 00:28:12,100
+and if you look at it this is really mathematical prose
+
+382
+00:28:13,180 --> 00:28:22,240
+what did I write this spec well it was a lot easier to understand and debug six rules
+
+383
+00:28:22,300 --> 00:28:28,750
+than 850 lines of code probably would have been more than 850 lines of code
+
+384
+00:28:28,460 --> 00:28:30,130
+if I hadn't written those rules first
+
+385
+00:28:30,190 --> 00:28:33,040
+and I did a lot of debugging of the rules
+
+386
+00:28:33,730 --> 00:28:36,790
+you know you write a bunch of rules
+
+387
+00:28:36,560 --> 00:28:39,130
+and you know what they're going to do is not obvious
+
+388
+00:28:39,200 --> 00:28:44,320
+and you try a bunch of examples and I a debugging code
+
+389
+00:28:44,180 --> 00:28:46,900
+so I could see what rules were being applied
+
+390
+00:28:46,700 --> 00:28:52,210
+and we don't would do with something weird and I say oh and that rule needs to be modified
+
+391
+00:28:52,160 --> 00:28:54,790
+for this and an iterative process
+
+392
+00:28:54,590 --> 00:29:01,030
+and the few bugs and implementing the rules were easy to catch
+
+393
+00:29:00,740 --> 00:29:02,350
+though there was no problem
+
+394
+00:29:03,100 --> 00:29:05,560
+had I just written the code
+
+395
+00:29:05,330 --> 00:29:11,110
+it would have taken me much longer to just get something I could live with
+
+396
+00:29:10,850 --> 00:29:15,640
+and I'm sure the results wouldn't have produced formatting nearly as good
+
+397
+00:29:16,120 --> 00:29:20,170
+so why not a formal spec why didn't I write at TLA + spec
+
+398
+00:29:20,080 --> 00:29:22,240
+well several reasons
+
+399
+00:29:22,130 --> 00:29:24,520
+first of all getting it right was not that important
+
+400
+00:29:24,560 --> 00:29:26,740
+the world is not going to come crashing
+
+401
+00:29:26,750 --> 00:29:30,310
+down if something isn't quite properly aligned and pretty printing
+
+402
+00:29:30,610 --> 00:29:34,330
+in particular it didn't have to work in all corner cases
+
+403
+00:29:34,040 --> 00:29:37,810
+yes No you know there's no way of getting it you know totally right
+
+404
+00:29:37,720 --> 00:29:42,040
+and just as important there aren't any tools
+
+405
+00:29:41,990 --> 00:29:45,730
+that could help me the model checker wouldn't have helped in this example
+
+406
+00:29:45,680 --> 00:29:49,960
+because you know you need some some properties to check it against
+
+407
+00:29:49,910 --> 00:29:54,910
+and you know they're just tools were not
+
+408
+00:29:54,620 --> 00:29:59,710
+you know the TLA plus tools are not designed for that kind of problems
+
+409
+00:29:59,660 --> 00:30:02,170
+so what's typical about this spec
+
+410
+00:30:02,230 --> 00:30:05,950
+the spec is at a higher level than the code
+
+411
+00:30:06,070 --> 00:30:09,250
+it could have been implemented in any language
+
+412
+00:30:10,570 --> 00:30:17,620
+no method nor tool none of your favorite ways of you know programming methodologies
+
+413
+00:30:18,220 --> 00:30:21,190
+would have been worth a damn here
+
+414
+00:30:21,170 --> 00:30:24,100
+they would not have helped me write the spec
+
+415
+00:30:24,670 --> 00:30:31,420
+because no method of writing you know better code
+
+416
+00:30:31,280 --> 00:30:33,340
+would have made the spec unnecessary
+
+417
+00:30:33,800 --> 00:30:37,540
+I had to write the spec it was not code
+
+418
+00:30:37,450 --> 00:30:45,460
+and it says nothing about how to write the code you could implement my spec in any language
+
+419
+00:30:45,500 --> 00:30:53,470
+you write a spec to help you think about the problem before you think about the code
+
+420
+00:30:54,620 --> 00:30:57,440
+so what's not typical about this spec
+
+421
+00:30:57,450 --> 00:30:58,850
+it's quite subtle
+
+422
+00:30:59,010 --> 00:31:04,550
+remember I said 95% of code people write requires less thought
+
+423
+00:31:04,380 --> 00:31:08,060
+and you know simpler shorter specs good enough
+
+424
+00:31:08,330 --> 00:31:10,430
+also it's a set of rules
+
+425
+00:31:10,170 --> 00:31:15,440
+a set of rules or requirements or axioms is usually a bad spec
+
+426
+00:31:15,390 --> 00:31:17,480
+because it's really hard to understand
+
+427
+00:31:17,550 --> 00:31:21,680
+it turns out that that was a good match for this particular problem
+
+428
+00:31:21,660 --> 00:31:28,010
+which says there are no universal rules about how to write specs
+
+429
+00:31:30,330 --> 00:31:34,760
+no universal rules that'll tell you how to write any program in the world
+
+430
+00:31:35,120 --> 00:31:38,210
+so specifying how to compute a function
+
+431
+00:31:39,530 --> 00:31:42,440
+specifying what the pretty printer should do is hard
+
+432
+00:31:43,730 --> 00:31:45,830
+implementing the spec was easy
+
+433
+00:31:47,570 --> 00:31:51,050
+specifying what a sorting program should do is easy
+
+434
+00:31:51,500 --> 00:31:55,280
+figuring out how to implement it efficiently is hard
+
+435
+00:31:55,110 --> 00:31:57,200
+at least if nobody has showed you how
+
+436
+00:31:58,460 --> 00:32:03,110
+it requires thinking which requires writing a specification
+
+437
+00:32:03,770 --> 00:32:07,940
+so I'll give you an example of a specification for quicksort
+
+438
+00:32:09,380 --> 00:32:11,360
+probably you all seen quicksort
+
+439
+00:32:11,370 --> 00:32:15,710
+quicksort is written by Tony Hoare it's a divide-and-conquer algorithm
+
+440
+00:32:15,750 --> 00:32:16,880
+for sorting an array
+
+441
+00:32:16,650 --> 00:32:19,880
+call it a zero to a n minus one
+
+442
+00:32:19,590 --> 00:32:22,610
+and for simplicity I'll assume that's an array of numbers
+
+443
+00:32:22,640 --> 00:32:27,920
+and it uses a partition procedure you give it two arguments low and high
+
+444
+00:32:27,570 --> 00:32:33,260
+and what that procedure does is it chooses a pivot point
+
+445
+00:32:32,840 --> 00:32:36,290
+pivot number in low to high minus 1
+
+446
+00:32:36,030 --> 00:32:42,260
+and then it permutes the elements to the left of the pivot a low to a high
+
+447
+00:32:43,700 --> 00:32:52,100
+it permutes the number the the part of the array within the limit from low to high
+
+448
+00:32:52,190 --> 00:32:56,150
+so that everything from pivot downwards
+
+449
+00:32:56,490 --> 00:33:00,680
+is becomes is less than or equal to
+
+450
+00:33:00,690 --> 00:33:03,080
+everything from pivot plus 1 upwards
+
+451
+00:33:04,190 --> 00:33:08,000
+so fortunately if well seen quick sort before
+
+452
+00:33:07,920 --> 00:33:11,750
+so i rambling description isn't necessary
+
+453
+00:33:12,110 --> 00:33:17,000
+and for this example I don't care how this procedure is implemented
+
+454
+00:33:17,010 --> 00:33:19,910
+of course that's the real trick of quicksort implementing
+
+455
+00:33:20,010 --> 00:33:23,960
+that but you know I only have 50 minutes here so
+
+456
+00:33:23,930 --> 00:33:26,570
+so let's specify quicksort and pseudocode
+
+457
+00:33:27,260 --> 00:33:33,290
+you know this by the partition procedure is pick a pivot and low-to-high -1 and
+
+458
+00:33:33,090 --> 00:33:35,390
+permute a low to a high to make bla bla
+
+459
+00:33:35,400 --> 00:33:37,400
+bla and return the value pivot
+
+460
+00:33:38,150 --> 00:33:43,670
+and you have a recursive procedure q s applied to low to high
+
+461
+00:33:43,680 --> 00:33:45,710
+and if low is less than high
+
+462
+00:33:45,710 --> 00:33:50,990
+you call the protection procedure for on low and high
+
+463
+00:33:50,640 --> 00:33:56,260
+and then you recursively call the procedure for the 2 subintervals
+
+464
+00:33:57,680 --> 00:34:03,830
+and if low is not less than high then it means you have one element
+
+465
+00:34:03,890 --> 00:34:07,580
+and there's nothing to sort and so you're done
+
+466
+00:34:07,260 --> 00:34:14,150
+and the main program just implies Q s to the entire array from Sirte and minus one
+
+467
+00:34:14,300 --> 00:34:21,290
+so informal no formal syntax no declarations pseudocode
+
+468
+00:34:21,570 --> 00:34:25,550
+it's it's a fine specification yeah when
+
+469
+00:34:25,140 --> 00:34:28,040
+you're gonna code you know pretty trivial to code from this
+
+470
+00:34:27,690 --> 00:34:29,840
+and you know any programming language
+
+471
+00:34:30,110 --> 00:34:31,820
+easy to understand
+
+472
+00:34:32,480 --> 00:34:34,670
+but it's a really quick sort
+
+473
+00:34:35,390 --> 00:34:38,480
+it's the way quicksort is almost always described
+
+474
+00:34:39,710 --> 00:34:44,180
+but recursion is not a form fundamental part of quicksort
+
+475
+00:34:44,330 --> 00:34:48,320
+it's just one way of implementing divide and conquer
+
+476
+00:34:48,210 --> 00:34:50,090
+now here's a problem
+
+477
+00:34:49,830 --> 00:34:52,790
+and in fact it's probably not the best way
+
+478
+00:34:52,740 --> 00:34:56,870
+if you want to execute this on multiple cores
+
+479
+00:34:56,960 --> 00:35:00,590
+so here's a problem give to your friends and colleagues
+
+480
+00:35:00,350 --> 00:35:04,070
+write a non recursive version of quicksort
+
+481
+00:35:05,060 --> 00:35:07,760
+almost no one can do it in ten minutes
+
+482
+00:35:07,790 --> 00:35:11,210
+they try to compile the recursive version
+
+483
+00:35:11,160 --> 00:35:12,530
+and nobody can get
+
+484
+00:35:12,180 --> 00:35:15,740
+almost nobody can get that right and ten minutes standing on their feet
+
+485
+00:35:16,460 --> 00:35:20,060
+but I'll tell you you know what the real solution is
+
+486
+00:35:21,120 --> 00:35:25,040
+we do is maintain a set u of index ranges
+
+487
+00:35:25,050 --> 00:35:27,890
+on which partition needs to be called
+
+488
+00:35:28,550 --> 00:35:35,090
+initially u equals contain is a set containing a single index range
+
+489
+00:35:34,800 --> 00:35:37,520
+from zero and minus one represented by this pair
+
+490
+00:35:37,910 --> 00:35:40,340
+now we can write this in pseudocode
+
+491
+00:35:40,740 --> 00:35:47,150
+but let's be scientists let's write init and next directly in mathematics
+
+492
+00:35:47,630 --> 00:35:49,700
+so the initial predicate
+
+493
+00:35:50,270 --> 00:35:54,740
+says a is equal to any array of numbers of length n
+
+494
+00:35:54,480 --> 00:35:59,570
+and u is equal to the set consisting of that single element
+
+495
+00:35:59,960 --> 00:36:05,600
+yep this is in formal mathematics but it's informal you know
+
+496
+00:36:05,220 --> 00:36:12,080
+we could write some formal way of describing the set of a on any array of numbers of length N
+
+497
+00:36:12,050 --> 00:36:15,110
+and before writing next let me make a definition
+
+498
+00:36:16,100 --> 00:36:20,030
+let me define partitions of B pivot low high
+
+499
+00:36:20,090 --> 00:36:23,930
+it's the set of arrays obtained from B
+
+500
+00:36:24,260 --> 00:36:27,830
+by permuting the load to be high
+
+501
+00:36:27,860 --> 00:36:31,490
+with pivot point pivot in other words
+
+502
+00:36:31,230 --> 00:36:34,910
+it's the set of all values that the partition procedure
+
+503
+00:36:34,670 --> 00:36:38,090
+the set of all new values of a that
+
+504
+00:36:38,130 --> 00:36:40,190
+the partition procedure is allowed to return
+
+505
+00:36:40,620 --> 00:36:44,540
+if it's also returning pivot as the pivot point
+
+506
+00:36:44,280 --> 00:36:46,910
+and I won't bother writing it out precisely
+
+507
+00:36:48,260 --> 00:36:54,290
+so next remember it's going to be a relation between the old values of a of U
+
+508
+00:36:54,000 --> 00:36:56,810
+and the new values a prime and u Prime
+
+509
+00:36:56,810 --> 00:36:58,730
+so let's write it
+
+510
+00:36:58,850 --> 00:37:01,880
+first of all we're gonna stop
+
+511
+00:37:01,860 --> 00:37:03,530
+if u is the empty set
+
+512
+00:37:03,350 --> 00:37:08,150
+so the next state relation says U is not equal to the empty set
+
+513
+00:37:08,040 --> 00:37:12,500
+and so performing there's going to be false if u is the empty set
+
+514
+00:37:13,010 --> 00:37:19,880
+then we pick any pair BT in U and if B
+
+515
+00:37:19,890 --> 00:37:28,580
+is not equal to T then we pick any point P any number P lying in B to t minus 1
+
+516
+00:37:28,320 --> 00:37:33,950
+and we let a prime be any element of
+
+517
+00:37:34,670 --> 00:37:37,330
+the set of legal partitions you know the
+
+518
+00:37:37,340 --> 00:37:40,410
+results of the partition function that
+
+519
+00:37:40,910 --> 00:37:43,540
+if you've given it B and T is the input
+
+520
+00:37:43,550 --> 00:37:48,430
+and it returns P as the partition as the
+
+521
+00:37:48,440 --> 00:37:54,520
+pivot point and then u prime is a set u
+
+522
+00:37:54,530 --> 00:37:57,580
+we're finished with the remain element bT
+
+523
+00:37:57,500 --> 00:38:00,790
+so we move that from the set and then we add the 2 subintervals
+
+524
+00:38:01,300 --> 00:38:05,320
+be P and you know to be and P plus 1 to T
+
+525
+00:38:05,060 --> 00:38:12,130
+into the set u of of ranges that still need to be sorted
+
+526
+00:38:13,180 --> 00:38:18,550
+otherwise if B is not e is equal to T then there's nothing to do
+
+527
+00:38:18,230 --> 00:38:26,620
+we leave a prime unchanged and we let u prime equal u with BT removed
+
+528
+00:38:26,570 --> 00:38:29,440
+we just take BT out of out of the set
+
+529
+00:38:29,180 --> 00:38:32,620
+and that's the next state relation
+
+530
+00:38:32,830 --> 00:38:40,980
+that describes a very nice way of doing quicksort iterative iteratively
+
+531
+00:38:41,480 --> 00:38:45,910
+it's actually a more general algorithm because if you
+
+532
+00:38:45,500 --> 00:38:47,500
+look at all the behaviors that can produce
+
+533
+00:38:48,010 --> 00:38:53,470
+the set of behaviors produced by the recursive version is a sub set
+
+534
+00:38:53,270 --> 00:38:56,860
+that is the set of all sequences of values
+
+535
+00:38:56,810 --> 00:38:59,470
+that a assumes is going to be a subset
+
+536
+00:38:59,510 --> 00:39:06,340
+of the ones that this next state relation allows
+
+537
+00:39:06,670 --> 00:39:10,990
+so why can almost no one find this version of quicksort
+
+538
+00:39:12,220 --> 00:39:15,670
+because people's minds are stuck in code
+
+539
+00:39:16,300 --> 00:39:23,200
+they haven't thought learn to think at a higher level than the code
+
+540
+00:39:23,590 --> 00:39:27,280
+now it's easy to write this as a precise formula
+
+541
+00:39:27,580 --> 00:39:33,100
+pick any arbitrary value is really existential quantification
+
+542
+00:39:33,170 --> 00:39:40,300
+the formula is true if there exists a value B T and u similarly there
+
+543
+00:39:40,130 --> 00:39:46,750
+and just let letting a prime be any element of this set
+
+544
+00:39:46,520 --> 00:39:48,160
+well that's easy enough to write
+
+545
+00:39:48,080 --> 00:39:50,290
+is a prime and an element of that
+
+546
+00:39:50,240 --> 00:39:54,400
+and those relations new values of U prime those thinks the
+
+547
+00:39:54,220 --> 00:39:58,090
+with prose to the right of the equal sign
+
+548
+00:39:57,910 --> 00:39:59,890
+they're easy to express
+
+549
+00:40:00,130 --> 00:40:09,670
+whoops this way and so on then
+
+550
+00:40:09,880 --> 00:40:19,090
+so what you have is a TLA plus formula here perfectly formal
+
+551
+00:40:19,540 --> 00:40:22,270
+if you prefer pseudocode
+
+552
+00:40:23,770 --> 00:40:28,630
+we have plus Cal it looks like a toy programming language
+
+553
+00:40:28,550 --> 00:40:34,840
+and the algorithm in fact appears in a comment and TLA plus module but an expression
+
+554
+00:40:34,880 --> 00:40:37,480
+can be any TLA plus expression
+
+555
+00:40:37,720 --> 00:40:40,660
+it also has some constructs for non determinism
+
+556
+00:40:40,730 --> 00:40:42,850
+but the fact that it can be any TLA
+
+557
+00:40:42,830 --> 00:40:45,240
+an expression can be any TLA plus expression
+
+558
+00:40:45,740 --> 00:40:48,040
+which means any expression of mathematics
+
+559
+00:40:48,260 --> 00:40:51,880
+makes it enormously powerful more more expressive than
+
+560
+00:40:51,590 --> 00:40:57,550
+anything any programming language designer has ever dreamed of
+
+561
+00:40:57,370 --> 00:41:02,020
+and it gets compiled to an easy-to-understand TLA plus spec
+
+562
+00:41:01,850 --> 00:41:06,340
+and in fact I regularly write things in plus cal
+
+563
+00:41:06,140 --> 00:41:08,830
+and then when I'm proving the correctness of them
+
+564
+00:41:08,510 --> 00:41:11,580
+I reason directly about the TLA plus specification
+
+565
+00:41:12,080 --> 00:41:15,130
+and you like the TLA plus tools the model checker
+
+566
+00:41:14,900 --> 00:41:18,160
+and theorem prover to the plus to the translation
+
+567
+00:41:20,550 --> 00:41:25,950
+programs that run forever have been talking about programs that compute a function
+
+568
+00:41:26,340 --> 00:41:29,550
+programs that run forever usually involve concurrency
+
+569
+00:41:30,090 --> 00:41:33,450
+things like operating systems distributed systems
+
+570
+00:41:33,780 --> 00:41:36,270
+few people can get them right
+
+571
+00:41:36,010 --> 00:41:37,920
+by just thinking and writing
+
+572
+00:41:38,370 --> 00:41:40,290
+I'm not one of them
+
+573
+00:41:40,530 --> 00:41:44,760
+we need tools to check what we're doing
+
+574
+00:41:45,120 --> 00:41:50,310
+the reason the TLA plus was so useful to the Amazon engineers is
+
+575
+00:41:50,050 --> 00:41:51,930
+because the model checker
+
+576
+00:41:52,620 --> 00:41:58,440
+so for concurrent and distributed systems you need to write something
+
+577
+00:41:58,420 --> 00:42:02,880
+you use TLA plus or plus Cal it was designed for distributed systems
+
+578
+00:42:02,910 --> 00:42:08,460
+it's great and you're not gonna get it you know distributed concurrent algorithm right
+
+579
+00:42:08,200 --> 00:42:09,630
+if you don't model check
+
+580
+00:42:09,520 --> 00:42:13,710
+it it's spent you don't write a specification and check it
+
+581
+00:42:14,160 --> 00:42:19,890
+the other 95% really simple stuff here is an example
+
+582
+00:42:19,990 --> 00:42:24,840
+of a spec you know that I write wrote in a program
+
+583
+00:42:25,260 --> 00:42:27,270
+why did I write that spec
+
+584
+00:42:27,420 --> 00:42:31,500
+to be sure I knew what the code should do before writing it
+
+585
+00:42:31,530 --> 00:42:36,540
+without writing aspect I only thought it was obvious what it should do
+
+586
+00:42:36,220 --> 00:42:40,770
+I had to write the spec to be sure it was really as simple and as obvious
+
+587
+00:42:40,720 --> 00:42:42,060
+as I thought it was
+
+588
+00:42:42,090 --> 00:42:46,110
+and later I didn't have to read the code
+
+589
+00:42:45,910 --> 00:42:49,200
+to know what that piece of code I wrote did
+
+590
+00:42:49,180 --> 00:42:52,740
+I just wrote the specification could read the specification
+
+591
+00:42:52,990 --> 00:42:59,520
+so a general rule that's one rule at least we can say about specs in general
+
+592
+00:42:59,380 --> 00:43:02,640
+if you're writing a spec of what a code should do
+
+593
+00:43:02,320 --> 00:43:04,650
+what a piece of code should do
+
+594
+00:43:04,300 --> 00:43:09,300
+that should say everything that anyone needs to know to use the code
+
+595
+00:43:11,070 --> 00:43:14,310
+how the code worked in the example I've just showed
+
+596
+00:43:14,350 --> 00:43:16,410
+was just too simple to require a spec
+
+597
+00:43:16,300 --> 00:43:19,740
+I mean it was it turned out to be harder than I thought
+
+598
+00:43:19,270 --> 00:43:22,170
+I would have discovered that when I started coding
+
+599
+00:43:21,880 --> 00:43:25,530
+and I would have stopped coding and wrote and written a specification
+
+600
+00:43:26,400 --> 00:43:30,270
+so what programmers should know about thinking
+
+601
+00:43:30,570 --> 00:43:33,000
+what everyone should know about thinking
+
+602
+00:43:33,850 --> 00:43:35,400
+everyone thinks they think
+
+603
+00:43:36,090 --> 00:43:39,120
+but if you don't write down your thoughts
+
+604
+00:43:39,600 --> 00:43:41,520
+you're fooling yourself
+
+605
+00:43:42,450 --> 00:43:45,000
+what programmers should know about thinking
+
+606
+00:43:45,070 --> 00:43:49,260
+is that you should think before you code
+
+607
+00:43:51,870 --> 00:43:55,350
+which means you should write before you code
+
+608
+00:43:55,120 --> 00:43:59,550
+a spec is simply what you write before coating
+
+609
+00:43:59,970 --> 00:44:04,290
+so what coach you know what do I mean by code what should you specify
+
+610
+00:44:04,710 --> 00:44:09,000
+basically any piece of code that someone else might want to use or modifying
+
+611
+00:44:08,980 --> 00:44:13,710
+and that somebody else is likely to be you in a month
+
+612
+00:44:13,450 --> 00:44:16,140
+when you've forgotten what this piece of code you've written does
+
+613
+00:44:16,890 --> 00:44:21,780
+it could be an entire program or system a class a method
+
+614
+00:44:22,180 --> 00:44:25,080
+just a tricky piece of code inside of a method
+
+615
+00:44:26,190 --> 00:44:28,980
+what should you specify about the code
+
+616
+00:44:29,460 --> 00:44:31,080
+what it does
+
+617
+00:44:32,040 --> 00:44:35,730
+which means everything anyone needs to know to use it
+
+618
+00:44:35,560 --> 00:44:38,580
+and perhaps how it does it
+
+619
+00:44:38,260 --> 00:44:43,710
+if it's complicated subtle you need to think hard about in order to get it right
+
+620
+00:44:44,160 --> 00:44:47,190
+this is you know what's sometimes called an algorithm
+
+621
+00:44:47,110 --> 00:44:48,540
+or a high-level design
+
+622
+00:44:50,340 --> 00:44:58,050
+how should you think about or specify your code above the code level
+
+623
+00:44:57,970 --> 00:45:02,090
+in terms of states and behaviors or
+
+624
+00:45:03,090 --> 00:45:05,510
+functions for input output relations
+
+625
+00:45:05,520 --> 00:45:07,230
+should do it mathematically
+
+626
+00:45:07,080 --> 00:45:11,790
+as rigorously informally as is necessary
+
+627
+00:45:12,570 --> 00:45:14,850
+you should be thinking mathematically
+
+628
+00:45:14,880 --> 00:45:18,390
+even if you're writing thing the mathematics very informally
+
+629
+00:45:20,010 --> 00:45:23,670
+perhaps with pseudocode or pass or plus Cal
+
+630
+00:45:23,440 --> 00:45:26,190
+if you're specifying how something does it
+
+631
+00:45:26,490 --> 00:45:28,830
+so how do you learn to write specs
+
+632
+00:45:29,640 --> 00:45:35,760
+by writing formal specs even if you don't
+
+633
+00:45:35,530 --> 00:45:39,570
+even if you never need to write a completely formal spec in your life
+
+634
+00:45:39,390 --> 00:45:45,270
+learning to write formal specs will really help you learn to write the informal specs
+
+635
+00:45:45,100 --> 00:45:46,260
+that you need to write
+
+636
+00:45:46,690 --> 00:45:51,640
+you learn to write programs by writing them running them and correcting your errors
+
+637
+00:45:51,850 --> 00:45:57,520
+you can learn to write formal specs by writing them running them
+
+638
+00:45:57,350 --> 00:45:59,980
+with a model checker and correcting your errors
+
+639
+00:46:00,370 --> 00:46:04,870
+now TL A+ may not be the best language for you
+
+640
+00:46:04,640 --> 00:46:09,010
+you know it's I'm sure it's not the best language for formal language
+
+641
+00:46:08,900 --> 00:46:11,110
+for every kind of specification in the world
+
+642
+00:46:10,820 --> 00:46:12,340
+no language can be
+
+643
+00:46:12,160 --> 00:46:17,590
+it may not be the best form of language you know for what your particular needs are
+
+644
+00:46:17,270 --> 00:46:20,200
+but I do know that it's great for
+
+645
+00:46:20,210 --> 00:46:21,400
+learning to think mathematically
+
+646
+00:46:21,910 --> 00:46:29,890
+so unless you can find something better for doing that you know which works use TL a plus
+
+647
+00:46:29,720 --> 00:46:31,330
+you know learn TL a plus
+
+648
+00:46:31,100 --> 00:46:32,350
+learn to think mathematically
+
+649
+00:46:34,330 --> 00:46:37,120
+how do you connect the spec to the code
+
+650
+00:46:37,570 --> 00:46:42,370
+well you have comments connecting mathematical concepts and their implementation
+
+651
+00:46:42,110 --> 00:46:45,370
+for example the mathematical concept might
+
+652
+00:46:45,080 --> 00:46:45,790
+be a graph
+
+653
+00:46:45,650 --> 00:46:51,700
+and the implementation would be an array of node objects and an array of link objects
+
+654
+00:46:51,850 --> 00:46:56,470
+in this connection the other specification especially
+
+655
+00:46:56,750 --> 00:46:59,110
+if it's an informal specification should be in the comments
+
+656
+00:46:59,090 --> 00:47:03,010
+and so should the explanation of how those mathematical
+
+657
+00:47:02,840 --> 00:47:05,320
+comments are implemented in the code
+
+658
+00:47:05,060 --> 00:47:07,510
+so what about coding
+
+659
+00:47:07,520 --> 00:47:10,990
+I mean we're programs involve writing code you have to write code
+
+660
+00:47:10,910 --> 00:47:14,080
+I have nothing to say about writing code
+
+661
+00:47:13,900 --> 00:47:16,210
+nothing I said implies anything
+
+662
+00:47:16,720 --> 00:47:19,870
+you still have to think while you code
+
+663
+00:47:19,780 --> 00:47:22,600
+which means you have to write while you're coding
+
+664
+00:47:22,520 --> 00:47:25,900
+but what you're right while you're coding is is code
+
+665
+00:47:26,710 --> 00:47:30,010
+and I have nothing to say about how you should code
+
+666
+00:47:29,720 --> 00:47:31,660
+use any programming language you want
+
+667
+00:47:31,670 --> 00:47:33,280
+any programming methodology
+
+668
+00:47:33,970 --> 00:47:38,260
+you still you're still going to have to test and debug your program
+
+669
+00:47:38,560 --> 00:47:43,360
+not this good writing aspect is we're going to catch coding errors
+
+670
+00:47:43,160 --> 00:47:44,560
+because it's not about coding
+
+671
+00:47:44,540 --> 00:47:46,930
+it'll catch algorithm errors
+
+672
+00:47:48,040 --> 00:47:50,830
+writing specs is an additional step
+
+673
+00:47:50,600 --> 00:47:54,520
+and it may save time by catching errors early
+
+674
+00:47:54,260 --> 00:47:57,790
+when they're easier to correct no promises there
+
+675
+00:47:57,530 --> 00:48:00,730
+it certainly will improve you programming
+
+676
+00:48:00,860 --> 00:48:02,920
+so you'll be writing better programs
+
+677
+00:48:03,910 --> 00:48:06,880
+why are programmers reluctant to write specs
+
+678
+00:48:06,950 --> 00:48:09,700
+well writing is hard writing is hard
+
+679
+00:48:09,410 --> 00:48:11,050
+in fact because thinking is hard
+
+680
+00:48:10,990 --> 00:48:13,630
+you know there's no Royal Road to mathematics
+
+681
+00:48:13,970 --> 00:48:18,190
+as who wasn't who said that Archimedes I think
+
+682
+00:48:19,390 --> 00:48:23,410
+why is writing hard well because writing requires thinking
+
+683
+00:48:23,210 --> 00:48:24,970
+and thinking is hard
+
+684
+00:48:24,710 --> 00:48:27,970
+and as I said it's easier to think you're thinking
+
+685
+00:48:28,180 --> 00:48:30,310
+writing is a lot like running
+
+686
+00:48:30,520 --> 00:48:33,640
+unless you do it slower you are
+
+687
+00:48:33,170 --> 00:48:36,430
+and you have to strengthen your writing muscles
+
+688
+00:48:36,350 --> 00:48:38,320
+you know just like you have to strengthen your rust
+
+689
+00:48:38,060 --> 00:48:40,480
+and you're running muscles it takes practice
+
+690
+00:48:40,220 --> 00:48:43,960
+and it's easier to find an excuse not to
+
+691
+00:48:44,410 --> 00:48:48,520
+and one of the nicest excuses well what if the spec is wrong
+
+692
+00:48:48,370 --> 00:48:50,790
+maybe you made a mistake in the spec
+
+693
+00:48:50,800 --> 00:48:53,500
+maybe the requirements change where
+
+694
+00:48:53,270 --> 00:48:54,670
+some enhancement is needed
+
+695
+00:48:54,530 --> 00:49:01,780
+in fact and the code will have to be changed maybe even before the program is finished
+
+696
+00:49:01,840 --> 00:49:07,750
+in fact changing the code is something that
+
+697
+00:49:07,520 --> 00:49:09,790
+eventually happens to all useful programs
+
+698
+00:49:10,460 --> 00:49:11,800
+your program is useful
+
+699
+00:49:12,280 --> 00:49:18,280
+it's gonna have users the users are going to find things extra things they want of it
+
+700
+00:49:17,930 --> 00:49:20,440
+the things that don't work the way
+
+701
+00:49:19,970 --> 00:49:23,130
+you know you thought was a good idea be your customers
+
+702
+00:49:23,630 --> 00:49:27,790
+you know decide otherwise this happens eventually happens to all useful programs
+
+703
+00:49:28,150 --> 00:49:32,410
+in an ideal world you'd write a new spec
+
+704
+00:49:32,300 --> 00:49:36,310
+and then you know the code you'd completely rewrite the spec of the spec
+
+705
+00:49:36,110 --> 00:49:38,920
+well we all know this isn't gonna happen
+
+706
+00:49:38,870 --> 00:49:42,250
+in the real world the code is patched
+
+707
+00:49:42,050 --> 00:49:44,770
+and if you're lucky the spec is updated
+
+708
+00:49:45,400 --> 00:49:50,260
+well if this is inevitable why bother writing specs in the first place
+
+709
+00:49:50,030 --> 00:49:52,960
+if you know this little lovely thing is
+
+710
+00:49:52,970 --> 00:49:57,300
+you know the spec turns out you know - has to be changed and you know
+
+711
+00:49:57,800 --> 00:50:00,220
+we're back in our old messy world
+
+712
+00:49:59,960 --> 00:50:01,750
+well there's two reasons
+
+713
+00:50:01,280 --> 00:50:06,610
+the first reason is that whoever has to modify the code
+
+714
+00:50:06,730 --> 00:50:12,730
+will be eternally grateful for every word or formula of specification that you write
+
+715
+00:50:12,840 --> 00:50:18,590
+and whoever maybe you believe me I've you've done that you know coming back
+
+716
+00:50:18,650 --> 00:50:21,350
+and don't have time for second stories
+
+717
+00:50:21,360 --> 00:50:24,980
+but particularly you know modifications and the pretty print or in fact
+
+718
+00:50:25,430 --> 00:50:30,950
+and that's why you should update the spec when you change the code
+
+719
+00:50:31,220 --> 00:50:36,920
+the second reason is that every time code is patched
+
+720
+00:50:36,750 --> 00:50:41,750
+it becomes a little uglier harder to understand and harder to maintain
+
+721
+00:50:43,820 --> 00:50:51,050
+and if you but if you don't start with a spec every piece of code you write
+
+722
+00:50:50,790 --> 00:50:56,180
+is a patch which means the program starts out from the beginning
+
+723
+00:50:56,150 --> 00:50:59,120
+being ugly hard to understand and hard
+
+724
+00:50:59,130 --> 00:51:02,810
+to maintain and then God help you when you do have to maintain
+
+725
+00:51:02,670 --> 00:51:07,150
+you know try to unfit out what it's doing in order to to
+
+726
+00:51:07,650 --> 00:51:12,950
+make changes as Dwight Eisenhower said
+
+727
+00:51:13,100 --> 00:51:16,400
+no battle was ever won according to plan
+
+728
+00:51:16,760 --> 00:51:19,670
+but no battle was ever won with that one
+
+729
+00:51:20,840 --> 00:51:22,910
+so some people will tell you that
+
+730
+00:51:22,920 --> 00:51:24,710
+writing specs is a waste of time
+
+731
+00:51:24,920 --> 00:51:27,530
+in some situations and maybe
+
+732
+00:51:28,340 --> 00:51:33,170
+sometimes there's no need to think about what you're doing maybe something is really so trivial
+
+733
+00:51:33,180 --> 00:51:35,300
+that you know doesn't need much thought
+
+734
+00:51:35,630 --> 00:51:40,460
+but we'll remember when they're telling you not to write a spec
+
+735
+00:51:40,380 --> 00:51:43,760
+they're telling really telling you not to think
+
+736
+00:51:43,670 --> 00:51:48,680
+and you know thinking is a really good idea
+
+737
+00:51:48,210 --> 00:51:51,830
+and don't trust anybody who tells you not to do it
+
+738
+00:51:52,190 --> 00:51:55,340
+thinking doesn't guarantee that you won't make mistakes
+
+739
+00:51:55,910 --> 00:51:59,780
+but not thinking generally guarantees that you will
+
+740
+00:52:00,530 --> 00:52:07,220
+find out more about TLA plus go to my home page and click on the link to the TLA web page
+
+741
+00:52:07,190 --> 00:52:08,690
+thank you
+
+742
+00:52:09,220 --> 00:52:09,720
+[Applause]
+
+743
+00:52:15,860 --> 00:52:18,640
+I think there's time for a few questions
+
+744
+00:52:21,250 --> 00:52:23,170
+very few I think
+
+745
+00:52:23,620 --> 00:52:25,690
+one yeah yes
+
+746
+00:52:25,970 --> 00:52:33,130
+I hope that's not a judgment on my talk
+
+747
+00:52:35,170 --> 00:52:36,910
+thanks for your talk
+
+748
+00:52:36,860 --> 00:52:39,250
+how about specification by example
+
+749
+00:52:39,680 --> 00:52:44,950
+it's a pragmatic approach that is a little bit inspired by test-driven development
+
+750
+00:52:45,040 --> 00:52:50,820
+which since it's not complete of course
+
+751
+00:52:50,830 --> 00:52:54,160
+but since completeness anyway is undecidable
+
+752
+00:52:54,380 --> 00:52:58,510
+it's a good pragmatic approach so do you know
+
+753
+00:52:58,160 --> 00:53:02,110
+so terrible pragmatic approach it's maybe a good
+
+754
+00:53:01,700 --> 00:53:06,730
+maybe a good way to explain what something examples are great to explain them
+
+755
+00:53:06,440 --> 00:53:09,370
+but they're terrible they keep you from thinking
+
+756
+00:53:09,410 --> 00:53:11,950
+you think in terms of these particular examples
+
+757
+00:53:12,050 --> 00:53:17,590
+the real problem in programming is not to think of your the easy cases the obvious cases
+
+758
+00:53:17,330 --> 00:53:19,720
+the nice case if the hard cases
+
+759
+00:53:19,550 --> 00:53:21,820
+and you don't get that with examples
+
+760
+00:53:21,860 --> 00:53:24,520
+and boy I'll tell you I used to eclipse programming
+
+761
+00:53:24,790 --> 00:53:33,250
+and I've you know there's so much so many methods of eclipse
+
+762
+00:53:33,650 --> 00:53:38,500
+that are explained by here's an here's an example of code using it
+
+763
+00:53:38,270 --> 00:53:44,800
+and I have yet to manage to use those methods to do it what I want to do
+
+764
+00:53:44,480 --> 00:53:48,940
+because it doesn't work I find that it just doesn't work on anything other than that example
+
+765
+00:53:48,800 --> 00:53:50,410
+and I have no idea why not
+
+766
+00:53:50,200 --> 00:53:53,800
+not a program you know programming by example
+
+767
+00:53:53,840 --> 00:53:56,200
+I don't know about you know if that works
+
+768
+00:53:56,000 --> 00:53:59,020
+but a specification by example it doesn't
+
+769
+00:54:09,630 --> 00:54:11,850
+thank you for the great talk um
+
+770
+00:54:11,830 --> 00:54:14,070
+so what happens once you patch the code
+
+771
+00:54:13,750 --> 00:54:16,710
+do you suggest keeping the old specs around or
+
+772
+00:54:16,600 --> 00:54:17,880
+do you just get rid of him
+
+773
+00:54:17,560 --> 00:54:19,590
+like does it help to have context
+
+774
+00:54:24,060 --> 00:54:31,830
+well first of all I think whenever I well whenever I do fix bugs and that may require changing the spec
+
+775
+00:54:31,630 --> 00:54:35,580
+I will also take a note as to why I change the spec
+
+776
+00:54:35,400 --> 00:54:39,810
+because you know two years later I'm going to come back
+
+777
+00:54:39,340 --> 00:54:40,950
+and say why did I do that
+
+778
+00:54:41,670 --> 00:54:45,000
+about whether you know to what extent that's useful
+
+779
+00:54:45,360 --> 00:54:50,310
+for the specification itself I don't know
+
+780
+00:54:50,170 --> 00:54:53,580
+certainly you're always a good idea not to throw anything away
+
+781
+00:54:53,320 --> 00:54:57,900
+you know we shouldn't be throwing you know information away these days you know
+
+782
+00:54:57,520 --> 00:55:02,130
+it doesn't cost anything to save it so you should certainly save the old specs
+
+783
+00:55:02,110 --> 00:55:04,890
+whether you should you know
+
+784
+00:55:04,510 --> 00:55:07,500
+whether you should mention the change in the
+
+785
+00:55:07,570 --> 00:55:10,620
+in the new spec I don't I don't have any
+
+786
+00:55:10,270 --> 00:55:12,870
+any good answer to that
+
+787
+00:55:17,430 --> 00:55:23,790
+without wanting to be rude or anything I think most programmers
+
+788
+00:55:24,120 --> 00:55:27,030
+don't use formal specifications anymore
+
+789
+00:55:26,890 --> 00:55:28,290
+my PhD was in that background
+
+790
+00:55:28,180 --> 00:55:33,030
+most programmers these days they take algorithms they take code
+
+791
+00:55:32,860 --> 00:55:34,380
+they adapt it to what they want to do
+
+792
+00:55:34,390 --> 00:55:37,500
+and that's 99 percent is from my perspective
+
+793
+00:55:37,330 --> 00:55:39,750
+how most software is built these days
+
+794
+00:55:40,890 --> 00:55:44,790
+that we actually really be nice if it
+
+795
+00:55:44,410 --> 00:55:48,780
+if that where it can build Bell built well that way
+
+796
+00:55:49,810 --> 00:55:53,670
+it doesn't work because they're trying to use
+
+797
+00:55:53,410 --> 00:55:58,260
+I find that it doesn't work because the other pieces of code
+
+798
+00:55:58,060 --> 00:56:00,750
+that I want to use don't have specifications
+
+799
+00:56:01,150 --> 00:56:03,540
+so I really can't use them very well
+
+800
+00:56:03,430 --> 00:56:05,220
+I do the best I can
+
+801
+00:56:04,780 --> 00:56:10,230
+and I wind up having to spend a hell of a lot of time
+
+802
+00:56:10,680 --> 00:56:14,100
+trying to figure out what this piece of code does
+
+803
+00:56:14,910 --> 00:56:18,180
+which something I shouldn't have to do if it had been specified
+
+804
+00:56:19,250 --> 00:56:22,720
+again I've said that you know 95% of programming
+
+805
+00:56:23,920 --> 00:56:27,370
+you know requires very little specification
+
+806
+00:56:27,800 --> 00:56:33,850
+and you know a few lines you know are usually enough
+
+807
+00:56:33,700 --> 00:56:36,880
+but you know you are going to come up with this 5%
+
+808
+00:56:36,890 --> 00:56:40,030
+which isn't just you know take this thing and put it here
+
+809
+00:56:39,560 --> 00:56:41,110
+and combine it with this thing
+
+810
+00:56:40,690 --> 00:56:44,620
+there's gonna be something some things code you're gonna have to write
+
+811
+00:56:44,330 --> 00:56:50,290
+that is subtle it has some some a bit of difficulty in it
+
+812
+00:56:49,910 --> 00:56:53,590
+and you want to be able to you know you want to be prepared for that
+
+813
+00:56:53,450 --> 00:56:55,810
+because we use the same techniques that
+
+814
+00:56:55,820 --> 00:56:58,030
+you use you're the same lack of thought
+
+815
+00:56:58,040 --> 00:57:00,100
+that you use when you're doing that other 95%
+
+816
+00:57:00,580 --> 00:57:02,680
+you're gonna screw up badly
+
+817
+00:57:12,400 --> 00:57:15,970
+unfortunately I have never really looked into TLA plus
+
+818
+00:57:16,280 --> 00:57:24,790
+but having studied temporal logic it is inevitable to to fail to to notice that
+
+819
+00:57:24,740 --> 00:57:26,710
+that there's a lot of temporal logic
+
+820
+00:57:26,680 --> 00:57:29,530
+going on underlying what you've been saying
+
+821
+00:57:29,330 --> 00:57:38,020
+so I was wondering have you studied probably you have the possibilities
+
+822
+00:57:38,210 --> 00:57:41,350
+for using more directly the language of temporal logic
+
+823
+00:57:41,270 --> 00:57:46,270
+will future operates as necessity operators and all that stuff and so
+
+824
+00:57:46,460 --> 00:57:50,920
+ok TLA stands for the temporal logic of actions
+
+825
+00:57:52,180 --> 00:57:54,340
+temporal logic is evil
+
+826
+00:57:54,500 --> 00:57:59,470
+I can tell you explain why because it's very hard to use
+
+827
+00:57:59,120 --> 00:58:01,720
+but it turns out it's a necessary evil
+
+828
+00:58:02,890 --> 00:58:07,540
+temporal logic turns out to be the best way of thinking about liveness
+
+829
+00:58:07,670 --> 00:58:13,720
+and so if you use TLA plus when you get to the liveness part you're
+
+830
+00:58:13,460 --> 00:58:16,030
+going to be using temporal logic and be aware of it
+
+831
+00:58:15,740 --> 00:58:22,510
+but remember that I said that safety is more important and it turns out that you do not need to think
+
+832
+00:58:22,310 --> 00:58:24,460
+you got not need to know temporal logic
+
+833
+00:58:24,470 --> 00:58:26,320
+in order to handle safety
+
+834
+00:58:26,330 --> 00:58:34,150
+and what the reason I think you know that TL A+ is better than other kinds of temporal logic
+
+835
+00:58:34,100 --> 00:58:40,450
+is that you need-to-know essentially no temporal logic to use it for safety
+
+836
+00:58:40,960 --> 00:58:43,240
+if you look at the actual specification
+
+837
+00:58:43,700 --> 00:58:46,930
+there is the specific the TLA specification I've noticed
+
+838
+00:58:46,850 --> 00:58:49,210
+I've written it it's two formulas in it and next
+
+839
+00:58:48,950 --> 00:58:54,280
+well TLA allows you to combine them into a single temporal logic formula
+
+840
+00:58:54,230 --> 00:58:57,460
+which you you know you do at the end eventually
+
+841
+00:58:57,740 --> 00:59:01,990
+and but the idea of the thing it makes it great is that
+
+842
+00:59:01,520 --> 00:59:08,020
+you'll write a thousand line specification 999 lines are going to be ordinary math
+
+843
+00:59:08,000 --> 00:59:13,120
+initial predicate next state relation and then the last line is going to be a temporal logic formula
+
+844
+00:59:13,450 --> 00:59:14,950
+so okay
+
+845
+00:59:16,780 --> 00:59:19,840
+well do we have no
+
+846
+00:59:20,830 --> 00:59:25,570
+so we are now at the end of our plenary session
+
+847
+00:59:25,760 --> 00:59:29,560
+and I'd like to thank you very much but before we do that
+
+848
+00:59:29,090 --> 00:59:35,290
+just to remind you all we got the buses outside to go out to the dinner tonight
+
+849
+00:59:35,090 --> 00:59:39,220
+take your bags with you there will be space there for your bags
+
+850
+00:59:38,960 --> 00:59:43,240
+and then we'll be going back to the hotels or coming back here and
+
+851
+00:59:42,980 --> 00:59:45,280
+now thank you very much Leslie
+
+852
+00:59:45,460 --> 00:59:45,960
+[Applause]

@@ -1,0 +1,607 @@
+1
+00:00:00,000 --> 00:00:02,480
+what is the Network+ certification
+
+2
+00:00:02,870 --> 00:00:04,970
+let's go ahead and find out
+
+3
+00:00:04,680 --> 00:00:07,550
+hey everybody this is Zach with IT career questions
+
+4
+00:00:07,590 --> 00:00:11,000
+and today we are answering what is the Network+ certification
+
+5
+00:00:10,830 --> 00:00:14,720
+if you haven't checked out the A+ certification video
+
+6
+00:00:15,000 --> 00:00:17,690
+go ahead and click on this link somewhere around here
+
+7
+00:00:17,580 --> 00:00:22,220
+and it was our previous video about answering CompTIA certification questions
+
+8
+00:00:22,110 --> 00:00:26,000
+this video specifically targets the Network+ certification
+
+9
+00:00:26,120 --> 00:00:30,440
+what is it what do I need to know about it why am I going to take it
+
+10
+00:00:30,150 --> 00:00:35,750
+so the Network+ certification again is a certification that is brought to you by CompTIA
+
+11
+00:00:35,790 --> 00:00:39,650
+you check out CompTIA or I'll put that link in the description below
+
+12
+00:00:39,300 --> 00:00:43,970
+the Network+ certification is an excellent certification to get
+
+13
+00:00:43,680 --> 00:00:46,760
+if you are looking to get some type of networking position
+
+14
+00:00:46,890 --> 00:00:51,100
+if you don't have a broad knowledge base of networking
+
+15
+00:00:51,600 --> 00:00:54,410
+or even if you do have a broad knowledge base of networking
+
+16
+00:00:54,270 --> 00:00:56,480
+if you're looking for that networking job
+
+17
+00:00:56,340 --> 00:00:59,330
+you might want to look at getting your network plus certification
+
+18
+00:00:59,120 --> 00:01:04,280
+definitely is a go-to as far as networking certifications go
+
+19
+00:01:03,990 --> 00:01:06,050
+and if you don't have a degree
+
+20
+00:01:05,760 --> 00:01:08,390
+you can definitely fall back on a network plus certification
+
+21
+00:01:08,100 --> 00:01:09,680
+because it is pretty good
+
+22
+00:01:09,420 --> 00:01:12,110
+and of course once you do the Network+ certification
+
+23
+00:01:11,700 --> 00:01:14,900
+you can go off and get your CCNA and all those things
+
+24
+00:01:14,640 --> 00:01:18,230
+you don't have to have a college degree to get any of these certifications
+
+25
+00:01:18,450 --> 00:01:22,190
+which is definitely very excellent if that's not the route that you took
+
+26
+00:01:21,870 --> 00:01:23,720
+even if you do have a college degree
+
+27
+00:01:23,370 --> 00:01:26,300
+it's still suggested that you get some of these certifications
+
+28
+00:01:26,550 --> 00:01:28,970
+because employers love to see that stuff
+
+29
+00:01:28,970 --> 00:01:33,230
+anyway the Network+ certification covers everything
+
+30
+00:01:33,830 --> 00:01:40,790
+networking right switches VLANs land lands access points
+
+31
+00:01:40,860 --> 00:01:43,130
+whatever it is that has to do with networking
+
+32
+00:01:43,230 --> 00:01:45,650
+you will learn with the Network+ certification
+
+33
+00:01:45,240 --> 00:01:48,620
+as i talked about in my previous video
+
+34
+00:01:48,600 --> 00:01:51,050
+if you are looking for lots of great information
+
+35
+00:01:51,180 --> 00:01:54,560
+and want to learn more about the Network+ certifications
+
+36
+00:01:54,840 --> 00:01:57,350
+go ahead and check out professor masters youtube channel
+
+37
+00:01:57,240 --> 00:02:00,830
+he has lots of great material over there
+
+38
+00:02:00,480 --> 00:02:02,750
+and he will give you lots of great examples
+
+39
+00:02:02,850 --> 00:02:06,350
+of how the Network+ certification tests are laid out
+
+40
+00:02:06,030 --> 00:02:09,680
+and basically goes start to finish with all that stuff
+
+41
+00:02:09,480 --> 00:02:16,130
+so check him out for now I can give you guys a couple of examples of Network+ certifications
+
+42
+00:02:16,320 --> 00:02:18,200
+that you may receive on the test
+
+43
+00:02:17,910 --> 00:02:19,520
+again keep in mind
+
+44
+00:02:19,230 --> 00:02:21,800
+there are so many questions to this test
+
+45
+00:02:21,600 --> 00:02:23,810
+that no test is exactly the same
+
+46
+00:02:23,460 --> 00:02:28,520
+it's not entirely true but there's so many different versions of the test
+
+47
+00:02:28,230 --> 00:02:31,430
+that you will take that you know they just mix up the questions and things like that
+
+48
+00:02:30,990 --> 00:02:35,060
+so a couple questions here I'm going to do three of them
+
+49
+00:02:34,770 --> 00:02:39,470
+one is a user's remote marketing server has changed IP address schemes
+
+50
+00:02:39,300 --> 00:02:43,370
+and now the user can no longer access it the user
+
+51
+00:02:43,880 --> 00:02:47,270
+the user for further discovers that the distant
+
+52
+00:02:47,190 --> 00:02:48,980
+and still has access to them
+
+53
+00:02:48,780 --> 00:02:51,470
+which of the following is a possible cause
+
+54
+00:02:51,750 --> 00:02:54,530
+so again this is all multiple choice
+
+55
+00:02:54,240 --> 00:02:58,340
+so A is SNMP strings need to be added
+
+56
+00:02:58,290 --> 00:03:00,890
+B firewall rules need to be configured
+
+57
+00:03:00,960 --> 00:03:04,550
+C port bonding on the interface needs to be enabled
+
+58
+00:03:04,500 --> 00:03:06,860
+D the switch has lost power
+
+59
+00:03:06,890 --> 00:03:10,310
+so multiple choice what would you go with
+
+60
+00:03:09,990 --> 00:03:13,310
+if you said B firewall rules need to be configured
+
+61
+00:03:13,140 --> 00:03:15,680
+that's the right answer so something
+
+62
+00:03:15,690 --> 00:03:16,550
+happened with the firewall
+
+63
+00:03:16,560 --> 00:03:18,650
+where it lost configuration
+
+64
+00:03:18,930 --> 00:03:20,870
+maybe nobody ever configured it
+
+65
+00:03:20,550 --> 00:03:23,030
+so you're gonna have to go ahead and configure that firewall
+
+66
+00:03:22,980 --> 00:03:25,520
+and see how that needs to be set up
+
+67
+00:03:25,170 --> 00:03:29,570
+in order for this user to access the marketing server
+
+68
+00:03:29,480 --> 00:03:33,500
+the next question is which of the following is a network device
+
+69
+00:03:33,150 --> 00:03:36,440
+that allows remote users access to a network
+
+70
+00:03:36,330 --> 00:03:38,660
+A DNS server
+
+71
+00:03:38,390 --> 00:03:40,760
+B content filter
+
+72
+00:03:40,680 --> 00:03:42,740
+C load balancer
+
+73
+00:03:42,840 --> 00:03:44,810
+D VPN concentrator
+
+74
+00:03:45,180 --> 00:03:47,420
+so based off this multiple choice question
+
+75
+00:03:47,580 --> 00:03:49,640
+I know the answer do you know the answer
+
+76
+00:03:49,650 --> 00:03:51,890
+if you said D VPN concentrator
+
+77
+00:03:51,990 --> 00:03:58,970
+that's correct you will use a VPN connection to remotely access your work Business Network
+
+78
+00:03:58,800 --> 00:04:04,360
+so that's second example of a network plus certification question
+
+79
+00:04:04,860 --> 00:04:06,620
+that you could receive on the test
+
+80
+00:04:06,330 --> 00:04:08,180
+that you may go out and take
+
+81
+00:04:08,030 --> 00:04:12,050
+third and last question that we'll go over is a technician suspects
+
+82
+00:04:12,300 --> 00:04:15,080
+that a virus has been introduced on the network
+
+83
+00:04:14,940 --> 00:04:19,570
+which network resources is best used to confirm this problem
+
+84
+00:04:19,340 --> 00:04:20,820
+A syslog
+
+85
+00:04:21,320 --> 00:04:22,500
+B SNMP
+
+86
+00:04:23,000 --> 00:04:25,000
+C network sniffer
+
+87
+00:04:24,710 --> 00:04:27,550
+and D environmental monitor
+
+88
+00:04:27,830 --> 00:04:31,690
+if you said C network sniffer you're right
+
+89
+00:04:31,430 --> 00:04:35,890
+you are going to use this tool to basically sniff out any problems
+
+90
+00:04:35,870 --> 00:04:37,660
+that you may have on the network
+
+91
+00:04:37,460 --> 00:04:40,810
+so these are the three examples that I gave you on
+
+92
+00:04:40,490 --> 00:04:43,560
+questions that you may receive on the Network+ certification test
+
+93
+00:04:44,060 --> 00:04:49,090
+the Network+ certification test is a great thing to study for
+
+94
+00:04:48,860 --> 00:04:55,090
+because it really does give you a broad example of how an entire network works
+
+95
+00:04:55,130 --> 00:05:01,180
+it starts you from the very beginning until almost towards the end
+
+96
+00:05:00,830 --> 00:05:03,550
+it's not going to go too far into the security things
+
+97
+00:05:03,320 --> 00:05:08,740
+and and how a lot of more complex things are set up
+
+98
+00:05:08,270 --> 00:05:11,530
+so don't go and take a network plus certification test
+
+99
+00:05:11,690 --> 00:05:14,890
+and expect that you're going to be like a network administrator right off the bat
+
+100
+00:05:14,570 --> 00:05:16,870
+that's probably not going to happen
+
+101
+00:05:16,550 --> 00:05:18,580
+you definitely have to get years of experience
+
+102
+00:05:18,680 --> 00:05:22,570
+on basically how networks are actually set up
+
+103
+00:05:22,250 --> 00:05:25,210
+you know every business is completely different from one another
+
+104
+00:05:24,740 --> 00:05:28,630
+every business uses completely different equipment sometimes
+
+105
+00:05:28,550 --> 00:05:30,520
+you know you might have HP curse
+
+106
+00:05:30,230 --> 00:05:31,930
+which is you might have Cisco switches
+
+107
+00:05:31,700 --> 00:05:32,530
+who knows
+
+108
+00:05:32,240 --> 00:05:38,440
+so you might need to know how each different brand configures their switches
+
+109
+00:05:38,210 --> 00:05:39,760
+and how all that stuff works
+
+110
+00:05:39,470 --> 00:05:43,780
+so again Network+ certification great thing to study for
+
+111
+00:05:43,720 --> 00:05:47,620
+again I kind of talked about this in the previous video on the A+ certification
+
+112
+00:05:47,590 --> 00:05:52,390
+you should actually also get your A+ certification
+
+113
+00:05:52,070 --> 00:05:56,160
+because that's really going to give you a strong backbone of computers
+
+114
+00:05:56,660 --> 00:06:01,870
+and a little bit of networking but it's a really powerful thing that you should learn
+
+115
+00:06:01,640 --> 00:06:04,060
+because it's lots of knowledge
+
+116
+00:06:03,800 --> 00:06:07,840
+and if you are not familiar with how computers and networks and all that stuff works
+
+117
+00:06:07,610 --> 00:06:10,450
+or you're not too comfortable with it
+
+118
+00:06:10,250 --> 00:06:15,130
+these are two really good tests that you guys can take and get certified for
+
+119
+00:06:14,930 --> 00:06:17,230
+and you guys will become employable
+
+120
+00:06:17,240 --> 00:06:23,830
+right after you do that test you are almost able to go out and get a job right away
+
+121
+00:06:23,360 --> 00:06:25,180
+just based off those certifications
+
+122
+00:06:25,510 --> 00:06:27,970
+people love to see these certifications
+
+123
+00:06:28,220 --> 00:06:32,260
+they really say oh this person does actually know a lot about network
+
+124
+00:06:32,510 --> 00:06:34,750
+they went out and got their Network+ certification
+
+125
+00:06:34,390 --> 00:06:39,010
+that's not an easy that's not an easy certification to get by any means
+
+126
+00:06:38,810 --> 00:06:42,460
+because there's a lot of studying involved and you need to know lots of things
+
+127
+00:06:42,020 --> 00:06:46,420
+and that's mainly because the test that you're going to take
+
+128
+00:06:46,100 --> 00:06:49,720
+could be completely different the next time that you were to take it
+
+129
+00:06:49,370 --> 00:06:52,000
+so you failed the first test and you go to take the next test
+
+130
+00:06:51,680 --> 00:06:55,300
+like man I remembered all the questions that I failed on this first test
+
+131
+00:06:55,040 --> 00:06:58,990
+then you go to this to take the second test over again right
+
+132
+00:06:59,110 --> 00:07:00,820
+questions are completely different
+
+133
+00:07:01,060 --> 00:07:03,550
+every single one is completely different
+
+134
+00:07:03,200 --> 00:07:09,510
+so just you know if you're looking to get a certification the Network+ certification specifically
+
+135
+00:07:10,010 --> 00:07:14,380
+do your studying go check out professor Messer great resource
+
+136
+00:07:14,420 --> 00:07:18,910
+to learn a lot about the Network+ and just networking in general
+
+137
+00:07:18,520 --> 00:07:23,200
+so I hope this answers part of the question about the Network+ certification
+
+138
+00:07:22,820 --> 00:07:27,670
+I will go into broader detail and actually show you guys examples
+
+139
+00:07:27,770 --> 00:07:31,750
+in the future as you guys know I'm working on the server setup
+
+140
+00:07:32,210 --> 00:07:35,260
+and I haven't had time to do a lot of those videos
+
+141
+00:07:35,150 --> 00:07:37,240
+I apologize for that
+
+142
+00:07:36,800 --> 00:07:41,320
+but I will be trying to get as many of those videos put out as I possibly can
+
+143
+00:07:41,120 --> 00:07:43,270
+it's really hard to do those videos
+
+144
+00:07:43,100 --> 00:07:45,760
+because they do take a lot of time to do
+
+145
+00:07:45,470 --> 00:07:50,260
+but bear with me I will get to them just as I will get to you more networking videos
+
+146
+00:07:50,240 --> 00:07:55,660
+and how you can set up a switch and how you can set up a VLAN and all that fun stuff
+
+147
+00:07:55,340 --> 00:07:58,360
+so you guys have any questions you know what to do
+
+148
+00:07:57,980 --> 00:07:59,350
+hit me up in the comments below
+
+149
+00:07:59,180 --> 00:08:03,160
+be more than happy to chat with you about anything you guys have questions about
+
+150
+00:08:02,810 --> 00:08:06,250
+as always you can leave me a question and I can answer it in the video
+
+151
+00:08:05,960 --> 00:08:07,720
+just like I'm doing right now
+
+152
+00:08:07,630 --> 00:08:11,350
+thank you guys so much for watching take it easy

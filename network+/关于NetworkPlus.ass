@@ -1,0 +1,172 @@
+﻿[Script Info]
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: no
+ScriptType: v4.00+
+Synch Point: 1
+
+[Custom Info]
+OriginalTextStyle: 原文字幕
+TranslationTextStyle: 译文字幕
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 译文字幕,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+Style: 原文字幕,微软雅黑,14,&H00FFFFFF,&HF0000000,&H00H202020,&H32000000,0,0,0,0,100,100,0,0.00,1,2,1,2,5,5,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.48,原文字幕,,0,0,0,,what is the Network+ certification
+Dialogue: 0,0:00:02.87,0:00:04.97,原文字幕,,0,0,0,,let's go ahead and find out
+Dialogue: 0,0:00:04.68,0:00:07.55,原文字幕,,0,0,0,,hey everybody this is Zach with IT career questions
+Dialogue: 0,0:00:07.59,0:00:11.00,原文字幕,,0,0,0,,and today we are answering what is the Network+ certification
+Dialogue: 0,0:00:10.83,0:00:14.72,原文字幕,,0,0,0,,if you haven't checked out the A+ certification video
+Dialogue: 0,0:00:15.00,0:00:17.69,原文字幕,,0,0,0,,go ahead and click on this link somewhere around here
+Dialogue: 0,0:00:17.58,0:00:22.22,原文字幕,,0,0,0,,and it was our previous video about answering CompTIA certification questions
+Dialogue: 0,0:00:22.11,0:00:26.00,原文字幕,,0,0,0,,this video specifically targets the Network+ certification
+Dialogue: 0,0:00:26.12,0:00:30.44,原文字幕,,0,0,0,,what is it what do I need to know about it why am I going to take it
+Dialogue: 0,0:00:30.15,0:00:35.75,原文字幕,,0,0,0,,so the Network+ certification again is a certification that is brought to you by CompTIA
+Dialogue: 0,0:00:35.79,0:00:39.65,原文字幕,,0,0,0,,you check out CompTIA or I'll put that link in the description below
+Dialogue: 0,0:00:39.30,0:00:43.97,原文字幕,,0,0,0,,the Network+ certification is an excellent certification to get
+Dialogue: 0,0:00:43.68,0:00:46.76,原文字幕,,0,0,0,,if you are looking to get some type of networking position
+Dialogue: 0,0:00:46.89,0:00:51.10,原文字幕,,0,0,0,,if you don't have a broad knowledge base of networking
+Dialogue: 0,0:00:51.60,0:00:54.41,原文字幕,,0,0,0,,or even if you do have a broad knowledge base of networking
+Dialogue: 0,0:00:54.27,0:00:56.48,原文字幕,,0,0,0,,if you're looking for that networking job
+Dialogue: 0,0:00:56.34,0:00:59.33,原文字幕,,0,0,0,,you might want to look at getting your network plus certification
+Dialogue: 0,0:00:59.12,0:01:04.28,原文字幕,,0,0,0,,definitely is a go-to as far as networking certifications go
+Dialogue: 0,0:01:03.99,0:01:06.05,原文字幕,,0,0,0,,and if you don't have a degree
+Dialogue: 0,0:01:05.76,0:01:08.39,原文字幕,,0,0,0,,you can definitely fall back on a network plus certification
+Dialogue: 0,0:01:08.10,0:01:09.68,原文字幕,,0,0,0,,because it is pretty good
+Dialogue: 0,0:01:09.42,0:01:12.11,原文字幕,,0,0,0,,and of course once you do the Network+ certification
+Dialogue: 0,0:01:11.70,0:01:14.90,原文字幕,,0,0,0,,you can go off and get your CCNA and all those things
+Dialogue: 0,0:01:14.64,0:01:18.23,原文字幕,,0,0,0,,you don't have to have a college degree to get any of these certifications
+Dialogue: 0,0:01:18.45,0:01:22.19,原文字幕,,0,0,0,,which is definitely very excellent if that's not the route that you took
+Dialogue: 0,0:01:21.87,0:01:23.72,原文字幕,,0,0,0,,even if you do have a college degree
+Dialogue: 0,0:01:23.37,0:01:26.30,原文字幕,,0,0,0,,it's still suggested that you get some of these certifications
+Dialogue: 0,0:01:26.55,0:01:28.97,原文字幕,,0,0,0,,because employers love to see that stuff
+Dialogue: 0,0:01:28.97,0:01:33.23,原文字幕,,0,0,0,,anyway the Network+ certification covers everything
+Dialogue: 0,0:01:33.83,0:01:40.79,原文字幕,,0,0,0,,networking right switches VLANs land lands access points
+Dialogue: 0,0:01:40.86,0:01:43.13,原文字幕,,0,0,0,,whatever it is that has to do with networking
+Dialogue: 0,0:01:43.23,0:01:45.65,原文字幕,,0,0,0,,you will learn with the Network+ certification
+Dialogue: 0,0:01:45.24,0:01:48.62,原文字幕,,0,0,0,,as i talked about in my previous video
+Dialogue: 0,0:01:48.60,0:01:51.05,原文字幕,,0,0,0,,if you are looking for lots of great information
+Dialogue: 0,0:01:51.18,0:01:54.56,原文字幕,,0,0,0,,and want to learn more about the Network+ certifications
+Dialogue: 0,0:01:54.84,0:01:57.35,原文字幕,,0,0,0,,go ahead and check out professor masters youtube channel
+Dialogue: 0,0:01:57.24,0:02:00.83,原文字幕,,0,0,0,,he has lots of great material over there
+Dialogue: 0,0:02:00.48,0:02:02.75,原文字幕,,0,0,0,,and he will give you lots of great examples
+Dialogue: 0,0:02:02.85,0:02:06.35,原文字幕,,0,0,0,,of how the Network+ certification tests are laid out
+Dialogue: 0,0:02:06.03,0:02:09.68,原文字幕,,0,0,0,,and basically goes start to finish with all that stuff
+Dialogue: 0,0:02:09.48,0:02:16.13,原文字幕,,0,0,0,,so check him out for now I can give you guys a couple of examples of Network+ certifications
+Dialogue: 0,0:02:16.32,0:02:18.20,原文字幕,,0,0,0,,that you may receive on the test
+Dialogue: 0,0:02:17.91,0:02:19.52,原文字幕,,0,0,0,,again keep in mind
+Dialogue: 0,0:02:19.23,0:02:21.80,原文字幕,,0,0,0,,there are so many questions to this test
+Dialogue: 0,0:02:21.60,0:02:23.81,原文字幕,,0,0,0,,that no test is exactly the same
+Dialogue: 0,0:02:23.46,0:02:28.52,原文字幕,,0,0,0,,it's not entirely true but there's so many different versions of the test
+Dialogue: 0,0:02:28.23,0:02:31.43,原文字幕,,0,0,0,,that you will take that you know they just mix up the questions and things like that
+Dialogue: 0,0:02:30.99,0:02:35.06,原文字幕,,0,0,0,,so a couple questions here I'm going to do three of them
+Dialogue: 0,0:02:34.77,0:02:39.47,原文字幕,,0,0,0,,one is a user's remote marketing server has changed IP address schemes
+Dialogue: 0,0:02:39.30,0:02:43.37,原文字幕,,0,0,0,,and now the user can no longer access it the user
+Dialogue: 0,0:02:43.88,0:02:47.27,原文字幕,,0,0,0,,the user for further discovers that the distant
+Dialogue: 0,0:02:47.19,0:02:48.98,原文字幕,,0,0,0,,and still has access to them
+Dialogue: 0,0:02:48.78,0:02:51.47,原文字幕,,0,0,0,,which of the following is a possible cause
+Dialogue: 0,0:02:51.75,0:02:54.53,原文字幕,,0,0,0,,so again this is all multiple choice
+Dialogue: 0,0:02:54.24,0:02:58.34,原文字幕,,0,0,0,,so A is SNMP strings need to be added
+Dialogue: 0,0:02:58.29,0:03:00.89,原文字幕,,0,0,0,,B firewall rules need to be configured
+Dialogue: 0,0:03:00.96,0:03:04.55,原文字幕,,0,0,0,,C port bonding on the interface needs to be enabled
+Dialogue: 0,0:03:04.50,0:03:06.86,原文字幕,,0,0,0,,D the switch has lost power
+Dialogue: 0,0:03:06.89,0:03:10.31,原文字幕,,0,0,0,,so multiple choice what would you go with
+Dialogue: 0,0:03:09.99,0:03:13.31,原文字幕,,0,0,0,,if you said B firewall rules need to be configured
+Dialogue: 0,0:03:13.14,0:03:15.68,原文字幕,,0,0,0,,that's the right answer so something
+Dialogue: 0,0:03:15.69,0:03:16.55,原文字幕,,0,0,0,,happened with the firewall
+Dialogue: 0,0:03:16.56,0:03:18.65,原文字幕,,0,0,0,,where it lost configuration
+Dialogue: 0,0:03:18.93,0:03:20.87,原文字幕,,0,0,0,,maybe nobody ever configured it
+Dialogue: 0,0:03:20.55,0:03:23.03,原文字幕,,0,0,0,,so you're gonna have to go ahead and configure that firewall
+Dialogue: 0,0:03:22.98,0:03:25.52,原文字幕,,0,0,0,,and see how that needs to be set up
+Dialogue: 0,0:03:25.17,0:03:29.57,原文字幕,,0,0,0,,in order for this user to access the marketing server
+Dialogue: 0,0:03:29.48,0:03:33.50,原文字幕,,0,0,0,,the next question is which of the following is a network device
+Dialogue: 0,0:03:33.15,0:03:36.44,原文字幕,,0,0,0,,that allows remote users access to a network
+Dialogue: 0,0:03:36.33,0:03:38.66,原文字幕,,0,0,0,,A DNS server
+Dialogue: 0,0:03:38.39,0:03:40.76,原文字幕,,0,0,0,,B content filter
+Dialogue: 0,0:03:40.68,0:03:42.74,原文字幕,,0,0,0,,C load balancer
+Dialogue: 0,0:03:42.84,0:03:44.81,原文字幕,,0,0,0,,D VPN concentrator
+Dialogue: 0,0:03:45.18,0:03:47.42,原文字幕,,0,0,0,,so based off this multiple choice question
+Dialogue: 0,0:03:47.58,0:03:49.64,原文字幕,,0,0,0,,I know the answer do you know the answer
+Dialogue: 0,0:03:49.65,0:03:51.89,原文字幕,,0,0,0,,if you said D VPN concentrator
+Dialogue: 0,0:03:51.99,0:03:58.97,原文字幕,,0,0,0,,that's correct you will use a VPN connection to remotely access your work Business Network
+Dialogue: 0,0:03:58.80,0:04:04.36,原文字幕,,0,0,0,,so that's second example of a network plus certification question
+Dialogue: 0,0:04:04.86,0:04:06.62,原文字幕,,0,0,0,,that you could receive on the test
+Dialogue: 0,0:04:06.33,0:04:08.18,原文字幕,,0,0,0,,that you may go out and take
+Dialogue: 0,0:04:08.03,0:04:12.05,原文字幕,,0,0,0,,third and last question that we'll go over is a technician suspects
+Dialogue: 0,0:04:12.30,0:04:15.08,原文字幕,,0,0,0,,that a virus has been introduced on the network
+Dialogue: 0,0:04:14.94,0:04:19.57,原文字幕,,0,0,0,,which network resources is best used to confirm this problem
+Dialogue: 0,0:04:19.34,0:04:20.82,原文字幕,,0,0,0,,A syslog
+Dialogue: 0,0:04:21.32,0:04:22.50,原文字幕,,0,0,0,,B SNMP
+Dialogue: 0,0:04:23.00,0:04:25.00,原文字幕,,0,0,0,,C network sniffer
+Dialogue: 0,0:04:24.71,0:04:27.55,原文字幕,,0,0,0,,and D environmental monitor
+Dialogue: 0,0:04:27.83,0:04:31.69,原文字幕,,0,0,0,,if you said C network sniffer you're right
+Dialogue: 0,0:04:31.43,0:04:35.89,原文字幕,,0,0,0,,you are going to use this tool to basically sniff out any problems
+Dialogue: 0,0:04:35.87,0:04:37.66,原文字幕,,0,0,0,,that you may have on the network
+Dialogue: 0,0:04:37.46,0:04:40.81,原文字幕,,0,0,0,,so these are the three examples that I gave you on
+Dialogue: 0,0:04:40.49,0:04:43.56,原文字幕,,0,0,0,,questions that you may receive on the Network+ certification test
+Dialogue: 0,0:04:44.06,0:04:49.09,原文字幕,,0,0,0,,the Network+ certification test is a great thing to study for
+Dialogue: 0,0:04:48.86,0:04:55.09,原文字幕,,0,0,0,,because it really does give you a broad example of how an entire network works
+Dialogue: 0,0:04:55.13,0:05:01.18,原文字幕,,0,0,0,,it starts you from the very beginning until almost towards the end
+Dialogue: 0,0:05:00.83,0:05:03.55,原文字幕,,0,0,0,,it's not going to go too far into the security things
+Dialogue: 0,0:05:03.32,0:05:08.74,原文字幕,,0,0,0,,and and how a lot of more complex things are set up
+Dialogue: 0,0:05:08.27,0:05:11.53,原文字幕,,0,0,0,,so don't go and take a network plus certification test
+Dialogue: 0,0:05:11.69,0:05:14.89,原文字幕,,0,0,0,,and expect that you're going to be like a network administrator right off the bat
+Dialogue: 0,0:05:14.57,0:05:16.87,原文字幕,,0,0,0,,that's probably not going to happen
+Dialogue: 0,0:05:16.55,0:05:18.58,原文字幕,,0,0,0,,you definitely have to get years of experience
+Dialogue: 0,0:05:18.68,0:05:22.57,原文字幕,,0,0,0,,on basically how networks are actually set up
+Dialogue: 0,0:05:22.25,0:05:25.21,原文字幕,,0,0,0,,you know every business is completely different from one another
+Dialogue: 0,0:05:24.74,0:05:28.63,原文字幕,,0,0,0,,every business uses completely different equipment sometimes
+Dialogue: 0,0:05:28.55,0:05:30.52,原文字幕,,0,0,0,,you know you might have HP curse
+Dialogue: 0,0:05:30.23,0:05:31.93,原文字幕,,0,0,0,,which is you might have Cisco switches
+Dialogue: 0,0:05:31.70,0:05:32.53,原文字幕,,0,0,0,,who knows
+Dialogue: 0,0:05:32.24,0:05:38.44,原文字幕,,0,0,0,,so you might need to know how each different brand configures their switches
+Dialogue: 0,0:05:38.21,0:05:39.76,原文字幕,,0,0,0,,and how all that stuff works
+Dialogue: 0,0:05:39.47,0:05:43.78,原文字幕,,0,0,0,,so again Network+ certification great thing to study for
+Dialogue: 0,0:05:43.72,0:05:47.62,原文字幕,,0,0,0,,again I kind of talked about this in the previous video on the A+ certification
+Dialogue: 0,0:05:47.59,0:05:52.39,原文字幕,,0,0,0,,you should actually also get your A+ certification
+Dialogue: 0,0:05:52.07,0:05:56.16,原文字幕,,0,0,0,,because that's really going to give you a strong backbone of computers
+Dialogue: 0,0:05:56.66,0:06:01.87,原文字幕,,0,0,0,,and a little bit of networking but it's a really powerful thing that you should learn
+Dialogue: 0,0:06:01.64,0:06:04.06,原文字幕,,0,0,0,,because it's lots of knowledge
+Dialogue: 0,0:06:03.80,0:06:07.84,原文字幕,,0,0,0,,and if you are not familiar with how computers and networks and all that stuff works
+Dialogue: 0,0:06:07.61,0:06:10.45,原文字幕,,0,0,0,,or you're not too comfortable with it
+Dialogue: 0,0:06:10.25,0:06:15.13,原文字幕,,0,0,0,,these are two really good tests that you guys can take and get certified for
+Dialogue: 0,0:06:14.93,0:06:17.23,原文字幕,,0,0,0,,and you guys will become employable
+Dialogue: 0,0:06:17.24,0:06:23.83,原文字幕,,0,0,0,,right after you do that test you are almost able to go out and get a job right away
+Dialogue: 0,0:06:23.36,0:06:25.18,原文字幕,,0,0,0,,just based off those certifications
+Dialogue: 0,0:06:25.51,0:06:27.97,原文字幕,,0,0,0,,people love to see these certifications
+Dialogue: 0,0:06:28.22,0:06:32.26,原文字幕,,0,0,0,,they really say oh this person does actually know a lot about network
+Dialogue: 0,0:06:32.51,0:06:34.75,原文字幕,,0,0,0,,they went out and got their Network+ certification
+Dialogue: 0,0:06:34.39,0:06:39.01,原文字幕,,0,0,0,,that's not an easy that's not an easy certification to get by any means
+Dialogue: 0,0:06:38.81,0:06:42.46,原文字幕,,0,0,0,,because there's a lot of studying involved and you need to know lots of things
+Dialogue: 0,0:06:42.02,0:06:46.42,原文字幕,,0,0,0,,and that's mainly because the test that you're going to take
+Dialogue: 0,0:06:46.10,0:06:49.72,原文字幕,,0,0,0,,could be completely different the next time that you were to take it
+Dialogue: 0,0:06:49.37,0:06:52.00,原文字幕,,0,0,0,,so you failed the first test and you go to take the next test
+Dialogue: 0,0:06:51.68,0:06:55.30,原文字幕,,0,0,0,,like man I remembered all the questions that I failed on this first test
+Dialogue: 0,0:06:55.04,0:06:58.99,原文字幕,,0,0,0,,then you go to this to take the second test over again right
+Dialogue: 0,0:06:59.11,0:07:00.82,原文字幕,,0,0,0,,questions are completely different
+Dialogue: 0,0:07:01.06,0:07:03.55,原文字幕,,0,0,0,,every single one is completely different
+Dialogue: 0,0:07:03.20,0:07:09.51,原文字幕,,0,0,0,,so just you know if you're looking to get a certification the Network+ certification specifically
+Dialogue: 0,0:07:10.01,0:07:14.38,原文字幕,,0,0,0,,do your studying go check out professor Messer great resource
+Dialogue: 0,0:07:14.42,0:07:18.91,原文字幕,,0,0,0,,to learn a lot about the Network+ and just networking in general
+Dialogue: 0,0:07:18.52,0:07:23.20,原文字幕,,0,0,0,,so I hope this answers part of the question about the Network+ certification
+Dialogue: 0,0:07:22.82,0:07:27.67,原文字幕,,0,0,0,,I will go into broader detail and actually show you guys examples
+Dialogue: 0,0:07:27.77,0:07:31.75,原文字幕,,0,0,0,,in the future as you guys know I'm working on the server setup
+Dialogue: 0,0:07:32.21,0:07:35.26,原文字幕,,0,0,0,,and I haven't had time to do a lot of those videos
+Dialogue: 0,0:07:35.15,0:07:37.24,原文字幕,,0,0,0,,I apologize for that
+Dialogue: 0,0:07:36.80,0:07:41.32,原文字幕,,0,0,0,,but I will be trying to get as many of those videos put out as I possibly can
+Dialogue: 0,0:07:41.12,0:07:43.27,原文字幕,,0,0,0,,it's really hard to do those videos
+Dialogue: 0,0:07:43.10,0:07:45.76,原文字幕,,0,0,0,,because they do take a lot of time to do
+Dialogue: 0,0:07:45.47,0:07:50.26,原文字幕,,0,0,0,,but bear with me I will get to them just as I will get to you more networking videos
+Dialogue: 0,0:07:50.24,0:07:55.66,原文字幕,,0,0,0,,and how you can set up a switch and how you can set up a VLAN and all that fun stuff
+Dialogue: 0,0:07:55.34,0:07:58.36,原文字幕,,0,0,0,,so you guys have any questions you know what to do
+Dialogue: 0,0:07:57.98,0:07:59.35,原文字幕,,0,0,0,,hit me up in the comments below
+Dialogue: 0,0:07:59.18,0:08:03.16,原文字幕,,0,0,0,,be more than happy to chat with you about anything you guys have questions about
+Dialogue: 0,0:08:02.81,0:08:06.25,原文字幕,,0,0,0,,as always you can leave me a question and I can answer it in the video
+Dialogue: 0,0:08:05.96,0:08:07.72,原文字幕,,0,0,0,,just like I'm doing right now
+Dialogue: 0,0:08:07.63,0:08:11.35,原文字幕,,0,0,0,,thank you guys so much for watching take it easy

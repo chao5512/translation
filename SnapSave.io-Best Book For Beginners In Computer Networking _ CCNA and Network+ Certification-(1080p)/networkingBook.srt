@@ -1,0 +1,435 @@
+1
+00:00:16,400 --> 00:00:18,660
+hey what's up guys this is gee here with kevin trainings
+
+2
+00:00:18,560 --> 00:00:21,700
+welcome to this quick video in which i'm going to respond to
+
+3
+00:00:21,520 --> 00:00:23,750
+a question that i receive here a lot on
+
+4
+00:00:23,760 --> 00:00:24,580
+kb trainings
+
+5
+00:00:24,560 --> 00:00:29,380
+as you know cable trainers i go from zero to engineer so most of you or some of you
+
+6
+00:00:29,280 --> 00:00:31,270
+are beginners in this industry in
+
+7
+00:00:31,280 --> 00:00:32,500
+networking in general
+
+8
+00:00:32,800 --> 00:00:34,870
+and you're asking yourself what are the
+
+9
+00:00:34,880 --> 00:00:36,500
+best books that you can read
+
+10
+00:00:36,880 --> 00:00:40,180
+as a beginner in networking what books can you read
+
+11
+00:00:40,240 --> 00:00:43,380
+to get you to master all the concept of networking
+
+12
+00:00:43,680 --> 00:00:48,740
+as you know here on kb trainings i share with you most of what i know and what i'm still learning in this field
+
+13
+00:00:48,480 --> 00:00:49,620
+so i'm a network professional
+
+14
+00:00:49,760 --> 00:00:51,860
+but if you've been on this channel for a while
+
+15
+00:00:51,760 --> 00:00:54,340
+you might have seen my video in which i talk about books
+
+16
+00:00:54,160 --> 00:00:57,460
+i talk about reading what i think in general is that
+
+17
+00:00:57,760 --> 00:00:59,140
+you should read of course
+
+18
+00:00:59,520 --> 00:01:01,300
+but i'm not a book guy
+
+19
+00:01:00,960 --> 00:01:05,860
+you know that book person who has a huge library behind him with all kind of books
+
+20
+00:01:06,160 --> 00:01:08,070
+it's kind of disappearing this is 2020
+
+21
+00:01:08,080 --> 00:01:10,580
+we have the internet we have a lot of things so i think
+
+22
+00:01:10,720 --> 00:01:14,340
+if you really want to read you don't need to invest into a lot of books
+
+23
+00:01:14,320 --> 00:01:16,870
+you should invest into something that
+
+24
+00:01:16,880 --> 00:01:19,860
+will make you know what you have to research on the internet
+
+25
+00:01:20,080 --> 00:01:23,700
+and you can pretty much read anything on google on many websites
+
+26
+00:01:23,840 --> 00:01:27,140
+and by the way on kb trainings i just started a blog
+
+27
+00:01:27,120 --> 00:01:31,300
+so i'm going to be uh writing articles in this blog here
+
+28
+00:01:30,960 --> 00:01:32,420
+if you go on the website and
+
+29
+00:01:32,320 --> 00:01:35,780
+you click blog um this is the first article like
+
+30
+00:01:35,680 --> 00:01:38,660
+most of the videos like every i mean not every
+
+31
+00:01:38,400 --> 00:01:41,860
+but most of the videos on this channel will be an article
+
+32
+00:01:41,920 --> 00:01:46,100
+this is the exact article in which i'm responding to this specific question about
+
+33
+00:01:46,240 --> 00:01:48,980
+the books that you can read i'm not saying that don't buy books
+
+34
+00:01:49,280 --> 00:01:52,980
+but you have the internet that's where you can read a lot
+
+35
+00:01:52,800 --> 00:01:54,660
+you can read most of the things on the internet
+
+36
+00:01:54,880 --> 00:01:57,300
+but if you have to buy a book or if you want to study
+
+37
+00:01:57,120 --> 00:01:58,180
+if you are a beginner
+
+38
+00:01:58,640 --> 00:02:01,300
+i'm going to advise you to get certified
+
+39
+00:02:01,520 --> 00:02:04,100
+you need to pick a certification a networking certification
+
+40
+00:02:04,720 --> 00:02:09,060
+and study for the cert and get the book for that specific certification
+
+41
+00:02:09,840 --> 00:02:12,020
+and at the end of the cert you have the knowledge
+
+42
+00:02:11,920 --> 00:02:14,820
+and your knowledge will be structured in your head
+
+43
+00:02:14,640 --> 00:02:19,460
+because if you are studying without any kind of plan or any kind of blueprint
+
+44
+00:02:19,920 --> 00:02:21,460
+you're uh going to be all over the place
+
+45
+00:02:21,200 --> 00:02:22,740
+there's a lot to learn in networking
+
+46
+00:02:22,800 --> 00:02:26,260
+so if you have a certification it's going to be much easier for you
+
+47
+00:02:26,320 --> 00:02:28,260
+so the two certifications that i'm recommending
+
+48
+00:02:28,480 --> 00:02:30,660
+first the comptia network plus
+
+49
+00:02:31,200 --> 00:02:33,380
+it's a very good one it's vendor neutral
+
+50
+00:02:33,520 --> 00:02:36,900
+it's good to get when you are getting your feet in the industry
+
+51
+00:02:37,120 --> 00:02:39,620
+i started with it and then i went to the ccna
+
+52
+00:02:39,840 --> 00:02:41,940
+and the second one you might have guessed is the ccna
+
+53
+00:02:42,160 --> 00:02:46,420
+so if you are studying for the network plus it will teach you a lot of concept of networking
+
+54
+00:02:46,720 --> 00:02:48,420
+and it's all going to be structured
+
+55
+00:02:48,640 --> 00:02:52,580
+for those two certifications if you want to get the books for network plus
+
+56
+00:02:52,320 --> 00:02:53,380
+let's go on amazon
+
+57
+00:02:53,360 --> 00:02:59,300
+if you do um network plus on amazon you get some books
+
+58
+00:02:59,600 --> 00:03:01,940
+and i can recommend any of these books
+
+59
+00:03:02,160 --> 00:03:03,940
+this one for example um
+
+60
+00:03:04,800 --> 00:03:10,820
+or this other one but i i'll give you a link um to to get a book for on network plus
+
+61
+00:03:10,880 --> 00:03:15,140
+and if you're looking for the ccna you can just um type ccna 200 301
+
+62
+00:03:16,000 --> 00:03:18,150
+and this is what you're going to get
+
+63
+00:03:18,160 --> 00:03:21,140
+yeah this is the the one that i prefer
+
+64
+00:03:21,600 --> 00:03:24,420
+and if you get this one you're going to study for your cert
+
+65
+00:03:24,320 --> 00:03:27,860
+and you will get certified after a few months of studies
+
+66
+00:03:28,080 --> 00:03:32,740
+and you also need to check out of course the official pages of these certifications
+
+67
+00:03:33,440 --> 00:03:36,460
+if you go on compia.com i mean comptia.org
+
+68
+00:03:37,120 --> 00:03:40,580
+you can see this is the official page for the network plus
+
+69
+00:03:40,800 --> 00:03:43,350
+it gives you the details about the exam
+
+70
+00:03:43,360 --> 00:03:44,900
+and if you fill out this form
+
+71
+00:03:45,360 --> 00:03:48,020
+and you submit it's going to send you
+
+72
+00:03:48,160 --> 00:03:49,140
+the exam objectives
+
+73
+00:03:49,440 --> 00:03:52,740
+and some practice questions for you to know exactly what it is
+
+74
+00:03:52,960 --> 00:03:56,740
+so personally i prefer the ccna because it's more practical practical
+
+75
+00:03:57,040 --> 00:04:02,260
+the network plus is vendor neutral so sometimes it's kind of hard to master some concept
+
+76
+00:04:02,240 --> 00:04:05,940
+because you don't have any vendor that you can practice on
+
+77
+00:04:06,000 --> 00:04:08,820
+but if you go with the ccna this is the blueprint for the ccna
+
+78
+00:04:08,880 --> 00:04:17,380
+if you just type ccna 300 um 201 i mean 200 301 blueprint
+
+79
+00:04:17,600 --> 00:04:20,740
+this is what you get uh it's right here
+
+80
+00:04:20,960 --> 00:04:25,780
+it's a pdf you have a list of topics or concepts that you have to know
+
+81
+00:04:25,440 --> 00:04:27,220
+before going and taking the exam
+
+82
+00:04:27,520 --> 00:04:28,980
+this is going to help you
+
+83
+00:04:28,880 --> 00:04:32,580
+this is going to uh just structure whatever you have to know
+
+84
+00:04:32,640 --> 00:04:35,220
+i also recommend to get some kind of training videos
+
+85
+00:04:35,600 --> 00:04:38,660
+i do videos myself on cabbagetrends.com if you are interested
+
+86
+00:04:38,960 --> 00:04:43,620
+but any um any trainer or any training company is able to train you
+
+87
+00:04:43,360 --> 00:04:45,780
+and walk you through the exam blueprint
+
+88
+00:04:46,240 --> 00:04:49,060
+until you master everything and you can go and take the exam
+
+89
+00:04:49,120 --> 00:04:51,700
+so that's uh that's what i can tell you
+
+90
+00:04:51,600 --> 00:04:54,660
+but again remember you have the biggest book in the world
+
+91
+00:04:54,560 --> 00:04:55,620
+you have the internet
+
+92
+00:04:55,760 --> 00:04:57,860
+you should know how to search the internet
+
+93
+00:04:58,160 --> 00:04:59,060
+you have youtube
+
+94
+00:04:58,960 --> 00:05:02,500
+you should go on youtube and watch people that are doing networking stuff
+
+95
+00:05:02,960 --> 00:05:05,780
+you yeah you have all those means of study
+
+96
+00:05:05,600 --> 00:05:09,060
+so today you can just be alone and be in your bedroom
+
+97
+00:05:09,200 --> 00:05:11,380
+but still get a lot of knowledge
+
+98
+00:05:11,600 --> 00:05:14,980
+because a lot of people are online just like me uh saying
+
+99
+00:05:14,880 --> 00:05:18,180
+i'm showing you what we do and showing you what is really necessary
+
+100
+00:05:18,560 --> 00:05:20,500
+in this world right now as a professional
+
+101
+00:05:21,120 --> 00:05:23,700
+so yeah that's it that's all i can tell you and
+
+102
+00:05:23,360 --> 00:05:26,100
+i'll be doing a lot of ask me anything type of video
+
+103
+00:05:25,920 --> 00:05:30,580
+so if you like this don't forget to leave the comment and like the video
+
+104
+00:05:30,560 --> 00:05:34,180
+subscribe if you if you are a tech guy and you like more of this
+
+105
+00:05:34,480 --> 00:05:36,740
+i will be coming with a lot of videos on the channel
+
+106
+00:05:36,560 --> 00:05:40,260
+so don't forget to do that for me and check out the blog
+
+107
+00:05:40,080 --> 00:05:41,380
+and if you have any comment
+
+108
+00:05:41,280 --> 00:05:44,660
+just put it down below and i'll be able to follow that
+
+109
+00:05:44,640 --> 00:05:50,300
+other than that thank you for watching and i'll see you in the next video bye
